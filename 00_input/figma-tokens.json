@@ -40,6 +40,10 @@
       "xl": {
         "value": "{spacing.lg} * 2",
         "type": "spacing"
+      },
+      "xxl": {
+        "value": "{spacing.xl} * 2",
+        "type": "spacing"
       }
     },
     "green": {
