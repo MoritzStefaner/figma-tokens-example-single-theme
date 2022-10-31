@@ -14,8 +14,8 @@
       "transformGroup": "js",
       "files": [
         {
-          "destination": "javascript/variables.js",
-          "format": "js/es6"
+          "destination": "js/variables.js",
+          "format": "javascript/es6"
         }
       ]
     }
