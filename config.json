@@ -9,6 +9,15 @@
           "format": "css/variables"
         }
       ]
+    },
+    "js": {
+      "transformGroup": "js",
+      "files": [
+        {
+          "destination": "js/variables.js",
+          "format": "js/es6"
+        }
+      ]
     }
   }
 }
