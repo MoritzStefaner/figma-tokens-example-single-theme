@@ -1,4 +1,10 @@
 {
+  "tokenSetOrder": {
+    "0": {
+      "value": "global",
+      "type": "other"
+    }
+  },
   "colors": {
     "red": {
       "300": {
@@ -39,6 +45,12 @@
     "xl": {
       "value": 32,
       "type": "spacing"
+    }
+  },
+  "green": {
+    "500": {
+      "value": "#549b49",
+      "type": "color"
     }
   }
 }
