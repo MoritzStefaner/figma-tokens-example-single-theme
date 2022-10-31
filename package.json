@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "author": "",
   "watch": {
-    "build": ["**/*.json"]
+    "build": [
+      "00_input/**/*.json"
+    ]
   },
   "scripts": {
-    "build": "npm run build:token-transform; npm run build:token-style-dictionary",
-    "build:token-transform": "token-transformer tokens.json tokens/input.json",
+    "build": "npm run build:token-transform; npm run build:style-dictionary",
+    "build:token-transform": "token-transformer 00_input/figma-tokens.json 01_intermediate/style-dict-tokens.json",
     "build:style-dictionary": "style-dictionary build --config config.json",
     "watch": "npm-watch"
   },
   "dependencies": {
     "npm-watch": "^0.9.0",
-    "style-dictionary": "^3.0.2",
-    "token-transformer": "^0.0.27"
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "0.0.27"
   }
 }
