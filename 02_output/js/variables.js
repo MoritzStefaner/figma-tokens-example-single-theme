@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 31 Oct 2022 17:20:56 GMT
+ * Generated on Mon, 31 Oct 2022 17:19:32 GMT
  */
 
 export const TokenSetOrder0 = "global";
@@ -13,4 +13,5 @@ export const SpacingSm = 4;
 export const SpacingMd = 8;
 export const SpacingLg = 16;
 export const SpacingXl = 32;
+export const SpacingXxl = 64;
 export const Green500 = "#549b49";
