@@ -5,7 +5,7 @@
       "transformGroup": "css",
       "files": [
         {
-          "destination": "css/variables.css",
+          "destination": "02_output/css/variables.css",
           "format": "css/variables"
         }
       ]
@@ -14,7 +14,7 @@
       "transformGroup": "js",
       "files": [
         {
-          "destination": "js/variables.js",
+          "destination": "02_output/js/variables.js",
           "format": "javascript/es6"
         }
       ]
