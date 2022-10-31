@@ -2,15 +2,15 @@
   "colors": {
     "red": {
       "300": {
-        "value": "#dd9a9a",
+        "value": "#FCA5A5",
         "type": "color"
       },
       "500": {
-        "value": "#ef4444",
+        "value": "#EF4444",
         "type": "color"
       },
       "700": {
-        "value": "#b91c1c",
+        "value": "#B91C1C",
         "type": "color"
       }
     },
@@ -20,10 +20,6 @@
     },
     "white": {
       "value": "#ffffff",
-      "type": "color"
-    },
-    "green-500": {
-      "value": "#55cd42",
       "type": "color"
     }
   },
@@ -44,12 +40,5 @@
       "value": 32,
       "type": "spacing"
     }
-  },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "colors",
-      "spacing"
-    ]
   }
 }
