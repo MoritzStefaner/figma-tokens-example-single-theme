@@ -6,7 +6,10 @@
       "files": [
         {
           "destination": "02_output/css/variables.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "options": {
+            "showFileHeader": false
+          }
         }
       ]
     },
@@ -15,7 +18,10 @@
       "files": [
         {
           "destination": "02_output/js/variables.js",
-          "format": "javascript/es6"
+          "format": "javascript/es6",
+          "options": {
+            "showFileHeader": false
+          }
         }
       ]
     }
