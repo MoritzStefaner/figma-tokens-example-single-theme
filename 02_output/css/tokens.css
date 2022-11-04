@@ -1,10 +1,5 @@
-/**
- * Do not edit directly
- * Generated on Fri, 04 Nov 2022 08:16:44 GMT
- */
-
 :root {
-  --token-set-order-0: global;
+          --token-set-order-0: global;
   --spacing-scale: 2;
   --spacing-xs: 4;
   --spacing-sm: 8;
@@ -171,4 +166,4 @@
   --typography-body-line-height: 110%;
   --typography-body-font-size: 16;
   --typography-body-paragraph-spacing: 26;
-}
+      }
