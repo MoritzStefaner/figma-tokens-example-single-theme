@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 04 Nov 2022 08:35:28 GMT
+ * Generated on Fri, 04 Nov 2022 08:51:42 GMT
  */
 
 export const TokenSetOrder0 = "global";
@@ -24,7 +24,7 @@ export const BorderWidthXs = 1;
 export const BorderWidthSm = 2;
 export const BorderWidthMd = 4;
 export const BorderWidthLg = 8;
-export const ColorsBlack = "#000000";
+export const ColorsBlack = "#000000"; // black
 export const ColorsWhite = "#ffffff";
 export const ColorsGray100 = "#f7fafc";
 export const ColorsGray200 = "#edf2f7";

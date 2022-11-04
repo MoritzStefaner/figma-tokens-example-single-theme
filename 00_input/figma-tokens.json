@@ -91,7 +91,8 @@
     "colors": {
       "black": {
         "value": "#000000",
-        "type": "color"
+        "type": "color",
+        "description": "black"
       },
       "white": {
         "value": "#ffffff",
@@ -655,8 +656,6 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "global"
-    ]
+    "tokenSetOrder": ["global"]
   }
 }

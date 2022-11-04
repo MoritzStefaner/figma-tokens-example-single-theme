@@ -81,6 +81,15 @@ function getStyleDictionaryConfig() {
   };
 }
 
+// transform description attributes into comments,
+// see https://github.com/six7/figma-tokens/issues/499
+StyleDictionaryPackage.registerParser({
+  pattern: /\.json$/,
+  parse: ({ filePath, contents }) => {
+    return JSON.parse(contents.replace('"description":', '"comment":'));
+  },
+});
+
 // run build
 
 console.log('Build started...');

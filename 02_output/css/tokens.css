@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 04 Nov 2022 08:35:28 GMT
+ * Generated on Fri, 04 Nov 2022 08:51:42 GMT
  */
 
 :root {
@@ -25,7 +25,7 @@
   --border-width-sm: 2;
   --border-width-md: 4;
   --border-width-lg: 8;
-  --colors-black: #000000;
+  --colors-black: #000000; /* black */
   --colors-white: #ffffff;
   --colors-gray-100: #f7fafc;
   --colors-gray-200: #edf2f7;
