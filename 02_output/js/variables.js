@@ -1,10 +1,10 @@
 export const TokenSetOrder0 = "global";
 export const SpacingScale = 2;
-export const SpacingXs = 4;
-export const SpacingSm = 8;
-export const SpacingMd = 16;
-export const SpacingLg = 32;
-export const SpacingXl = 64;
+export const SpacingXs = 3;
+export const SpacingSm = 6;
+export const SpacingMd = 12;
+export const SpacingLg = 24;
+export const SpacingXl = 48;
 export const SizingScale = 1.5;
 export const SizingXs = 4;
 export const SizingSm = 6;

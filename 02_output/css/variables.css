@@ -1,11 +1,11 @@
 :root {
   --token-set-order-0: global;
   --spacing-scale: 2;
-  --spacing-xs: 4;
-  --spacing-sm: 8;
-  --spacing-md: 16;
-  --spacing-lg: 32;
-  --spacing-xl: 64;
+  --spacing-xs: 3;
+  --spacing-sm: 6;
+  --spacing-md: 12;
+  --spacing-lg: 24;
+  --spacing-xl: 48;
   --sizing-scale: 1.5;
   --sizing-xs: 4;
   --sizing-sm: 6;
