@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 04 Nov 2022 07:59:42 GMT
+ * Generated on Fri, 04 Nov 2022 08:16:44 GMT
  */
 
 :root {
@@ -142,9 +142,33 @@
   --font-sizes-body: 16;
   --font-sizes-sm: 13.6;
   --font-sizes-xs: 10.4;
-  --typography-h1-bold: [object Object];
-  --typography-h1-regular: [object Object];
-  --typography-h2-bold: [object Object];
-  --typography-h2-regular: [object Object];
-  --typography-body: [object Object];
+  --typography-h1-bold-font-family: Inter;
+  --typography-h1-bold-font-weight: Bold;
+  --typography-h1-bold-line-height: 110%;
+  --typography-h1-bold-font-size: 48.829;
+  --typography-h1-bold-paragraph-spacing: 32;
+  --typography-h1-bold-letter-spacing: -5%;
+  --typography-h1-regular-font-family: Inter;
+  --typography-h1-regular-font-weight: Regular;
+  --typography-h1-regular-line-height: 110%;
+  --typography-h1-regular-font-size: 48.829;
+  --typography-h1-regular-paragraph-spacing: 32;
+  --typography-h1-regular-letter-spacing: -5%;
+  --typography-h2-bold-font-family: Inter;
+  --typography-h2-bold-font-weight: Bold;
+  --typography-h2-bold-line-height: 110%;
+  --typography-h2-bold-font-size: 39.063;
+  --typography-h2-bold-paragraph-spacing: 26;
+  --typography-h2-bold-letter-spacing: -5%;
+  --typography-h2-regular-font-family: Inter;
+  --typography-h2-regular-font-weight: Regular;
+  --typography-h2-regular-line-height: 110%;
+  --typography-h2-regular-font-size: 39.063;
+  --typography-h2-regular-paragraph-spacing: 26;
+  --typography-h2-regular-letter-spacing: -5%;
+  --typography-body-font-family: Roboto;
+  --typography-body-font-weight: Regular;
+  --typography-body-line-height: 110%;
+  --typography-body-font-size: 16;
+  --typography-body-paragraph-spacing: 26;
 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 04 Nov 2022 07:59:42 GMT
+ * Generated on Fri, 04 Nov 2022 08:16:44 GMT
  */
 
 export const TokenSetOrder0 = "global";
@@ -141,8 +141,32 @@ export const FontSizesH6 = 16;
 export const FontSizesBody = 16;
 export const FontSizesSm = 13.6;
 export const FontSizesXs = 10.4;
-export const TypographyH1Bold = {"fontFamily":"Inter","fontWeight":"Bold","lineHeight":"110%","fontSize":48.829,"paragraphSpacing":32,"letterSpacing":"-5%"};
-export const TypographyH1Regular = {"fontFamily":"Inter","fontWeight":"Regular","lineHeight":"110%","fontSize":48.829,"paragraphSpacing":32,"letterSpacing":"-5%"};
-export const TypographyH2Bold = {"fontFamily":"Inter","fontWeight":"Bold","lineHeight":"110%","fontSize":39.063,"paragraphSpacing":26,"letterSpacing":"-5%"};
-export const TypographyH2Regular = {"fontFamily":"Inter","fontWeight":"Regular","lineHeight":"110%","fontSize":39.063,"paragraphSpacing":26,"letterSpacing":"-5%"};
-export const TypographyBody = {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":"110%","fontSize":16,"paragraphSpacing":26};
+export const TypographyH1BoldFontFamily = "Inter";
+export const TypographyH1BoldFontWeight = "Bold";
+export const TypographyH1BoldLineHeight = "110%";
+export const TypographyH1BoldFontSize = 48.829;
+export const TypographyH1BoldParagraphSpacing = 32;
+export const TypographyH1BoldLetterSpacing = "-5%";
+export const TypographyH1RegularFontFamily = "Inter";
+export const TypographyH1RegularFontWeight = "Regular";
+export const TypographyH1RegularLineHeight = "110%";
+export const TypographyH1RegularFontSize = 48.829;
+export const TypographyH1RegularParagraphSpacing = 32;
+export const TypographyH1RegularLetterSpacing = "-5%";
+export const TypographyH2BoldFontFamily = "Inter";
+export const TypographyH2BoldFontWeight = "Bold";
+export const TypographyH2BoldLineHeight = "110%";
+export const TypographyH2BoldFontSize = 39.063;
+export const TypographyH2BoldParagraphSpacing = 26;
+export const TypographyH2BoldLetterSpacing = "-5%";
+export const TypographyH2RegularFontFamily = "Inter";
+export const TypographyH2RegularFontWeight = "Regular";
+export const TypographyH2RegularLineHeight = "110%";
+export const TypographyH2RegularFontSize = 39.063;
+export const TypographyH2RegularParagraphSpacing = 26;
+export const TypographyH2RegularLetterSpacing = "-5%";
+export const TypographyBodyFontFamily = "Roboto";
+export const TypographyBodyFontWeight = "Regular";
+export const TypographyBodyLineHeight = "110%";
+export const TypographyBodyFontSize = 16;
+export const TypographyBodyParagraphSpacing = 26;

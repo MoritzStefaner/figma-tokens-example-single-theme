@@ -600,60 +600,132 @@
   "typography": {
     "H1": {
       "Bold": {
-        "type": "typography",
-        "value": {
-          "fontFamily": "Inter",
-          "fontWeight": "Bold",
-          "lineHeight": "110%",
-          "fontSize": 48.829,
-          "paragraphSpacing": 32,
-          "letterSpacing": "-5%"
+        "fontFamily": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 48.829,
+          "type": "fontSize"
+        },
+        "paragraphSpacing": {
+          "value": 32,
+          "type": "paragraphSpacing"
+        },
+        "letterSpacing": {
+          "value": "-5%",
+          "type": "letterSpacing"
         }
       },
       "Regular": {
-        "type": "typography",
-        "value": {
-          "fontFamily": "Inter",
-          "fontWeight": "Regular",
-          "lineHeight": "110%",
-          "fontSize": 48.829,
-          "paragraphSpacing": 32,
-          "letterSpacing": "-5%"
+        "fontFamily": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 48.829,
+          "type": "fontSize"
+        },
+        "paragraphSpacing": {
+          "value": 32,
+          "type": "paragraphSpacing"
+        },
+        "letterSpacing": {
+          "value": "-5%",
+          "type": "letterSpacing"
         }
       }
     },
     "H2": {
       "Bold": {
-        "type": "typography",
-        "value": {
-          "fontFamily": "Inter",
-          "fontWeight": "Bold",
-          "lineHeight": "110%",
-          "fontSize": 39.063,
-          "paragraphSpacing": 26,
-          "letterSpacing": "-5%"
+        "fontFamily": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 39.063,
+          "type": "fontSize"
+        },
+        "paragraphSpacing": {
+          "value": 26,
+          "type": "paragraphSpacing"
+        },
+        "letterSpacing": {
+          "value": "-5%",
+          "type": "letterSpacing"
         }
       },
       "Regular": {
-        "type": "typography",
-        "value": {
-          "fontFamily": "Inter",
-          "fontWeight": "Regular",
-          "lineHeight": "110%",
-          "fontSize": 39.063,
-          "paragraphSpacing": 26,
-          "letterSpacing": "-5%"
+        "fontFamily": {
+          "value": "Inter",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "110%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 39.063,
+          "type": "fontSize"
+        },
+        "paragraphSpacing": {
+          "value": 26,
+          "type": "paragraphSpacing"
+        },
+        "letterSpacing": {
+          "value": "-5%",
+          "type": "letterSpacing"
         }
       }
     },
     "Body": {
-      "type": "typography",
-      "value": {
-        "fontFamily": "Roboto",
-        "fontWeight": "Regular",
-        "lineHeight": "110%",
-        "fontSize": 16,
-        "paragraphSpacing": 26
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "fontFamily"
+      },
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeight"
+      },
+      "lineHeight": {
+        "value": "110%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSize"
+      },
+      "paragraphSpacing": {
+        "value": 26,
+        "type": "paragraphSpacing"
       }
     }
   }
