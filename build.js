@@ -86,7 +86,7 @@ function getStyleDictionaryConfig() {
 StyleDictionaryPackage.registerParser({
   pattern: /\.json$/,
   parse: ({ filePath, contents }) => {
-    return JSON.parse(contents.replace('"description":', '"comment":'));
+    return JSON.parse(contents.replaceAll('"description":', '"comment":'));
   },
 });
 
