@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "npm run build:token-transform; npm run build:style-dictionary",
-    "build:token-transform": "token-transformer --expand-typography --expand-shadow 00_input/figma-tokens.json 01_intermediate/style-dict-tokens.json",
+    "build:token-transform": "token-transformer --expand-typography --expand-shadow 00_input/figma-tokens.json 01_intermediate/style-dict-tokens.json global,_palettes _palettes",
     "build:style-dictionary": "style-dictionary build --config config.json",
     "watch": "npm-watch"
   },
