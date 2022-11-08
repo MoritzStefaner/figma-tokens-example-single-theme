@@ -1,6 +1,6 @@
 {
   "meta": {
-    "project-title": {
+    "projectTitle": {
       "value": "<BRAND>",
       "type": "string",
       "description": "Project title"
@@ -10,12 +10,12 @@
       "type": "string",
       "description": "Version"
     },
-    "project-subtitle": {
+    "projectSubtitle": {
       "value": "Data Design Language",
       "type": "string",
-      "category": "content"
+      "description": "Project subtitle"
     },
-    "last-updated": {
+    "lastUpdated": {
       "value": 1986,
       "type": "string",
       "description": "Last updated"
@@ -208,7 +208,7 @@
           "type": "textCase"
         }
       },
-      "major-primary": {
+      "majorPrimary": {
         "fontFamily": {
           "value": "Inter",
           "type": "fontFamily"
@@ -242,7 +242,7 @@
           "type": "textCase"
         }
       },
-      "major-secondary": {
+      "majorSecondary": {
         "fontFamily": {
           "value": "Inter",
           "type": "fontFamily"
@@ -276,7 +276,7 @@
           "type": "textCase"
         }
       },
-      "minor-primary": {
+      "minorPrimary": {
         "fontFamily": {
           "value": "Inter",
           "type": "fontFamily"
@@ -310,7 +310,7 @@
           "type": "textCase"
         }
       },
-      "minor-secondary": {
+      "minorSecondary": {
         "fontFamily": {
           "value": "Inter",
           "type": "fontFamily"
@@ -477,16 +477,20 @@
         "type": "sizing"
       }
     },
-    "max-content-width": {
+    "maxContentWidth": {
       "value": 1440,
       "type": "sizing"
     },
-    "min-content-width": {
+    "minContentWidth": {
       "value": 320,
+      "type": "sizing"
+    },
+    "chartWidth": {
+      "value": 1080,
       "type": "sizing"
     }
   },
-  "font-size": {
+  "fontSize": {
     "xs": {
       "value": 13.223,
       "type": "fontSizes"
@@ -562,7 +566,7 @@
       "type": "spacing"
     }
   },
-  "border-radius": {
+  "borderRadius": {
     "base": {
       "value": 2,
       "type": "borderRadius"
@@ -573,12 +577,12 @@
     }
   },
   "parameter": {
-    "font-size": {
-      "scale-factor": {
+    "fontSize": {
+      "scaleFactor": {
         "value": 1.33,
         "type": "other"
       },
-      "scale-factor-below-1": {
+      "scaleFactorBelowOne": {
         "value": 1.1,
         "type": "other"
       },
@@ -588,11 +592,11 @@
       }
     },
     "space": {
-      "scale-factor": {
+      "scaleFactor": {
         "value": 1.5,
         "type": "other"
       },
-      "scale-factor-below-1": {
+      "scaleFactorBelowOne": {
         "value": 1.5,
         "type": "other"
       },
@@ -602,7 +606,7 @@
       }
     }
   },
-  "border-width": {
+  "borderWidth": {
     "s": {
       "value": 0.5,
       "type": "borderWidth",
@@ -629,7 +633,7 @@
       "description": "The largest border size. Used for the top chart container line."
     }
   },
-  "border-width-double": {
+  "borderWidthDouble": {
     "s": {
       "value": 1,
       "type": "borderWidth",
@@ -725,7 +729,7 @@
       "type": "color",
       "description": "Used for author-driven accents of parts of charts, texts and other elements."
     },
-    "filtered-out": {
+    "filteredOut": {
       "value": "#BEC5C9",
       "type": "color",
       "description": "Used for visual marks in charts that have been filtered out."
@@ -735,7 +739,7 @@
       "type": "color",
       "description": "Used for author-driven accents of parts of charts, texts and other elements."
     },
-    "not-available": {
+    "notAvailable": {
       "value": "#b2b2b2",
       "type": "color",
       "description": "Used for visual marks (e.g. countries in maps) where data is missing from the dataset."
@@ -834,30 +838,34 @@
     }
   },
   "diverging": {
-    "positive-2": {
-      "value": "#0E3E63",
-      "type": "color",
-      "description": "Fifth step in the base diverging color scale, used for the highest (most positive) value. "
-    },
-    "positive-1": {
-      "value": "#79ABBC",
-      "type": "color",
-      "description": "Fourth step in the base diverging color scale, used for values higher than zero (or data median)."
+    "negative": {
+      "1": {
+        "value": "#e98676",
+        "type": "color",
+        "description": "Second step in the base diverging color scale, used for values lower than zero (or data median)."
+      },
+      "2": {
+        "value": "#a12917",
+        "type": "color",
+        "description": "First step in the based diverging color scale, used for the lowest (most negative) value. "
+      }
     },
     "neutral": {
       "value": "#e0e2e4",
       "type": "color",
       "description": "Third step in the base diverging color scale, used for zero or data median."
     },
-    "negative-1": {
-      "value": "#e98676",
-      "type": "color",
-      "description": "Second step in the base diverging color scale, used for values lower than zero (or data median)."
-    },
-    "negative-2": {
-      "value": "#a12917",
-      "type": "color",
-      "description": "First step in the based diverging color scale, used for the lowest (most negative) value. "
+    "positive": {
+      "1": {
+        "value": "#0E3E63",
+        "type": "color",
+        "description": "Fifth step in the base diverging color scale, used for the highest (most positive) value. "
+      },
+      "2": {
+        "value": "#79ABBC",
+        "type": "color",
+        "description": "Fourth step in the base diverging color scale, used for values higher than zero (or data median)."
+      }
     }
   },
   "complementary": {
@@ -934,13 +942,5 @@
         "type": "color"
       }
     }
-  },
-  "typical-chart-width": {
-    "value": 1080,
-    "type": "sizing"
-  },
-  "content-width": {
-    "value": 1440,
-    "type": "sizing"
   }
 }

@@ -107,6 +107,7 @@
   --size-breakpoint-xl: 1440rem;
   --size-max-content-width: 1440rem;
   --size-min-content-width: 320rem;
+  --size-chart-width: 1080rem;
   --font-size-xs: 13.223;
   --font-size-s: 14.545;
   --font-size-m: 16;
@@ -128,10 +129,10 @@
   --border-radius-base: 2;
   --border-radius-bigger: 5;
   --parameter-font-size-scale-factor: 1.33;
-  --parameter-font-size-scale-factor-below-1: 1.1;
+  --parameter-font-size-scale-factor-below-one: 1.1;
   --parameter-font-size-base: 16;
   --parameter-space-scale-factor: 1.5;
-  --parameter-space-scale-factor-below-1: 1.5;
+  --parameter-space-scale-factor-below-one: 1.5;
   --parameter-space-base: 24;
   --border-width-s: 0.5;
   --border-width-m: 1;
@@ -179,11 +180,11 @@
   --category-stronger-4: #0b5932;
   --category-stronger-5: #565d00;
   --category-stronger-99: #6b7581;
-  --diverging-positive-2: #0E3E63;
-  --diverging-positive-1: #79ABBC;
-  --diverging-neutral: #e0e2e4;
   --diverging-negative-1: #e98676;
   --diverging-negative-2: #a12917;
+  --diverging-neutral: #e0e2e4;
+  --diverging-positive-1: #0E3E63;
+  --diverging-positive-2: #79ABBC;
   --complementary-weaker: #e98676;
   --complementary-base: #dc6454;
   --complementary-stronger: #a12917;
@@ -199,6 +200,4 @@
   --sequential-negative-1: #e98676;
   --sequential-negative-2: #c9513f;
   --sequential-negative-3: #a12917;
-  --typical-chart-width: 1080;
-  --content-width: 1440;
 }
