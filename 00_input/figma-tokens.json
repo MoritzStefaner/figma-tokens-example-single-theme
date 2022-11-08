@@ -139,7 +139,7 @@
         }
       }
     },
-    "effects": {
+    "effect": {
       "depth": {
         "card": {
           "value": {
