@@ -378,7 +378,7 @@
       }
     }
   },
-  "effects": {
+  "effect": {
     "depth": {
       "card": {
         "x": {
