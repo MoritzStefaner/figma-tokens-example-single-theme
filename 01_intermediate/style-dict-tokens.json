@@ -346,38 +346,6 @@
       "description": "Authors"
     }
   },
-  "parameter": {
-    "size": {
-      "fontSize": {
-        "scaleFactor": {
-          "value": 1.33,
-          "type": "other"
-        },
-        "scaleFactorBelowOne": {
-          "value": 1.1,
-          "type": "other"
-        },
-        "base": {
-          "value": 16,
-          "type": "other"
-        }
-      },
-      "space": {
-        "scaleFactor": {
-          "value": 1.5,
-          "type": "other"
-        },
-        "scaleFactorBelowOne": {
-          "value": 1.5,
-          "type": "other"
-        },
-        "base": {
-          "value": 24,
-          "type": "other"
-        }
-      }
-    }
-  },
   "effect": {
     "depth": {
       "card": {
@@ -487,6 +455,36 @@
     }
   },
   "size": {
+    "parameter": {
+      "fontSize": {
+        "scaleFactor": {
+          "value": 1.33,
+          "type": "other"
+        },
+        "scaleFactorBelowOne": {
+          "value": 1.1,
+          "type": "other"
+        },
+        "base": {
+          "value": 16,
+          "type": "other"
+        }
+      },
+      "space": {
+        "scaleFactor": {
+          "value": 1.5,
+          "type": "other"
+        },
+        "scaleFactorBelowOne": {
+          "value": 1.5,
+          "type": "other"
+        },
+        "base": {
+          "value": 24,
+          "type": "other"
+        }
+      }
+    },
     "breakpoint": {
       "xs": {
         "value": 480,

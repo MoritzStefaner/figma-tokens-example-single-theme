@@ -27,38 +27,6 @@
         "description": "Authors"
       }
     },
-    "parameter": {
-      "size": {
-        "fontSize": {
-          "scaleFactor": {
-            "value": "1.33",
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": "1.1",
-            "type": "other"
-          },
-          "base": {
-            "value": "16",
-            "type": "other"
-          }
-        },
-        "space": {
-          "scaleFactor": {
-            "value": "1.5",
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": "1.5",
-            "type": "other"
-          },
-          "base": {
-            "value": "{parameter.size.fontSize.base} * {parameter.size.space.scaleFactor}",
-            "type": "other"
-          }
-        }
-      }
-    },
     "typography": {
       "fontFamily": {
         "base": {
@@ -188,6 +156,36 @@
       }
     },
     "size": {
+      "parameter": {
+        "fontSize": {
+          "scaleFactor": {
+            "value": "1.33",
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": "1.1",
+            "type": "other"
+          },
+          "base": {
+            "value": "16",
+            "type": "other"
+          }
+        },
+        "space": {
+          "scaleFactor": {
+            "value": "1.5",
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": "1.5",
+            "type": "other"
+          },
+          "base": {
+            "value": "{size.parameter.fontSize.base} * {size.parameter.space.scaleFactor}",
+            "type": "other"
+          }
+        }
+      },
       "breakpoint": {
         "xs": {
           "value": "480",
@@ -224,77 +222,77 @@
       },
       "fontSize": {
         "xs": {
-          "value": "{size.fontSize.s} / {parameter.size.fontSize.scaleFactorBelowOne}",
+          "value": "{size.fontSize.s} / {size.parameter.fontSize.scaleFactorBelowOne}",
           "type": "fontSizes"
         },
         "s": {
-          "value": "{size.fontSize.m} / {parameter.size.fontSize.scaleFactorBelowOne}",
+          "value": "{size.fontSize.m} / {size.parameter.fontSize.scaleFactorBelowOne}",
           "type": "fontSizes"
         },
         "m": {
-          "value": "{parameter.size.fontSize.base}",
+          "value": "{size.parameter.fontSize.base}",
           "type": "fontSizes"
         },
         "l": {
-          "value": "{size.fontSize.m} * {parameter.size.fontSize.scaleFactor}",
+          "value": "{size.fontSize.m} * {size.parameter.fontSize.scaleFactor}",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "{size.fontSize.l} * {parameter.size.fontSize.scaleFactor}",
+          "value": "{size.fontSize.l} * {size.parameter.fontSize.scaleFactor}",
           "type": "fontSizes"
         },
         "xxl": {
-          "value": "{size.fontSize.xl} * {parameter.size.fontSize.scaleFactor}",
+          "value": "{size.fontSize.xl} * {size.parameter.fontSize.scaleFactor}",
           "type": "fontSizes"
         }
       },
       "space": {
         "xxxxs": {
-          "value": "{size.space.xxxs} / {parameter.size.space.scaleFactorBelowOne}",
+          "value": "{size.space.xxxs} / {size.parameter.space.scaleFactorBelowOne}",
           "type": "spacing"
         },
         "xxxs": {
-          "value": "{size.space.xxs} / {parameter.size.space.scaleFactorBelowOne}",
+          "value": "{size.space.xxs} / {size.parameter.space.scaleFactorBelowOne}",
           "type": "spacing"
         },
         "xxs": {
-          "value": "{size.space.xs} / {parameter.size.space.scaleFactorBelowOne}",
+          "value": "{size.space.xs} / {size.parameter.space.scaleFactorBelowOne}",
           "type": "spacing"
         },
         "xs": {
-          "value": "{size.space.s} / {parameter.size.space.scaleFactorBelowOne}",
+          "value": "{size.space.s} / {size.parameter.space.scaleFactorBelowOne}",
           "type": "spacing"
         },
         "s": {
-          "value": "{size.space.m} / {parameter.size.space.scaleFactorBelowOne}",
+          "value": "{size.space.m} / {size.parameter.space.scaleFactorBelowOne}",
           "type": "spacing"
         },
         "m": {
-          "value": "{parameter.size.space.base}",
+          "value": "{size.parameter.space.base}",
           "type": "spacing"
         },
         "l": {
-          "value": "{size.space.m} * {parameter.size.space.scaleFactor}",
+          "value": "{size.space.m} * {size.parameter.space.scaleFactor}",
           "type": "spacing"
         },
         "xl": {
-          "value": "{size.space.l} * {parameter.size.space.scaleFactor}",
+          "value": "{size.space.l} * {size.parameter.space.scaleFactor}",
           "type": "spacing"
         },
         "xxl": {
-          "value": "{size.space.xl} * {parameter.size.space.scaleFactor}",
+          "value": "{size.space.xl} * {size.parameter.space.scaleFactor}",
           "type": "spacing"
         },
         "xxxl": {
-          "value": "{size.space.xxl} * {parameter.size.space.scaleFactor}",
+          "value": "{size.space.xxl} * {size.parameter.space.scaleFactor}",
           "type": "spacing"
         },
         "xxxxl": {
-          "value": "{size.space.xxxl} * {parameter.size.space.scaleFactor}",
+          "value": "{size.space.xxxl} * {size.parameter.space.scaleFactor}",
           "type": "spacing"
         },
         "xxxxxl": {
-          "value": "{size.space.xxxxl} * {parameter.size.space.scaleFactor}",
+          "value": "{size.space.xxxxl} * {size.parameter.space.scaleFactor}",
           "type": "spacing"
         }
       },
