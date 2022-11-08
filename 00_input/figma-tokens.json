@@ -649,7 +649,7 @@
   },
   "typographyStyles": {
     "typography": {
-      "styles": {
+      "style": {
         "base": {
           "value": {
             "fontFamily": "{typography.fontFamily.base}",
@@ -1437,11 +1437,6 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "global",
-      "typographyStyles",
-      "_palettes",
-      "_docs"
-    ]
+    "tokenSetOrder": ["global", "typographyStyles", "_palettes", "_docs"]
   }
 }

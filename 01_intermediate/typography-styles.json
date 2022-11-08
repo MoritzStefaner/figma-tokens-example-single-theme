@@ -475,7 +475,7 @@
     }
   },
   "typography": {
-    "styles": {
+    "style": {
       "base": {
         "value": {
           "fontFamily": "{typography.fontFamily.base}",
