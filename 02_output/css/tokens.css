@@ -1,208 +1,203 @@
-/**
- * Do not edit directly
- * Generated on Tue, 08 Nov 2022 12:55:20 GMT
- */
-
 :root {
-  --typography-styles-base-font-family: Inter;
-  --typography-styles-base-font-weight: 400;
-  --typography-styles-base-line-height: 160%;
-  --typography-styles-base-font-size: 16;
-  --typography-styles-base-letter-spacing: 0%;
-  --typography-styles-base-paragraph-spacing: 8;
-  --typography-styles-base-text-decoration: none;
-  --typography-styles-base-text-case: none;
-  --typography-styles-huge-font-family: Inter;
-  --typography-styles-huge-font-weight: 700;
-  --typography-styles-huge-line-height: 115%;
-  --typography-styles-huge-font-size: 37.642;
-  --typography-styles-huge-letter-spacing: 0%;
-  --typography-styles-huge-paragraph-spacing: 8;
-  --typography-styles-huge-text-decoration: none;
-  --typography-styles-huge-text-case: none;
-  --typography-styles-title-font-family: Inter;
-  --typography-styles-title-font-weight: 700;
-  --typography-styles-title-line-height: 115%;
-  --typography-styles-title-font-size: 28.302;
-  --typography-styles-title-letter-spacing: 0%;
-  --typography-styles-title-paragraph-spacing: 8;
-  --typography-styles-title-text-decoration: none;
-  --typography-styles-title-text-case: none;
-  --typography-styles-major-primary-font-family: Inter;
-  --typography-styles-major-primary-font-weight: 700;
-  --typography-styles-major-primary-line-height: 145%;
-  --typography-styles-major-primary-font-size: 16;
-  --typography-styles-major-primary-letter-spacing: 0%;
-  --typography-styles-major-primary-paragraph-spacing: 8;
-  --typography-styles-major-primary-text-decoration: none;
-  --typography-styles-major-primary-text-case: none;
-  --typography-styles-major-secondary-font-family: Inter;
-  --typography-styles-major-secondary-font-weight: 400;
-  --typography-styles-major-secondary-line-height: 145%;
-  --typography-styles-major-secondary-font-size: 16;
-  --typography-styles-major-secondary-letter-spacing: 0%;
-  --typography-styles-major-secondary-paragraph-spacing: 8;
-  --typography-styles-major-secondary-text-decoration: none;
-  --typography-styles-major-secondary-text-case: none;
-  --typography-styles-minor-primary-font-family: Inter;
-  --typography-styles-minor-primary-font-weight: 700;
-  --typography-styles-minor-primary-line-height: 115%;
-  --typography-styles-minor-primary-font-size: 14.545;
-  --typography-styles-minor-primary-letter-spacing: 0%;
-  --typography-styles-minor-primary-paragraph-spacing: 8;
-  --typography-styles-minor-primary-text-decoration: none;
-  --typography-styles-minor-primary-text-case: none;
-  --typography-styles-minor-secondary-font-family: Inter;
-  --typography-styles-minor-secondary-font-weight: 400;
-  --typography-styles-minor-secondary-line-height: 115%;
-  --typography-styles-minor-secondary-font-size: 14.545;
-  --typography-styles-minor-secondary-letter-spacing: 0%;
-  --typography-styles-minor-secondary-paragraph-spacing: 8;
-  --typography-styles-minor-secondary-text-decoration: none;
-  --typography-styles-minor-secondary-text-case: none;
-  --typography-font-family-base: Inter;
-  --typography-font-family-heading: Inter;
-  --typography-font-family-mono: IBM Plex Mono;
-  --typography-line-height-base: 160%;
-  --typography-line-height-tighter: 145%;
-  --typography-line-height-tightest: 115%;
-  --typography-font-weight-regular: 400;
-  --typography-font-weight-bold: 700;
-  --typography-font-weight-semi-bold: 600;
-  --typography-letter-spacing-base: 0%;
-  --typography-letter-spacing-looser: 15%;
-  --typography-paragraph-spacing-none: 0;
-  --typography-paragraph-spacing-base: 8;
-  --typography-text-case-none: none;
-  --typography-text-case-uppercase: uppercase;
-  --typography-text-decoration-none: none;
-  --meta-project-title: <BRAND>; /* Project title */
-  --meta-version: v0.9.0; /* Version */
-  --meta-project-subtitle: Data Design Language; /* Project subtitle */
-  --meta-last-updated: 1986; /* Last updated */
-  --meta-authors: Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana; /* Authors */
-  --parameter-size-font-size-scale-factor: 1.33;
-  --parameter-size-font-size-scale-factor-below-one: 1.1;
-  --parameter-size-font-size-base: 16;
-  --parameter-size-space-scale-factor: 1.5;
-  --parameter-size-space-scale-factor-below-one: 1.5;
-  --parameter-size-space-base: 24;
-  --effect-depth-card-x: 1;
-  --effect-depth-card-y: 1;
-  --effect-depth-card-blur: 3;
-  --effect-depth-card-spread: 0;
-  --effect-depth-card-color: #00000033;
-  --effect-depth-card-type: dropShadow;
-  --effect-depth-hover-x: 3;
-  --effect-depth-hover-y: 3;
-  --effect-depth-hover-blur: 6;
-  --effect-depth-hover-spread: 0;
-  --effect-depth-hover-color: #00000033;
-  --effect-depth-hover-type: dropShadow;
-  --effect-depth-modal-color: #00000033;
-  --effect-depth-modal-type: dropShadow;
-  --effect-depth-modal-x: 0;
-  --effect-depth-modal-y: 7;
-  --effect-depth-modal-blur: 10;
-  --effect-depth-modal-spread: 0;
-  --effect-depth-ui-x: 1;
-  --effect-depth-ui-y: 1;
-  --effect-depth-ui-blur: 2;
-  --effect-depth-ui-spread: 0;
-  --effect-depth-ui-color: #00000033;
-  --effect-depth-ui-type: dropShadow;
-  --size-breakpoint-xs: 480rem;
-  --size-breakpoint-sm: 640rem;
-  --size-breakpoint-md: 960rem;
-  --size-breakpoint-lg: 1200rem;
-  --size-breakpoint-xl: 1440rem;
-  --size-max-content-width: 1440rem;
-  --size-min-content-width: 320rem;
-  --size-chart-width: 1080rem;
-  --size-font-size-xs: 13.223rem;
-  --size-font-size-s: 14.545rem;
-  --size-font-size-m: 16rem;
-  --size-font-size-l: 21.28rem;
-  --size-font-size-xl: 28.302rem;
-  --size-font-size-xxl: 37.642rem;
-  --size-space-xxxxs: 3.161rem;
-  --size-space-xxxs: 4.741rem;
-  --size-space-xxs: 7.111rem;
-  --size-space-xs: 10.667rem;
-  --size-space-s: 16rem;
-  --size-space-m: 24rem;
-  --size-space-l: 36rem;
-  --size-space-xl: 54rem;
-  --size-space-xxl: 81rem;
-  --size-space-xxxl: 121.5rem;
-  --size-space-xxxxl: 182.25rem;
-  --size-space-xxxxxl: 273.375rem;
-  --size-border-radius-base: 2rem;
-  --size-border-radius-bigger: 5rem;
-  --size-border-width-s: 0.5rem; /* The smallest border size. Used for gridlines. */
-  --size-border-width-m: 1rem; /* The default border size. Used for axes borders, default data lines. */
-  --size-border-width-l: 2rem; /* A larger border size. Used for borders between filled elements. */
-  --size-border-width-xl: 3rem; /* A larger border size. Used for lines in focus, and the bottom chart container line. */
-  --size-border-width-xxl: 4rem; /* The largest border size. Used for the top chart container line. */
-  --size-border-width-double-s: 1rem; /* Double size of respective border token, for e.g. line background strokes. */
-  --size-border-width-double-m: 2rem; /* Double size of respective border token, for e.g. line background strokes. */
-  --size-border-width-double-l: 4rem; /* Double size of respective border token, for e.g. line background strokes. */
-  --size-border-width-double-xl: 6rem; /* Double size of respective border token, for e.g. line background strokes. */
-  --size-border-width-double-xxl: 8rem; /* Double size of respective border token, for e.g. line background strokes. */
-  --color-background-base: #ffffff; /* The default light background color, used e.g. as a backdrop for charts or cards. */
-  --color-background-weaker: #f1f2f3; /* A slightly shaded background color, used e.g. as a backdrop behind card elements. */
-  --color-background-weakest: #e0e2e4; /* A shaded background color, used e.g. as a backdrop in containers. */
-  --color-foreground-base: #191919; /* Used for elements in the foreground that have a strong contrast to the background. */
-  --color-foreground-weaker: #6b7581; /* Used for elements in the foreground that have a weaker contrast to the background (e.g. axes). */
-  --color-foreground-weakest: #c0c8d2; /* Used for elements in the foreground that have the weakest contrast to the background (e.g. ticks, help-lines) */
-  --color-text-base: #191919; /* Default text color for strong background contrast. */
-  --color-text-weaker: #6b7581; /* Text color with weaker background contrast. */
-  --color-theme-weaker: #79abbc; /* Weaker version of theme color */
-  --color-theme-base: #377796; /* Main theme color, usually the brand color. */
-  --color-theme-stronger: #0e3e63; /* Stronger version of theme color */
-  --color-functional-accent: #ffcb01; /* Used for author-driven accents of parts of charts, texts and other elements. */
-  --color-functional-filtered-out: #bec5c9; /* Used for visual marks in charts that have been filtered out. */
-  --color-functional-focus: #ffcb01; /* Used for author-driven accents of parts of charts, texts and other elements. */
-  --color-functional-not-available: #b2b2b2; /* Used for visual marks (e.g. countries in maps) where data is missing from the dataset. */
-  --color-category-base-0: #297cb5;
-  --color-category-base-1: #905ea7;
-  --color-category-base-2: #de5f4a;
-  --color-category-base-3: #ffa81b;
-  --color-category-base-4: #51a27c;
-  --color-category-base-5: #9da61d;
-  --color-category-base-99: #9ea9b5;
-  --color-category-weaker-0: #83bad9;
-  --color-category-weaker-1: #b386c8;
-  --color-category-weaker-2: #e38c7c;
-  --color-category-weaker-3: #f8c975;
-  --color-category-weaker-4: #83c0a4;
-  --color-category-weaker-5: #ced56d;
-  --color-category-weaker-99: #c0c8d2;
-  --color-category-stronger-0: #0161a3;
-  --color-category-stronger-1: #492658;
-  --color-category-stronger-2: #a72817;
-  --color-category-stronger-3: #b26d00;
-  --color-category-stronger-4: #0b5932;
-  --color-category-stronger-5: #565d00;
-  --color-category-stronger-99: #6b7581;
-  --color-diverging-negative-1: #e98676; /* Second step in the base diverging color scale, used for values lower than zero (or data median). */
-  --color-diverging-negative-2: #a12917; /* First step in the based diverging color scale, used for the lowest (most negative) value.  */
-  --color-diverging-neutral: #e0e2e4; /* Third step in the base diverging color scale, used for zero or data median. */
-  --color-diverging-positive-1: #0e3e63; /* Fifth step in the base diverging color scale, used for the highest (most positive) value.  */
-  --color-diverging-positive-2: #79abbc; /* Fourth step in the base diverging color scale, used for values higher than zero (or data median). */
-  --color-complementary-weaker: #e98676; /* Weaker version of complementary color. */
-  --color-complementary-base: #dc6454; /* Main complementary color. */
-  --color-complementary-stronger: #a12917; /* Stronger version of complementary color. */
-  --color-sequential-0: #c3d6dc;
-  --color-sequential-1: #79abbc;
-  --color-sequential-2: #377796;
-  --color-sequential-3: #0e3e63;
-  --color-sequential-positive-0: #c3d6dc; /* First step in the base (theme) sequential color scale, used for the lowest value.  */
-  --color-sequential-positive-1: #79abbc; /* Second step in the base (theme) sequential color scale. */
-  --color-sequential-positive-2: #377796; /* Thirs step in the base (theme) sequential color scale. */
-  --color-sequential-positive-3: #0e3e63; /* Third and final step in the base (theme) sequential color scale. */
-  --color-sequential-negative-0: #fbc8bf;
-  --color-sequential-negative-1: #e98676;
-  --color-sequential-negative-2: #c9513f;
   --color-sequential-negative-3: #a12917;
+  --color-sequential-negative-2: #c9513f;
+  --color-sequential-negative-1: #e98676;
+  --color-sequential-negative-0: #fbc8bf;
+  --color-sequential-positive-3: #0e3e63; /* Third and final step in the base (theme) sequential color scale. */
+  --color-sequential-positive-2: #377796; /* Thirs step in the base (theme) sequential color scale. */
+  --color-sequential-positive-1: #79abbc; /* Second step in the base (theme) sequential color scale. */
+  --color-sequential-positive-0: #c3d6dc; /* First step in the base (theme) sequential color scale, used for the lowest value.  */
+  --color-sequential-3: #0e3e63;
+  --color-sequential-2: #377796;
+  --color-sequential-1: #79abbc;
+  --color-sequential-0: #c3d6dc;
+  --color-complementary-stronger: #a12917; /* Stronger version of complementary color. */
+  --color-complementary-base: #dc6454; /* Main complementary color. */
+  --color-complementary-weaker: #e98676; /* Weaker version of complementary color. */
+  --color-diverging-positive-2: #79abbc; /* Fourth step in the base diverging color scale, used for values higher than zero (or data median). */
+  --color-diverging-positive-1: #0e3e63; /* Fifth step in the base diverging color scale, used for the highest (most positive) value.  */
+  --color-diverging-neutral: #e0e2e4; /* Third step in the base diverging color scale, used for zero or data median. */
+  --color-diverging-negative-2: #a12917; /* First step in the based diverging color scale, used for the lowest (most negative) value.  */
+  --color-diverging-negative-1: #e98676; /* Second step in the base diverging color scale, used for values lower than zero (or data median). */
+  --color-category-stronger-99: #6b7581;
+  --color-category-stronger-5: #565d00;
+  --color-category-stronger-4: #0b5932;
+  --color-category-stronger-3: #b26d00;
+  --color-category-stronger-2: #a72817;
+  --color-category-stronger-1: #492658;
+  --color-category-stronger-0: #0161a3;
+  --color-category-weaker-99: #c0c8d2;
+  --color-category-weaker-5: #ced56d;
+  --color-category-weaker-4: #83c0a4;
+  --color-category-weaker-3: #f8c975;
+  --color-category-weaker-2: #e38c7c;
+  --color-category-weaker-1: #b386c8;
+  --color-category-weaker-0: #83bad9;
+  --color-category-base-99: #9ea9b5;
+  --color-category-base-5: #9da61d;
+  --color-category-base-4: #51a27c;
+  --color-category-base-3: #ffa81b;
+  --color-category-base-2: #de5f4a;
+  --color-category-base-1: #905ea7;
+  --color-category-base-0: #297cb5;
+  --color-functional-not-available: #b2b2b2; /* Used for visual marks (e.g. countries in maps) where data is missing from the dataset. */
+  --color-functional-focus: #ffcb01; /* Used for author-driven accents of parts of charts, texts and other elements. */
+  --color-functional-filtered-out: #bec5c9; /* Used for visual marks in charts that have been filtered out. */
+  --color-functional-accent: #ffcb01; /* Used for author-driven accents of parts of charts, texts and other elements. */
+  --color-theme-stronger: #0e3e63; /* Stronger version of theme color */
+  --color-theme-base: #377796; /* Main theme color, usually the brand color. */
+  --color-theme-weaker: #79abbc; /* Weaker version of theme color */
+  --color-text-weaker: #6b7581; /* Text color with weaker background contrast. */
+  --color-text-base: #191919; /* Default text color for strong background contrast. */
+  --color-foreground-weakest: #c0c8d2; /* Used for elements in the foreground that have the weakest contrast to the background (e.g. ticks, help-lines) */
+  --color-foreground-weaker: #6b7581; /* Used for elements in the foreground that have a weaker contrast to the background (e.g. axes). */
+  --color-foreground-base: #191919; /* Used for elements in the foreground that have a strong contrast to the background. */
+  --color-background-weakest: #e0e2e4; /* A shaded background color, used e.g. as a backdrop in containers. */
+  --color-background-weaker: #f1f2f3; /* A slightly shaded background color, used e.g. as a backdrop behind card elements. */
+  --color-background-base: #ffffff; /* The default light background color, used e.g. as a backdrop for charts or cards. */
+  --size-border-width-double-xxl: 8px; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-xl: 6px; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-l: 4px; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-m: 2px; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-s: 1px; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-xxl: 4px; /* The largest border size. Used for the top chart container line. */
+  --size-border-width-xl: 3px; /* A larger border size. Used for lines in focus, and the bottom chart container line. */
+  --size-border-width-l: 2px; /* A larger border size. Used for borders between filled elements. */
+  --size-border-width-m: 1px; /* The default border size. Used for axes borders, default data lines. */
+  --size-border-width-s: 0.5px; /* The smallest border size. Used for gridlines. */
+  --size-border-radius-bigger: 5px;
+  --size-border-radius-base: 2px;
+  --size-space-xxxxxl: 273.375px;
+  --size-space-xxxxl: 182.25px;
+  --size-space-xxxl: 121.5px;
+  --size-space-xxl: 81px;
+  --size-space-xl: 54px;
+  --size-space-l: 36px;
+  --size-space-m: 24px;
+  --size-space-s: 16px;
+  --size-space-xs: 10.667px;
+  --size-space-xxs: 7.111px;
+  --size-space-xxxs: 4.741px;
+  --size-space-xxxxs: 3.161px;
+  --size-font-size-xxl: 37.642px;
+  --size-font-size-xl: 28.302px;
+  --size-font-size-l: 21.28px;
+  --size-font-size-m: 16px;
+  --size-font-size-s: 14.545px;
+  --size-font-size-xs: 13.223px;
+  --size-chart-width: 1080px;
+  --size-min-content-width: 320px;
+  --size-max-content-width: 1440px;
+  --size-breakpoint-xl: 1440px;
+  --size-breakpoint-lg: 1200px;
+  --size-breakpoint-md: 960px;
+  --size-breakpoint-sm: 640px;
+  --size-breakpoint-xs: 480px;
+  --effect-depth-ui-type: dropShadow;
+  --effect-depth-ui-color: #00000033;
+  --effect-depth-ui-spread: 0px;
+  --effect-depth-ui-blur: 2px;
+  --effect-depth-ui-y: 1px;
+  --effect-depth-ui-x: 1px;
+  --effect-depth-modal-spread: 0px;
+  --effect-depth-modal-blur: 10px;
+  --effect-depth-modal-y: 7px;
+  --effect-depth-modal-x: 0px;
+  --effect-depth-modal-type: dropShadow;
+  --effect-depth-modal-color: #00000033;
+  --effect-depth-hover-type: dropShadow;
+  --effect-depth-hover-color: #00000033;
+  --effect-depth-hover-spread: 0px;
+  --effect-depth-hover-blur: 6px;
+  --effect-depth-hover-y: 3px;
+  --effect-depth-hover-x: 3px;
+  --effect-depth-card-type: dropShadow;
+  --effect-depth-card-color: #00000033;
+  --effect-depth-card-spread: 0px;
+  --effect-depth-card-blur: 3px;
+  --effect-depth-card-y: 1px;
+  --effect-depth-card-x: 1px;
+  --parameter-size-space-base: 24;
+  --parameter-size-space-scale-factor-below-one: 1.5;
+  --parameter-size-space-scale-factor: 1.5;
+  --parameter-size-font-size-base: 16;
+  --parameter-size-font-size-scale-factor-below-one: 1.1;
+  --parameter-size-font-size-scale-factor: 1.33;
+  --meta-authors: Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana; /* Authors */
+  --meta-last-updated: 1986; /* Last updated */
+  --meta-project-subtitle: Data Design Language; /* Project subtitle */
+  --meta-version: v0.9.0; /* Version */
+  --meta-project-title: <BRAND>; /* Project title */
+  --typography-text-decoration-none: none;
+  --typography-text-case-uppercase: uppercase;
+  --typography-text-case-none: none;
+  --typography-paragraph-spacing-base: 8;
+  --typography-paragraph-spacing-none: 0;
+  --typography-letter-spacing-looser: 15%;
+  --typography-letter-spacing-base: 0%;
+  --typography-font-weight-semi-bold: 600;
+  --typography-font-weight-bold: 700;
+  --typography-font-weight-regular: 400;
+  --typography-line-height-tightest: 115%;
+  --typography-line-height-tighter: 145%;
+  --typography-line-height-base: 160%;
+  --typography-font-family-mono: IBM Plex Mono;
+  --typography-font-family-heading: Inter;
+  --typography-font-family-base: Inter;
+  --typography-styles-minor-secondary-text-case: none;
+  --typography-styles-minor-secondary-text-decoration: none;
+  --typography-styles-minor-secondary-paragraph-spacing: 8;
+  --typography-styles-minor-secondary-letter-spacing: 0%;
+  --typography-styles-minor-secondary-font-size: 14.545px;
+  --typography-styles-minor-secondary-line-height: 115%;
+  --typography-styles-minor-secondary-font-weight: 400;
+  --typography-styles-minor-secondary-font-family: Inter;
+  --typography-styles-minor-primary-text-case: none;
+  --typography-styles-minor-primary-text-decoration: none;
+  --typography-styles-minor-primary-paragraph-spacing: 8;
+  --typography-styles-minor-primary-letter-spacing: 0%;
+  --typography-styles-minor-primary-font-size: 14.545px;
+  --typography-styles-minor-primary-line-height: 115%;
+  --typography-styles-minor-primary-font-weight: 700;
+  --typography-styles-minor-primary-font-family: Inter;
+  --typography-styles-major-secondary-text-case: none;
+  --typography-styles-major-secondary-text-decoration: none;
+  --typography-styles-major-secondary-paragraph-spacing: 8;
+  --typography-styles-major-secondary-letter-spacing: 0%;
+  --typography-styles-major-secondary-font-size: 16px;
+  --typography-styles-major-secondary-line-height: 145%;
+  --typography-styles-major-secondary-font-weight: 400;
+  --typography-styles-major-secondary-font-family: Inter;
+  --typography-styles-major-primary-text-case: none;
+  --typography-styles-major-primary-text-decoration: none;
+  --typography-styles-major-primary-paragraph-spacing: 8;
+  --typography-styles-major-primary-letter-spacing: 0%;
+  --typography-styles-major-primary-font-size: 16px;
+  --typography-styles-major-primary-line-height: 145%;
+  --typography-styles-major-primary-font-weight: 700;
+  --typography-styles-major-primary-font-family: Inter;
+  --typography-styles-title-text-case: none;
+  --typography-styles-title-text-decoration: none;
+  --typography-styles-title-paragraph-spacing: 8;
+  --typography-styles-title-letter-spacing: 0%;
+  --typography-styles-title-font-size: 28.302px;
+  --typography-styles-title-line-height: 115%;
+  --typography-styles-title-font-weight: 700;
+  --typography-styles-title-font-family: Inter;
+  --typography-styles-huge-text-case: none;
+  --typography-styles-huge-text-decoration: none;
+  --typography-styles-huge-paragraph-spacing: 8;
+  --typography-styles-huge-letter-spacing: 0%;
+  --typography-styles-huge-font-size: 37.642px;
+  --typography-styles-huge-line-height: 115%;
+  --typography-styles-huge-font-weight: 700;
+  --typography-styles-huge-font-family: Inter;
+  --typography-styles-base-text-case: none;
+  --typography-styles-base-text-decoration: none;
+  --typography-styles-base-paragraph-spacing: 8;
+  --typography-styles-base-letter-spacing: 0%;
+  --typography-styles-base-font-size: 16px;
+  --typography-styles-base-line-height: 160%;
+  --typography-styles-base-font-weight: 400;
+  --typography-styles-base-font-family: Inter;
 }
