@@ -99,35 +99,10 @@
   --size-parameter-font-size-base: 16;
   --size-parameter-font-size-scale-factor-below-one: 1.1;
   --size-parameter-font-size-scale-factor: 1.33;
-  --effect-depth-ui-type: dropShadow;
-  --effect-depth-ui-color: #00000033;
-  --effect-depth-ui-spread: 0px;
-  --effect-depth-ui-blur: 2px;
-  --effect-depth-ui-y: 1px;
-  --effect-depth-ui-x: 1px;
-  --effect-depth-modal-spread: 0px;
-  --effect-depth-modal-blur: 10px;
-  --effect-depth-modal-y: 7px;
-  --effect-depth-modal-x: 0px;
-  --effect-depth-modal-type: dropShadow;
-  --effect-depth-modal-color: #00000033;
-  --effect-depth-hover-type: dropShadow;
-  --effect-depth-hover-color: #00000033;
-  --effect-depth-hover-spread: 0px;
-  --effect-depth-hover-blur: 6px;
-  --effect-depth-hover-y: 3px;
-  --effect-depth-hover-x: 3px;
-  --effect-depth-card-type: dropShadow;
-  --effect-depth-card-color: #00000033;
-  --effect-depth-card-spread: 0px;
-  --effect-depth-card-blur: 3px;
-  --effect-depth-card-y: 1px;
-  --effect-depth-card-x: 1px;
-  --meta-authors: Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana; /* Authors */
-  --meta-last-updated: 1986; /* Last updated */
-  --meta-project-subtitle: Data Design Language; /* Project subtitle */
-  --meta-version: v0.9.0; /* Version */
-  --meta-project-title: <BRAND>; /* Project title */
+  --effect-depth-ui: 1px 1px 2px 0px #00000033;
+  --effect-depth-modal: 0px 7px 10px 0px #00000033;
+  --effect-depth-hover: 3px 3px 6px 0px #00000033;
+  --effect-depth-card: 1px 1px 3px 0px #00000033;
   --typography-text-decoration-none: none;
   --typography-text-case-uppercase: uppercase;
   --typography-text-case-none: none;
@@ -144,60 +119,9 @@
   --typography-font-family-mono: IBM Plex Mono;
   --typography-font-family-heading: Inter;
   --typography-font-family-base: Inter;
-  --typography-styles-minor-secondary-text-case: none;
-  --typography-styles-minor-secondary-text-decoration: none;
-  --typography-styles-minor-secondary-paragraph-spacing: 8;
-  --typography-styles-minor-secondary-letter-spacing: 0%;
-  --typography-styles-minor-secondary-font-size: 14.545px;
-  --typography-styles-minor-secondary-line-height: 115%;
-  --typography-styles-minor-secondary-font-weight: 400;
-  --typography-styles-minor-secondary-font-family: Inter;
-  --typography-styles-minor-primary-text-case: none;
-  --typography-styles-minor-primary-text-decoration: none;
-  --typography-styles-minor-primary-paragraph-spacing: 8;
-  --typography-styles-minor-primary-letter-spacing: 0%;
-  --typography-styles-minor-primary-font-size: 14.545px;
-  --typography-styles-minor-primary-line-height: 115%;
-  --typography-styles-minor-primary-font-weight: 700;
-  --typography-styles-minor-primary-font-family: Inter;
-  --typography-styles-major-secondary-text-case: none;
-  --typography-styles-major-secondary-text-decoration: none;
-  --typography-styles-major-secondary-paragraph-spacing: 8;
-  --typography-styles-major-secondary-letter-spacing: 0%;
-  --typography-styles-major-secondary-font-size: 16px;
-  --typography-styles-major-secondary-line-height: 145%;
-  --typography-styles-major-secondary-font-weight: 400;
-  --typography-styles-major-secondary-font-family: Inter;
-  --typography-styles-major-primary-text-case: none;
-  --typography-styles-major-primary-text-decoration: none;
-  --typography-styles-major-primary-paragraph-spacing: 8;
-  --typography-styles-major-primary-letter-spacing: 0%;
-  --typography-styles-major-primary-font-size: 16px;
-  --typography-styles-major-primary-line-height: 145%;
-  --typography-styles-major-primary-font-weight: 700;
-  --typography-styles-major-primary-font-family: Inter;
-  --typography-styles-title-text-case: none;
-  --typography-styles-title-text-decoration: none;
-  --typography-styles-title-paragraph-spacing: 8;
-  --typography-styles-title-letter-spacing: 0%;
-  --typography-styles-title-font-size: 28.302px;
-  --typography-styles-title-line-height: 115%;
-  --typography-styles-title-font-weight: 700;
-  --typography-styles-title-font-family: Inter;
-  --typography-styles-huge-text-case: none;
-  --typography-styles-huge-text-decoration: none;
-  --typography-styles-huge-paragraph-spacing: 8;
-  --typography-styles-huge-letter-spacing: 0%;
-  --typography-styles-huge-font-size: 37.642px;
-  --typography-styles-huge-line-height: 115%;
-  --typography-styles-huge-font-weight: 700;
-  --typography-styles-huge-font-family: Inter;
-  --typography-styles-base-text-case: none;
-  --typography-styles-base-text-decoration: none;
-  --typography-styles-base-paragraph-spacing: 8;
-  --typography-styles-base-letter-spacing: 0%;
-  --typography-styles-base-font-size: 16px;
-  --typography-styles-base-line-height: 160%;
-  --typography-styles-base-font-weight: 400;
-  --typography-styles-base-font-family: Inter;
+  --meta-authors: Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana; /* Authors */
+  --meta-last-updated: 1986; /* Last updated */
+  --meta-project-subtitle: Data Design Language; /* Project subtitle */
+  --meta-version: v0.9.0; /* Version */
+  --meta-project-title: <BRAND>; /* Project title */
 }
