@@ -1,174 +1,208 @@
 /**
  * Do not edit directly
- * Generated on Mon, 07 Nov 2022 14:12:46 GMT
+ * Generated on Tue, 08 Nov 2022 12:54:19 GMT
  */
 
 :root {
-  --token-set-order-0: global;
-  --spacing-scale: 2;
-  --spacing-xs: 4;
-  --spacing-sm: 8;
-  --spacing-md: 16;
-  --spacing-lg: 32;
-  --spacing-xl: 64;
-  --sizing-scale: 1.5;
-  --sizing-xs: 4;
-  --sizing-sm: 6;
-  --sizing-md: 9;
-  --sizing-lg: 13.5;
-  --sizing-xl: 20.25;
-  --border-radius-sm: 4;
-  --border-radius-lg: 8;
-  --border-radius-xl: 16;
-  --border-width-none: 0;
-  --border-width-xs: 1;
-  --border-width-sm: 2;
-  --border-width-md: 4;
-  --border-width-lg: 8;
-  --colors-black: #000000; /* black */
-  --colors-white: #ffffff;
-  --colors-gray-100: #f7fafc;
-  --colors-gray-200: #edf2f7;
-  --colors-gray-300: #e2e8f0;
-  --colors-gray-400: #cbd5e0;
-  --colors-gray-500: #a0aec0;
-  --colors-gray-600: #718096;
-  --colors-gray-700: #4a5568;
-  --colors-gray-800: #2d3748;
-  --colors-gray-900: #1a202c;
-  --colors-red-100: #fff5f5;
-  --colors-red-200: #fed7d7;
-  --colors-red-300: #feb2b2;
-  --colors-red-400: #fc8181;
-  --colors-red-500: #f56565;
-  --colors-red-600: #e53e3e;
-  --colors-red-700: #c53030;
-  --colors-red-800: #9b2c2c;
-  --colors-red-900: #742a2a;
-  --colors-orange-100: #fffaf0;
-  --colors-orange-200: #feebc8;
-  --colors-orange-300: #fbd38d;
-  --colors-orange-400: #f6ad55;
-  --colors-orange-500: #ed8936;
-  --colors-orange-600: #dd6b20;
-  --colors-orange-700: #c05621;
-  --colors-orange-800: #9c4221;
-  --colors-orange-900: #7b341e;
-  --colors-yellow-100: #fffff0;
-  --colors-yellow-200: #fefcbf;
-  --colors-yellow-300: #faf089;
-  --colors-yellow-400: #f6e05e;
-  --colors-yellow-500: #ecc94b;
-  --colors-yellow-600: #d69e2e;
-  --colors-yellow-700: #b7791f;
-  --colors-yellow-800: #975a16;
-  --colors-yellow-900: #744210;
-  --colors-green-100: #f0fff4;
-  --colors-green-200: #c6f6d5;
-  --colors-green-300: #9ae6b4;
-  --colors-green-400: #68d391;
-  --colors-green-500: #48bb78;
-  --colors-green-600: #38a169;
-  --colors-green-700: #2f855a;
-  --colors-green-800: #276749;
-  --colors-green-900: #22543d;
-  --colors-teal-100: #e6fffa;
-  --colors-teal-200: #b2f5ea;
-  --colors-teal-300: #81e6d9;
-  --colors-teal-400: #4fd1c5;
-  --colors-teal-500: #38b2ac;
-  --colors-teal-600: #319795;
-  --colors-teal-700: #2c7a7b;
-  --colors-teal-800: #285e61;
-  --colors-teal-900: #234e52;
-  --colors-blue-100: #ebf8ff;
-  --colors-blue-200: #bee3f8;
-  --colors-blue-300: #90cdf4;
-  --colors-blue-400: #63b3ed;
-  --colors-blue-500: #4299e1;
-  --colors-blue-600: #3182ce;
-  --colors-blue-700: #2b6cb0;
-  --colors-blue-800: #2c5282;
-  --colors-blue-900: #2a4365;
-  --colors-indigo-100: #ebf4ff;
-  --colors-indigo-200: #c3dafe;
-  --colors-indigo-300: #a3bffa;
-  --colors-indigo-400: #7f9cf5;
-  --colors-indigo-500: #667eea;
-  --colors-indigo-600: #5a67d8;
-  --colors-indigo-700: #4c51bf;
-  --colors-indigo-800: #434190;
-  --colors-indigo-900: #3c366b;
-  --colors-purple-100: #faf5ff;
-  --colors-purple-200: #e9d8fd;
-  --colors-purple-300: #d6bcfa;
-  --colors-purple-400: #b794f4;
-  --colors-purple-500: #9f7aea;
-  --colors-purple-600: #805ad5;
-  --colors-purple-700: #6b46c1;
-  --colors-purple-800: #553c9a;
-  --colors-purple-900: #44337a;
-  --colors-pink-100: #fff5f7;
-  --colors-pink-200: #fed7e2;
-  --colors-pink-300: #fbb6ce;
-  --colors-pink-400: #f687b3;
-  --colors-pink-500: #ed64a6;
-  --colors-pink-600: #d53f8c;
-  --colors-pink-700: #b83280;
-  --colors-pink-800: #97266d;
-  --colors-pink-900: #702459;
-  --opacity-low: 10%;
-  --opacity-md: 50%;
-  --opacity-high: 90%;
-  --font-families-heading: Inter;
-  --font-families-body: Roboto;
-  --line-heights-heading: 110%;
-  --line-heights-body: 140%;
-  --letter-spacing-default: 0;
-  --letter-spacing-increased: 150%;
-  --letter-spacing-decreased: -5%;
-  --paragraph-spacing-h1: 32;
-  --paragraph-spacing-h2: 26;
-  --font-weights-heading-regular: Regular;
-  --font-weights-heading-bold: Bold;
-  --font-weights-body-regular: Regular;
-  --font-weights-body-bold: Bold;
-  --font-sizes-h1: 48.829;
-  --font-sizes-h2: 39.063;
-  --font-sizes-h3: 31.25;
-  --font-sizes-h4: 25;
-  --font-sizes-h5: 20;
-  --font-sizes-h6: 16;
-  --font-sizes-body: 16;
-  --font-sizes-sm: 13.6;
-  --font-sizes-xs: 10.4;
-  --typography-h1-bold-font-family: Inter;
-  --typography-h1-bold-font-weight: Bold;
-  --typography-h1-bold-line-height: 110%;
-  --typography-h1-bold-font-size: 48.829;
-  --typography-h1-bold-paragraph-spacing: 32;
-  --typography-h1-bold-letter-spacing: -5%;
-  --typography-h1-regular-font-family: Inter;
-  --typography-h1-regular-font-weight: Regular;
-  --typography-h1-regular-line-height: 110%;
-  --typography-h1-regular-font-size: 48.829;
-  --typography-h1-regular-paragraph-spacing: 32;
-  --typography-h1-regular-letter-spacing: -5%;
-  --typography-h2-bold-font-family: Inter;
-  --typography-h2-bold-font-weight: Bold;
-  --typography-h2-bold-line-height: 110%;
-  --typography-h2-bold-font-size: 39.063;
-  --typography-h2-bold-paragraph-spacing: 26;
-  --typography-h2-bold-letter-spacing: -5%;
-  --typography-h2-regular-font-family: Inter;
-  --typography-h2-regular-font-weight: Regular;
-  --typography-h2-regular-line-height: 110%;
-  --typography-h2-regular-font-size: 39.063;
-  --typography-h2-regular-paragraph-spacing: 26;
-  --typography-h2-regular-letter-spacing: -5%;
-  --typography-body-font-family: Roboto;
-  --typography-body-font-weight: Regular;
-  --typography-body-line-height: 110%;
-  --typography-body-font-size: 16;
-  --typography-body-paragraph-spacing: 26;
+  --typography-styles-base-font-family: Inter;
+  --typography-styles-base-font-weight: 400;
+  --typography-styles-base-line-height: 160%;
+  --typography-styles-base-font-size: 16;
+  --typography-styles-base-letter-spacing: 0%;
+  --typography-styles-base-paragraph-spacing: 8;
+  --typography-styles-base-text-decoration: none;
+  --typography-styles-base-text-case: none;
+  --typography-styles-huge-font-family: Inter;
+  --typography-styles-huge-font-weight: 700;
+  --typography-styles-huge-line-height: 115%;
+  --typography-styles-huge-font-size: 37.642;
+  --typography-styles-huge-letter-spacing: 0%;
+  --typography-styles-huge-paragraph-spacing: 8;
+  --typography-styles-huge-text-decoration: none;
+  --typography-styles-huge-text-case: none;
+  --typography-styles-title-font-family: Inter;
+  --typography-styles-title-font-weight: 700;
+  --typography-styles-title-line-height: 115%;
+  --typography-styles-title-font-size: 28.302;
+  --typography-styles-title-letter-spacing: 0%;
+  --typography-styles-title-paragraph-spacing: 8;
+  --typography-styles-title-text-decoration: none;
+  --typography-styles-title-text-case: none;
+  --typography-styles-major-primary-font-family: Inter;
+  --typography-styles-major-primary-font-weight: 700;
+  --typography-styles-major-primary-line-height: 145%;
+  --typography-styles-major-primary-font-size: 16;
+  --typography-styles-major-primary-letter-spacing: 0%;
+  --typography-styles-major-primary-paragraph-spacing: 8;
+  --typography-styles-major-primary-text-decoration: none;
+  --typography-styles-major-primary-text-case: none;
+  --typography-styles-major-secondary-font-family: Inter;
+  --typography-styles-major-secondary-font-weight: 400;
+  --typography-styles-major-secondary-line-height: 145%;
+  --typography-styles-major-secondary-font-size: 16;
+  --typography-styles-major-secondary-letter-spacing: 0%;
+  --typography-styles-major-secondary-paragraph-spacing: 8;
+  --typography-styles-major-secondary-text-decoration: none;
+  --typography-styles-major-secondary-text-case: none;
+  --typography-styles-minor-primary-font-family: Inter;
+  --typography-styles-minor-primary-font-weight: 700;
+  --typography-styles-minor-primary-line-height: 115%;
+  --typography-styles-minor-primary-font-size: 14.545;
+  --typography-styles-minor-primary-letter-spacing: 0%;
+  --typography-styles-minor-primary-paragraph-spacing: 8;
+  --typography-styles-minor-primary-text-decoration: none;
+  --typography-styles-minor-primary-text-case: none;
+  --typography-styles-minor-secondary-font-family: Inter;
+  --typography-styles-minor-secondary-font-weight: 400;
+  --typography-styles-minor-secondary-line-height: 115%;
+  --typography-styles-minor-secondary-font-size: 14.545;
+  --typography-styles-minor-secondary-letter-spacing: 0%;
+  --typography-styles-minor-secondary-paragraph-spacing: 8;
+  --typography-styles-minor-secondary-text-decoration: none;
+  --typography-styles-minor-secondary-text-case: none;
+  --typography-font-family-base: Inter;
+  --typography-font-family-heading: Inter;
+  --typography-font-family-mono: IBM Plex Mono;
+  --typography-line-height-base: 160%;
+  --typography-line-height-tighter: 145%;
+  --typography-line-height-tightest: 115%;
+  --typography-font-weight-regular: 400;
+  --typography-font-weight-bold: 700;
+  --typography-font-weight-semi-bold: 600;
+  --typography-letter-spacing-base: 0%;
+  --typography-letter-spacing-looser: 15%;
+  --typography-paragraph-spacing-none: 0;
+  --typography-paragraph-spacing-base: 8;
+  --typography-text-case-none: none;
+  --typography-text-case-uppercase: uppercase;
+  --typography-text-decoration-none: none;
+  --meta-project-title: <BRAND>; /* Project title */
+  --meta-version: v0.9.0; /* Version */
+  --meta-project-subtitle: Data Design Language; /* Project subtitle */
+  --meta-last-updated: 1986; /* Last updated */
+  --meta-authors: Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana; /* Authors */
+  --parameter-size-font-size-scale-factor: 1.33;
+  --parameter-size-font-size-scale-factor-below-one: 1.1;
+  --parameter-size-font-size-base: 16;
+  --parameter-size-space-scale-factor: 1.5;
+  --parameter-size-space-scale-factor-below-one: 1.5;
+  --parameter-size-space-base: 24;
+  --effect-depth-card-x: 1;
+  --effect-depth-card-y: 1;
+  --effect-depth-card-blur: 3;
+  --effect-depth-card-spread: 0;
+  --effect-depth-card-color: #00000033;
+  --effect-depth-card-type: dropShadow;
+  --effect-depth-hover-x: 3;
+  --effect-depth-hover-y: 3;
+  --effect-depth-hover-blur: 6;
+  --effect-depth-hover-spread: 0;
+  --effect-depth-hover-color: #00000033;
+  --effect-depth-hover-type: dropShadow;
+  --effect-depth-modal-color: #00000033;
+  --effect-depth-modal-type: dropShadow;
+  --effect-depth-modal-x: 0;
+  --effect-depth-modal-y: 7;
+  --effect-depth-modal-blur: 10;
+  --effect-depth-modal-spread: 0;
+  --effect-depth-ui-x: 1;
+  --effect-depth-ui-y: 1;
+  --effect-depth-ui-blur: 2;
+  --effect-depth-ui-spread: 0;
+  --effect-depth-ui-color: #00000033;
+  --effect-depth-ui-type: dropShadow;
+  --size-breakpoint-xs: 480rem;
+  --size-breakpoint-sm: 640rem;
+  --size-breakpoint-md: 960rem;
+  --size-breakpoint-lg: 1200rem;
+  --size-breakpoint-xl: 1440rem;
+  --size-max-content-width: 1440rem;
+  --size-min-content-width: 320rem;
+  --size-chart-width: 1080rem;
+  --size-font-size-xs: 13.223rem;
+  --size-font-size-s: 14.545rem;
+  --size-font-size-m: 16rem;
+  --size-font-size-l: 21.28rem;
+  --size-font-size-xl: 28.302rem;
+  --size-font-size-xxl: 37.642rem;
+  --size-space-xxxxs: 3.161rem;
+  --size-space-xxxs: 4.741rem;
+  --size-space-xxs: 7.111rem;
+  --size-space-xs: 10.667rem;
+  --size-space-s: 16rem;
+  --size-space-m: 24rem;
+  --size-space-l: 36rem;
+  --size-space-xl: 54rem;
+  --size-space-xxl: 81rem;
+  --size-space-xxxl: 121.5rem;
+  --size-space-xxxxl: 182.25rem;
+  --size-space-xxxxxl: 273.375rem;
+  --size-border-radius-base: 2rem;
+  --size-border-radius-bigger: 5rem;
+  --size-border-width-s: 0.5rem; /* The smallest border size. Used for gridlines. */
+  --size-border-width-m: 1rem; /* The default border size. Used for axes borders, default data lines. */
+  --size-border-width-l: 2rem; /* A larger border size. Used for borders between filled elements. */
+  --size-border-width-xl: 3rem; /* A larger border size. Used for lines in focus, and the bottom chart container line. */
+  --size-border-width-xxl: 4rem; /* The largest border size. Used for the top chart container line. */
+  --size-border-width-double-s: 1rem; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-m: 2rem; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-l: 4rem; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-xl: 6rem; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-xxl: 8rem; /* Double size of respective border token, for e.g. line background strokes. */
+  --color-background-base: #ffffff; /* The default light background color, used e.g. as a backdrop for charts or cards. */
+  --color-background-weaker: #f1f2f3; /* A slightly shaded background color, used e.g. as a backdrop behind card elements. */
+  --color-background-weakest: #e0e2e4; /* A shaded background color, used e.g. as a backdrop in containers. */
+  --color-foreground-base: #191919; /* Used for elements in the foreground that have a strong contrast to the background. */
+  --color-foreground-weaker: #6b7581; /* Used for elements in the foreground that have a weaker contrast to the background (e.g. axes). */
+  --color-foreground-weakest: #c0c8d2; /* Used for elements in the foreground that have the weakest contrast to the background (e.g. ticks, help-lines) */
+  --color-text-base: #191919; /* Default text color for strong background contrast. */
+  --color-text-weaker: #6b7581; /* Text color with weaker background contrast. */
+  --color-theme-weaker: #79abbc; /* Weaker version of theme color */
+  --color-theme-base: #377796; /* Main theme color, usually the brand color. */
+  --color-theme-stronger: #0e3e63; /* Stronger version of theme color */
+  --color-functional-accent: #ffcb01; /* Used for author-driven accents of parts of charts, texts and other elements. */
+  --color-functional-filtered-out: #bec5c9; /* Used for visual marks in charts that have been filtered out. */
+  --color-functional-focus: #ffcb01; /* Used for author-driven accents of parts of charts, texts and other elements. */
+  --color-functional-not-available: #b2b2b2; /* Used for visual marks (e.g. countries in maps) where data is missing from the dataset. */
+  --color-category-base-0: #297cb5;
+  --color-category-base-1: #905ea7;
+  --color-category-base-2: #de5f4a;
+  --color-category-base-3: #ffa81b;
+  --color-category-base-4: #51a27c;
+  --color-category-base-5: #9da61d;
+  --color-category-base-99: #9ea9b5;
+  --color-category-weaker-0: #83bad9;
+  --color-category-weaker-1: #b386c8;
+  --color-category-weaker-2: #e38c7c;
+  --color-category-weaker-3: #f8c975;
+  --color-category-weaker-4: #83c0a4;
+  --color-category-weaker-5: #ced56d;
+  --color-category-weaker-99: #c0c8d2;
+  --color-category-stronger-0: #0161a3;
+  --color-category-stronger-1: #492658;
+  --color-category-stronger-2: #a72817;
+  --color-category-stronger-3: #b26d00;
+  --color-category-stronger-4: #0b5932;
+  --color-category-stronger-5: #565d00;
+  --color-category-stronger-99: #6b7581;
+  --color-diverging-negative-1: #e98676; /* Second step in the base diverging color scale, used for values lower than zero (or data median). */
+  --color-diverging-negative-2: #a12917; /* First step in the based diverging color scale, used for the lowest (most negative) value.  */
+  --color-diverging-neutral: #e0e2e4; /* Third step in the base diverging color scale, used for zero or data median. */
+  --color-diverging-positive-1: #0e3e63; /* Fifth step in the base diverging color scale, used for the highest (most positive) value.  */
+  --color-diverging-positive-2: #79abbc; /* Fourth step in the base diverging color scale, used for values higher than zero (or data median). */
+  --color-complementary-weaker: #e98676; /* Weaker version of complementary color. */
+  --color-complementary-base: #dc6454; /* Main complementary color. */
+  --color-complementary-stronger: #a12917; /* Stronger version of complementary color. */
+  --color-sequential-0: #c3d6dc;
+  --color-sequential-1: #79abbc;
+  --color-sequential-2: #377796;
+  --color-sequential-3: #0e3e63;
+  --color-sequential-positive-0: #c3d6dc; /* First step in the base (theme) sequential color scale, used for the lowest value.  */
+  --color-sequential-positive-1: #79abbc; /* Second step in the base (theme) sequential color scale. */
+  --color-sequential-positive-2: #377796; /* Thirs step in the base (theme) sequential color scale. */
+  --color-sequential-positive-3: #0e3e63; /* Third and final step in the base (theme) sequential color scale. */
+  --color-sequential-negative-0: #fbc8bf;
+  --color-sequential-negative-1: #e98676;
+  --color-sequential-negative-2: #c9513f;
+  --color-sequential-negative-3: #a12917;
 }
