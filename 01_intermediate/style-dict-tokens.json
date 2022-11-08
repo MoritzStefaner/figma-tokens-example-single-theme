@@ -21,7 +21,7 @@
       "description": "Last updated"
     },
     "authors": {
-      "value": "Moritz Stefaner / Truth & Beauty with Charistian Laesser, Alice Thudt, Flavio Gortana",
+      "value": "Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana",
       "type": "string",
       "description": "Authors"
     }
