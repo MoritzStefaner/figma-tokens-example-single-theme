@@ -76,12 +76,6 @@
   --meta-project-subtitle: Data Design Language;
   --meta-last-updated: 1986;
   --meta-authors: Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana;
-  --parameter-size-font-size-scale-factor: 1.33;
-  --parameter-size-font-size-scale-factor-below-one: 1.1;
-  --parameter-size-font-size-base: 16;
-  --parameter-size-space-scale-factor: 1.5;
-  --parameter-size-space-scale-factor-below-one: 1.5;
-  --parameter-size-space-base: 24;
   --effect-depth-card-x: 1;
   --effect-depth-card-y: 1;
   --effect-depth-card-blur: 3;
@@ -106,6 +100,12 @@
   --effect-depth-ui-spread: 0;
   --effect-depth-ui-color: #00000033;
   --effect-depth-ui-type: dropShadow;
+  --size-parameter-font-size-scale-factor: 1.33rem;
+  --size-parameter-font-size-scale-factor-below-one: 1.1rem;
+  --size-parameter-font-size-base: 16rem;
+  --size-parameter-space-scale-factor: 1.5rem;
+  --size-parameter-space-scale-factor-below-one: 1.5rem;
+  --size-parameter-space-base: 24rem;
   --size-breakpoint-xs: 480rem;
   --size-breakpoint-sm: 640rem;
   --size-breakpoint-md: 960rem;
