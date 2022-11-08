@@ -1,16 +1,17 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
 const config = {
-  source: ['./01_intermediate/typography-styles.json'],
+  source: ['./01_intermediate/style-dict-tokens.json'],
   platforms: {
     css: {
       buildPath: './02_output/css/',
       files: [
         {
-          destination: 'typography-style-classes.css',
-          format: 'css/typographyClasses',
+          destination: 'effect-classes.css',
+          format: 'css/shadowClasses',
           selector: ':root',
-          filter: (token) => token.type === 'typography',
+          filter: (token) =>
+            token.type === 'boxShadow' || console.log(token.type),
           options: {
             showFileHeader: false,
           },
@@ -33,13 +34,34 @@ function convertToVariableIfNeeded(value) {
   return value;
 }
 
+function transformShadow(shadow) {
+  const { x, y, blur, spread, color } = shadow;
+  return `${x}px ${y}px ${blur}px ${spread}px ${color}`;
+}
+
+function processEffect(token) {
+  return Array.isArray(token.original.value)
+    ? token.original.value.map((single) => transformShadow(single)).join(', ')
+    : transformShadow(token.original.value);
+}
+
+StyleDictionaryPackage.registerTransform({
+  name: 'shadow/shorthand',
+  type: 'value',
+  transitive: true,
+  matcher: (token) => ['boxShadow'].includes(token.type),
+  transformer: (token) => {
+    return;
+  },
+});
+
 /**
  * Format for css typography classes
  * This generates theme-independent css classes so we're fine with just using css variables here
  */
 
 StyleDictionaryPackage.registerFormat({
-  name: 'css/typographyClasses',
+  name: 'css/shadowClasses',
   formatter: (dictionary, config) =>
     dictionary.allProperties
       .map(
@@ -49,17 +71,7 @@ StyleDictionaryPackage.registerFormat({
 */
 
 .${kebabize(prop.path.join('-'))} {
-  font-family: ${convertToVariableIfNeeded(prop.original.value.fontFamily)};
-  font-size: ${convertToVariableIfNeeded(prop.original.value.fontSize)};
-  font-weight: ${convertToVariableIfNeeded(prop.original.value.fontWeight)};
-  line-height: ${convertToVariableIfNeeded(prop.original.value.lineHeight)};
-  letter-spacing: ${convertToVariableIfNeeded(
-    prop.original.value.letterSpacing
-  )};
-  text-transform: ${convertToVariableIfNeeded(prop.original.value.textCase)};
-  text-decoration: ${convertToVariableIfNeeded(
-    prop.original.value.textDecoration
-  )};
+  box-shadow: ${processEffect(prop)};
 }
 `
       )
