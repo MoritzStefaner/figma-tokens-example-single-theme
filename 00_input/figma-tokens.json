@@ -1,7 +1,7 @@
 {
   "global": {
     "meta": {
-      "project-title": {
+      "projectTitle": {
         "value": "<BRAND>",
         "type": "string",
         "description": "Project title"
@@ -11,12 +11,12 @@
         "type": "string",
         "description": "Version"
       },
-      "project-subtitle": {
+      "projectSubtitle": {
         "value": "Data Design Language",
         "type": "string",
-        "category": "content"
+        "description": "Project subtitle"
       },
-      "last-updated": {
+      "lastUpdated": {
         "value": "2022-10-26",
         "type": "string",
         "description": "Last updated"
@@ -112,7 +112,7 @@
             "fontFamily": "{typography.fontFamily.base}",
             "fontWeight": "{typography.fontWeight.regular}",
             "lineHeight": "{typography.lineHeight.base}",
-            "fontSize": "{font-size.m}",
+            "fontSize": "{fontSize.m}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -126,7 +126,7 @@
             "fontFamily": "{typography.fontFamily.heading}",
             "fontWeight": "{typography.fontWeight.bold}",
             "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{font-size.xxl}",
+            "fontSize": "{fontSize.xxl}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -140,7 +140,7 @@
             "fontFamily": "{typography.fontFamily.heading}",
             "fontWeight": "{typography.fontWeight.bold}",
             "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{font-size.xl}",
+            "fontSize": "{fontSize.xl}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -149,12 +149,12 @@
           "type": "typography",
           "description": "Used for the title of a chart."
         },
-        "major-primary": {
+        "majorPrimary": {
           "value": {
             "fontFamily": "{typography.fontFamily.base}",
             "fontWeight": "{typography.fontWeight.bold}",
             "lineHeight": "{typography.lineHeight.tighter}",
-            "fontSize": "{font-size.m}",
+            "fontSize": "{fontSize.m}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -163,12 +163,12 @@
           "type": "typography",
           "description": "Used for legend main labels, as well as individual value annotations."
         },
-        "major-secondary": {
+        "majorSecondary": {
           "value": {
             "fontFamily": "{typography.fontFamily.base}",
             "fontWeight": "{typography.fontWeight.regular}",
             "lineHeight": "{typography.lineHeight.tighter}",
-            "fontSize": "{font-size.m}",
+            "fontSize": "{fontSize.m}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -177,12 +177,12 @@
           "type": "typography",
           "description": "Used for secondary legend labels, description, and the chart subtitle."
         },
-        "minor-primary": {
+        "minorPrimary": {
           "value": {
             "fontFamily": "{typography.fontFamily.base}",
             "fontWeight": "{typography.fontWeight.bold}",
             "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{font-size.s}",
+            "fontSize": "{fontSize.s}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -191,12 +191,12 @@
           "type": "typography",
           "description": "Used for smaller annotations in charts."
         },
-        "minor-secondary": {
+        "minorSecondary": {
           "value": {
             "fontFamily": "{typography.fontFamily.base}",
             "fontWeight": "{typography.fontWeight.regular}",
             "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{font-size.s}",
+            "fontSize": "{fontSize.s}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -278,60 +278,64 @@
           "type": "sizing"
         }
       },
-      "max-content-width": {
+      "maxContentWidth": {
         "value": "1440",
         "type": "sizing"
       },
-      "min-content-width": {
+      "minContentWidth": {
         "value": "320",
+        "type": "sizing"
+      },
+      "chartWidth": {
+        "value": "1080",
         "type": "sizing"
       }
     },
-    "font-size": {
+    "fontSize": {
       "xs": {
-        "value": "{font-size.s} / {parameter.font-size.scale-factor-below-1}",
+        "value": "{fontSize.s} / {parameter.fontSize.scaleFactorBelowOne}",
         "type": "fontSizes"
       },
       "s": {
-        "value": "{font-size.m} / {parameter.font-size.scale-factor-below-1}",
+        "value": "{fontSize.m} / {parameter.fontSize.scaleFactorBelowOne}",
         "type": "fontSizes"
       },
       "m": {
-        "value": "{parameter.font-size.base}",
+        "value": "{parameter.fontSize.base}",
         "type": "fontSizes"
       },
       "l": {
-        "value": "{font-size.m} * {parameter.font-size.scale-factor}",
+        "value": "{fontSize.m} * {parameter.fontSize.scaleFactor}",
         "type": "fontSizes"
       },
       "xl": {
-        "value": "{font-size.l} * {parameter.font-size.scale-factor}",
+        "value": "{fontSize.l} * {parameter.fontSize.scaleFactor}",
         "type": "fontSizes"
       },
       "xxl": {
-        "value": "{font-size.xl} * {parameter.font-size.scale-factor}",
+        "value": "{fontSize.xl} * {parameter.fontSize.scaleFactor}",
         "type": "fontSizes"
       }
     },
     "space": {
       "xxxxs": {
-        "value": "{space.xxxs} / {parameter.space.scale-factor-below-1}",
+        "value": "{space.xxxs} / {parameter.space.scaleFactorBelowOne}",
         "type": "spacing"
       },
       "xxxs": {
-        "value": "{space.xxs} / {parameter.space.scale-factor-below-1}",
+        "value": "{space.xxs} / {parameter.space.scaleFactorBelowOne}",
         "type": "spacing"
       },
       "xxs": {
-        "value": "{space.xs} / {parameter.space.scale-factor-below-1}",
+        "value": "{space.xs} / {parameter.space.scaleFactorBelowOne}",
         "type": "spacing"
       },
       "xs": {
-        "value": "{space.s} / {parameter.space.scale-factor-below-1}",
+        "value": "{space.s} / {parameter.space.scaleFactorBelowOne}",
         "type": "spacing"
       },
       "s": {
-        "value": "{space.m} / {parameter.space.scale-factor-below-1}",
+        "value": "{space.m} / {parameter.space.scaleFactorBelowOne}",
         "type": "spacing"
       },
       "m": {
@@ -339,31 +343,31 @@
         "type": "spacing"
       },
       "l": {
-        "value": "{space.m} * {parameter.space.scale-factor}",
+        "value": "{space.m} * {parameter.space.scaleFactor}",
         "type": "spacing"
       },
       "xl": {
-        "value": "{space.l} * {parameter.space.scale-factor}",
+        "value": "{space.l} * {parameter.space.scaleFactor}",
         "type": "spacing"
       },
       "xxl": {
-        "value": "{space.xl} * {parameter.space.scale-factor}",
+        "value": "{space.xl} * {parameter.space.scaleFactor}",
         "type": "spacing"
       },
       "xxxl": {
-        "value": "{space.xxl} * {parameter.space.scale-factor}",
+        "value": "{space.xxl} * {parameter.space.scaleFactor}",
         "type": "spacing"
       },
       "xxxxl": {
-        "value": "{space.xxxl} * {parameter.space.scale-factor}",
+        "value": "{space.xxxl} * {parameter.space.scaleFactor}",
         "type": "spacing"
       },
       "xxxxxl": {
-        "value": "{space.xxxxl} * {parameter.space.scale-factor}",
+        "value": "{space.xxxxl} * {parameter.space.scaleFactor}",
         "type": "spacing"
       }
     },
-    "border-radius": {
+    "borderRadius": {
       "base": {
         "value": "2",
         "type": "borderRadius"
@@ -374,12 +378,12 @@
       }
     },
     "parameter": {
-      "font-size": {
-        "scale-factor": {
+      "fontSize": {
+        "scaleFactor": {
           "value": "1.33",
           "type": "other"
         },
-        "scale-factor-below-1": {
+        "scaleFactorBelowOne": {
           "value": "1.1",
           "type": "other"
         },
@@ -389,21 +393,21 @@
         }
       },
       "space": {
-        "scale-factor": {
+        "scaleFactor": {
           "value": "1.5",
           "type": "other"
         },
-        "scale-factor-below-1": {
+        "scaleFactorBelowOne": {
           "value": "1.5",
           "type": "other"
         },
         "base": {
-          "value": "{parameter.font-size.base} * {parameter.space.scale-factor}",
+          "value": "{parameter.fontSize.base} * {parameter.space.scaleFactor}",
           "type": "other"
         }
       }
     },
-    "border-width": {
+    "borderWidth": {
       "s": {
         "value": ".5",
         "type": "borderWidth",
@@ -430,29 +434,29 @@
         "description": "The largest border size. Used for the top chart container line."
       }
     },
-    "border-width-double": {
+    "borderWidthDouble": {
       "s": {
-        "value": "{border-width.s} * 2",
+        "value": "{borderWidth.s} * 2",
         "type": "borderWidth",
         "description": "Double size of respective border token, for e.g. line background strokes."
       },
       "m": {
-        "value": "{border-width.m} * 2",
+        "value": "{borderWidth.m} * 2",
         "type": "borderWidth",
         "description": "Double size of respective border token, for e.g. line background strokes."
       },
       "l": {
-        "value": "{border-width.l} * 2",
+        "value": "{borderWidth.l} * 2",
         "type": "borderWidth",
         "description": "Double size of respective border token, for e.g. line background strokes."
       },
       "xl": {
-        "value": "{border-width.xl} * 2",
+        "value": "{borderWidth.xl} * 2",
         "type": "borderWidth",
         "description": "Double size of respective border token, for e.g. line background strokes."
       },
       "xxl": {
-        "value": "{border-width.xxl} * 2",
+        "value": "{borderWidth.xxl} * 2",
         "type": "borderWidth",
         "description": "Double size of respective border token, for e.g. line background strokes."
       }
@@ -526,7 +530,7 @@
         "type": "color",
         "description": "Used for author-driven accents of parts of charts, texts and other elements."
       },
-      "filtered-out": {
+      "filteredOut": {
         "value": "#BEC5C9",
         "type": "color",
         "description": "Used for visual marks in charts that have been filtered out."
@@ -536,7 +540,7 @@
         "type": "color",
         "description": "Used for author-driven accents of parts of charts, texts and other elements."
       },
-      "not-available": {
+      "notAvailable": {
         "value": "#b2b2b2",
         "type": "color",
         "description": "Used for visual marks (e.g. countries in maps) where data is missing from the dataset."
@@ -635,30 +639,34 @@
       }
     },
     "diverging": {
-      "positive-2": {
-        "value": "{sequential.positive.3}",
-        "type": "color",
-        "description": "Fifth step in the base diverging color scale, used for the highest (most positive) value. "
-      },
-      "positive-1": {
-        "value": "{teal.600}",
-        "type": "color",
-        "description": "Fourth step in the base diverging color scale, used for values higher than zero (or data median)."
+      "negative": {
+        "1": {
+          "value": "{red.600}",
+          "type": "color",
+          "description": "Second step in the base diverging color scale, used for values lower than zero (or data median)."
+        },
+        "2": {
+          "value": "{red.200}",
+          "type": "color",
+          "description": "First step in the based diverging color scale, used for the lowest (most negative) value. "
+        }
       },
       "neutral": {
         "value": "{background.weakest}",
         "type": "color",
         "description": "Third step in the base diverging color scale, used for zero or data median."
       },
-      "negative-1": {
-        "value": "{red.600}",
-        "type": "color",
-        "description": "Second step in the base diverging color scale, used for values lower than zero (or data median)."
-      },
-      "negative-2": {
-        "value": "{red.200}",
-        "type": "color",
-        "description": "First step in the based diverging color scale, used for the lowest (most negative) value. "
+      "positive": {
+        "1": {
+          "value": "{sequential.positive.3}",
+          "type": "color",
+          "description": "Fifth step in the base diverging color scale, used for the highest (most positive) value. "
+        },
+        "2": {
+          "value": "{teal.600}",
+          "type": "color",
+          "description": "Fourth step in the base diverging color scale, used for values higher than zero (or data median)."
+        }
       }
     },
     "complementary": {
@@ -735,14 +743,108 @@
           "type": "color"
         }
       }
-    },
-    "typical-chart-width": {
-      "value": "1080",
-      "type": "sizing"
-    },
-    "content-width": {
-      "value": "1440",
-      "type": "sizing"
+    }
+  },
+  "typographyStyles": {
+    "styles": {
+      "base": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.base}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "lineHeight": "{typography.lineHeight.base}",
+          "fontSize": "{fontSize.m}",
+          "letterSpacing": "{typography.letterSpacing.base}",
+          "paragraphSpacing": "{typography.paragraphSpacing.base}",
+          "textDecoration": "{typography.textDecoration.none}",
+          "textCase": "{typography.textCase.none}"
+        },
+        "type": "typography",
+        "description": "The default text style."
+      },
+      "huge": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.heading}",
+          "fontWeight": "{typography.fontWeight.bold}",
+          "lineHeight": "{typography.lineHeight.tightest}",
+          "fontSize": "{fontSize.xxl}",
+          "letterSpacing": "{typography.letterSpacing.base}",
+          "paragraphSpacing": "{typography.paragraphSpacing.base}",
+          "textDecoration": "{typography.textDecoration.none}",
+          "textCase": "{typography.textCase.none}"
+        },
+        "type": "typography",
+        "description": "Used for summary statistics, large numbers, etc."
+      },
+      "title": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.heading}",
+          "fontWeight": "{typography.fontWeight.bold}",
+          "lineHeight": "{typography.lineHeight.tightest}",
+          "fontSize": "{fontSize.xl}",
+          "letterSpacing": "{typography.letterSpacing.base}",
+          "paragraphSpacing": "{typography.paragraphSpacing.base}",
+          "textDecoration": "{typography.textDecoration.none}",
+          "textCase": "{typography.textCase.none}"
+        },
+        "type": "typography",
+        "description": "Used for the title of a chart."
+      },
+      "majorPrimary": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.base}",
+          "fontWeight": "{typography.fontWeight.bold}",
+          "lineHeight": "{typography.lineHeight.tighter}",
+          "fontSize": "{fontSize.m}",
+          "letterSpacing": "{typography.letterSpacing.base}",
+          "paragraphSpacing": "{typography.paragraphSpacing.base}",
+          "textDecoration": "{typography.textDecoration.none}",
+          "textCase": "{typography.textCase.none}"
+        },
+        "type": "typography",
+        "description": "Used for legend main labels, as well as individual value annotations."
+      },
+      "majorSecondary": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.base}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "lineHeight": "{typography.lineHeight.tighter}",
+          "fontSize": "{fontSize.m}",
+          "letterSpacing": "{typography.letterSpacing.base}",
+          "paragraphSpacing": "{typography.paragraphSpacing.base}",
+          "textDecoration": "{typography.textDecoration.none}",
+          "textCase": "{typography.textCase.none}"
+        },
+        "type": "typography",
+        "description": "Used for secondary legend labels, description, and the chart subtitle."
+      },
+      "minorPrimary": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.base}",
+          "fontWeight": "{typography.fontWeight.bold}",
+          "lineHeight": "{typography.lineHeight.tightest}",
+          "fontSize": "{fontSize.s}",
+          "letterSpacing": "{typography.letterSpacing.base}",
+          "paragraphSpacing": "{typography.paragraphSpacing.base}",
+          "textDecoration": "{typography.textDecoration.none}",
+          "textCase": "{typography.textCase.none}"
+        },
+        "type": "typography",
+        "description": "Used for smaller annotations in charts."
+      },
+      "minorSecondary": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.base}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "lineHeight": "{typography.lineHeight.tightest}",
+          "fontSize": "{fontSize.s}",
+          "letterSpacing": "{typography.letterSpacing.base}",
+          "paragraphSpacing": "{typography.paragraphSpacing.base}",
+          "textDecoration": "{typography.textDecoration.none}",
+          "textCase": "{typography.textCase.none}"
+        },
+        "type": "typography",
+        "description": "Used for tick labels, secondary annotations, footer text."
+      }
     }
   },
   "_palettes": {
@@ -1058,7 +1160,7 @@
             },
             "type": "typography"
           },
-          "table-header": {
+          "tableHeader": {
             "value": {
               "fontFamily": "{docs.typography.fontFamily.base}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
@@ -1110,7 +1212,7 @@
             },
             "type": "typography"
           },
-          "key-small": {
+          "keySmall": {
             "value": {
               "fontFamily": "{docs.typography.fontFamily.mono}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
@@ -1123,7 +1225,7 @@
             },
             "type": "typography"
           },
-          "display-value": {
+          "displayValue": {
             "value": {
               "fontFamily": "{docs.typography.fontFamily.mono}",
               "fontWeight": "{docs.typography.fontWeight.regular}",
@@ -1136,7 +1238,7 @@
             },
             "type": "typography"
           },
-          "display-value-small": {
+          "displayValueSmall": {
             "value": {
               "fontFamily": "{docs.typography.fontFamily.mono}",
               "fontWeight": "{docs.typography.fontWeight.regular}",
@@ -1162,11 +1264,11 @@
         },
         "fontSize": {
           "xs": {
-            "value": "{docs.typography.fontSize.s} / {docs.parameter.large.fontSize.scaleFactorBelow1}",
+            "value": "{docs.typography.fontSize.s} / {docs.parameter.large.fontSize.scaleFactorBelowOne}",
             "type": "fontSizes"
           },
           "s": {
-            "value": "{docs.typography.fontSize.m} / {docs.parameter.large.fontSize.scaleFactorBelow1}",
+            "value": "{docs.typography.fontSize.m} / {docs.parameter.large.fontSize.scaleFactorBelowOne}",
             "type": "fontSizes"
           },
           "m": {
@@ -1222,7 +1324,7 @@
               "value": "1.5",
               "type": "other"
             },
-            "scaleFactorBelow1": {
+            "scaleFactorBelowOne": {
               "value": "1.2",
               "type": "other"
             },
@@ -1236,7 +1338,7 @@
               "value": "1.5",
               "type": "other"
             },
-            "scaleFactorBelow1": {
+            "scaleFactorBelowOne": {
               "value": "1.5",
               "type": "other"
             },
@@ -1252,7 +1354,7 @@
               "value": "1.25",
               "type": "other"
             },
-            "scaleFactorBelow1": {
+            "scaleFactorBelowOne": {
               "value": "1.1",
               "type": "other"
             },
@@ -1266,7 +1368,7 @@
               "value": "1.5",
               "type": "other"
             },
-            "scaleFactorBelow1": {
+            "scaleFactorBelowOne": {
               "value": "1.5",
               "type": "other"
             },
@@ -1339,23 +1441,23 @@
           }
         },
         "xxxxs": {
-          "value": "{docs.space.xxxs} / {docs.parameter.large.space.scaleFactorBelow1}",
+          "value": "{docs.space.xxxs} / {docs.parameter.large.space.scaleFactorBelowOne}",
           "type": "spacing"
         },
         "xxxs": {
-          "value": "{docs.space.xxs} / {docs.parameter.large.space.scaleFactorBelow1}",
+          "value": "{docs.space.xxs} / {docs.parameter.large.space.scaleFactorBelowOne}",
           "type": "spacing"
         },
         "xxs": {
-          "value": "{docs.space.xs} / {docs.parameter.large.space.scaleFactorBelow1}",
+          "value": "{docs.space.xs} / {docs.parameter.large.space.scaleFactorBelowOne}",
           "type": "spacing"
         },
         "xs": {
-          "value": "{docs.space.s} / {docs.parameter.large.space.scaleFactorBelow1}",
+          "value": "{docs.space.s} / {docs.parameter.large.space.scaleFactorBelowOne}",
           "type": "spacing"
         },
         "s": {
-          "value": "{docs.space.m} / {docs.parameter.large.space.scaleFactorBelow1}",
+          "value": "{docs.space.m} / {docs.parameter.large.space.scaleFactorBelowOne}",
           "type": "spacing"
         },
         "m": {
@@ -1425,6 +1527,11 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["global", "_palettes", "_docs"]
+    "tokenSetOrder": [
+      "global",
+      "typographyStyles",
+      "_palettes",
+      "_docs"
+    ]
   }
 }
