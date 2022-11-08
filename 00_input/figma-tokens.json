@@ -27,6 +27,38 @@
         "description": "Authors"
       }
     },
+    "parameter": {
+      "size": {
+        "fontSize": {
+          "scaleFactor": {
+            "value": "1.33",
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": "1.1",
+            "type": "other"
+          },
+          "base": {
+            "value": "16",
+            "type": "other"
+          }
+        },
+        "space": {
+          "scaleFactor": {
+            "value": "1.5",
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": "1.5",
+            "type": "other"
+          },
+          "base": {
+            "value": "{parameter.size.fontSize.base} * {parameter.size.space.scaleFactor}",
+            "type": "other"
+          }
+        }
+      }
+    },
     "typography": {
       "fontFamily": {
         "base": {
@@ -189,458 +221,430 @@
       "chartWidth": {
         "value": "1080",
         "type": "sizing"
-      }
-    },
-    "fontSize": {
-      "xs": {
-        "value": "{fontSize.s} / {parameter.fontSize.scaleFactorBelowOne}",
-        "type": "fontSizes"
       },
-      "s": {
-        "value": "{fontSize.m} / {parameter.fontSize.scaleFactorBelowOne}",
-        "type": "fontSizes"
-      },
-      "m": {
-        "value": "{parameter.fontSize.base}",
-        "type": "fontSizes"
-      },
-      "l": {
-        "value": "{fontSize.m} * {parameter.fontSize.scaleFactor}",
-        "type": "fontSizes"
-      },
-      "xl": {
-        "value": "{fontSize.l} * {parameter.fontSize.scaleFactor}",
-        "type": "fontSizes"
-      },
-      "xxl": {
-        "value": "{fontSize.xl} * {parameter.fontSize.scaleFactor}",
-        "type": "fontSizes"
-      }
-    },
-    "space": {
-      "xxxxs": {
-        "value": "{space.xxxs} / {parameter.space.scaleFactorBelowOne}",
-        "type": "spacing"
-      },
-      "xxxs": {
-        "value": "{space.xxs} / {parameter.space.scaleFactorBelowOne}",
-        "type": "spacing"
-      },
-      "xxs": {
-        "value": "{space.xs} / {parameter.space.scaleFactorBelowOne}",
-        "type": "spacing"
-      },
-      "xs": {
-        "value": "{space.s} / {parameter.space.scaleFactorBelowOne}",
-        "type": "spacing"
-      },
-      "s": {
-        "value": "{space.m} / {parameter.space.scaleFactorBelowOne}",
-        "type": "spacing"
-      },
-      "m": {
-        "value": "{parameter.space.base}",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "{space.m} * {parameter.space.scaleFactor}",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "{space.l} * {parameter.space.scaleFactor}",
-        "type": "spacing"
-      },
-      "xxl": {
-        "value": "{space.xl} * {parameter.space.scaleFactor}",
-        "type": "spacing"
-      },
-      "xxxl": {
-        "value": "{space.xxl} * {parameter.space.scaleFactor}",
-        "type": "spacing"
-      },
-      "xxxxl": {
-        "value": "{space.xxxl} * {parameter.space.scaleFactor}",
-        "type": "spacing"
-      },
-      "xxxxxl": {
-        "value": "{space.xxxxl} * {parameter.space.scaleFactor}",
-        "type": "spacing"
-      }
-    },
-    "borderRadius": {
-      "base": {
-        "value": "2",
-        "type": "borderRadius"
-      },
-      "bigger": {
-        "value": "5",
-        "type": "borderRadius"
-      }
-    },
-    "parameter": {
       "fontSize": {
-        "scaleFactor": {
-          "value": "1.33",
-          "type": "other"
+        "xs": {
+          "value": "{size.fontSize.s} / {parameter.size.fontSize.scaleFactorBelowOne}",
+          "type": "fontSizes"
         },
-        "scaleFactorBelowOne": {
-          "value": "1.1",
-          "type": "other"
+        "s": {
+          "value": "{size.fontSize.m} / {parameter.size.fontSize.scaleFactorBelowOne}",
+          "type": "fontSizes"
         },
-        "base": {
-          "value": "16",
-          "type": "other"
+        "m": {
+          "value": "{parameter.size.fontSize.base}",
+          "type": "fontSizes"
+        },
+        "l": {
+          "value": "{size.fontSize.m} * {parameter.size.fontSize.scaleFactor}",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "{size.fontSize.l} * {parameter.size.fontSize.scaleFactor}",
+          "type": "fontSizes"
+        },
+        "xxl": {
+          "value": "{size.fontSize.xl} * {parameter.size.fontSize.scaleFactor}",
+          "type": "fontSizes"
         }
       },
       "space": {
-        "scaleFactor": {
-          "value": "1.5",
-          "type": "other"
+        "xxxxs": {
+          "value": "{size.space.xxxs} / {parameter.size.space.scaleFactorBelowOne}",
+          "type": "spacing"
         },
-        "scaleFactorBelowOne": {
-          "value": "1.5",
-          "type": "other"
+        "xxxs": {
+          "value": "{size.space.xxs} / {parameter.size.space.scaleFactorBelowOne}",
+          "type": "spacing"
+        },
+        "xxs": {
+          "value": "{size.space.xs} / {parameter.size.space.scaleFactorBelowOne}",
+          "type": "spacing"
+        },
+        "xs": {
+          "value": "{size.space.s} / {parameter.size.space.scaleFactorBelowOne}",
+          "type": "spacing"
+        },
+        "s": {
+          "value": "{size.space.m} / {parameter.size.space.scaleFactorBelowOne}",
+          "type": "spacing"
+        },
+        "m": {
+          "value": "{parameter.size.space.base}",
+          "type": "spacing"
+        },
+        "l": {
+          "value": "{size.space.m} * {parameter.size.space.scaleFactor}",
+          "type": "spacing"
+        },
+        "xl": {
+          "value": "{size.space.l} * {parameter.size.space.scaleFactor}",
+          "type": "spacing"
+        },
+        "xxl": {
+          "value": "{size.space.xl} * {parameter.size.space.scaleFactor}",
+          "type": "spacing"
+        },
+        "xxxl": {
+          "value": "{size.space.xxl} * {parameter.size.space.scaleFactor}",
+          "type": "spacing"
+        },
+        "xxxxl": {
+          "value": "{size.space.xxxl} * {parameter.size.space.scaleFactor}",
+          "type": "spacing"
+        },
+        "xxxxxl": {
+          "value": "{size.space.xxxxl} * {parameter.size.space.scaleFactor}",
+          "type": "spacing"
+        }
+      },
+      "borderRadius": {
+        "base": {
+          "value": "2",
+          "type": "borderRadius"
+        },
+        "bigger": {
+          "value": "5",
+          "type": "borderRadius"
+        }
+      },
+      "borderWidth": {
+        "s": {
+          "value": ".5",
+          "type": "borderWidth",
+          "description": "The smallest border size. Used for gridlines."
+        },
+        "m": {
+          "value": "1",
+          "type": "borderWidth",
+          "description": "The default border size. Used for axes borders, default data lines."
+        },
+        "l": {
+          "value": "2",
+          "type": "borderWidth",
+          "description": "A larger border size. Used for borders between filled elements."
+        },
+        "xl": {
+          "value": "3",
+          "type": "borderWidth",
+          "description": "A larger border size. Used for lines in focus, and the bottom chart container line."
+        },
+        "xxl": {
+          "value": "4",
+          "type": "borderWidth",
+          "description": "The largest border size. Used for the top chart container line."
+        }
+      },
+      "borderWidthDouble": {
+        "s": {
+          "value": "{size.borderWidth.s} * 2",
+          "type": "borderWidth",
+          "description": "Double size of respective border token, for e.g. line background strokes."
+        },
+        "m": {
+          "value": "{size.borderWidth.m} * 2",
+          "type": "borderWidth",
+          "description": "Double size of respective border token, for e.g. line background strokes."
+        },
+        "l": {
+          "value": "{size.borderWidth.l} * 2",
+          "type": "borderWidth",
+          "description": "Double size of respective border token, for e.g. line background strokes."
+        },
+        "xl": {
+          "value": "{size.borderWidth.xl} * 2",
+          "type": "borderWidth",
+          "description": "Double size of respective border token, for e.g. line background strokes."
+        },
+        "xxl": {
+          "value": "{size.borderWidth.xxl} * 2",
+          "type": "borderWidth",
+          "description": "Double size of respective border token, for e.g. line background strokes."
+        }
+      }
+    },
+    "color": {
+      "background": {
+        "base": {
+          "value": "{color.grey.900}",
+          "type": "color",
+          "description": "The default light background color, used e.g. as a backdrop for charts or cards."
+        },
+        "weaker": {
+          "value": "{color.grey.800}",
+          "type": "color",
+          "description": "A slightly shaded background color, used e.g. as a backdrop behind card elements."
+        },
+        "weakest": {
+          "value": "{color.grey.750}",
+          "type": "color",
+          "description": "A shaded background color, used e.g. as a backdrop in containers."
+        }
+      },
+      "foreground": {
+        "base": {
+          "value": "{color.grey.100}",
+          "type": "color",
+          "description": "Used for elements in the foreground that have a strong contrast to the background."
+        },
+        "weaker": {
+          "value": "{color.grey.400}",
+          "type": "color",
+          "description": "Used for elements in the foreground that have a weaker contrast to the background (e.g. axes)."
+        },
+        "weakest": {
+          "value": "{color.grey.600}",
+          "type": "color",
+          "description": "Used for elements in the foreground that have the weakest contrast to the background (e.g. ticks, help-lines)"
+        }
+      },
+      "text": {
+        "base": {
+          "value": "{color.grey.100}",
+          "type": "color",
+          "description": "Default text color for strong background contrast."
+        },
+        "weaker": {
+          "value": "{color.grey.400}",
+          "type": "color",
+          "description": "Text color with weaker background contrast."
+        }
+      },
+      "theme": {
+        "weaker": {
+          "value": "{color.teal.600}",
+          "type": "color",
+          "description": "Weaker version of theme color"
         },
         "base": {
-          "value": "{parameter.fontSize.base} * {parameter.space.scaleFactor}",
-          "type": "other"
+          "value": "{color.teal.400}",
+          "type": "color",
+          "description": "Main theme color, usually the brand color."
+        },
+        "stronger": {
+          "value": "{color.teal.200}",
+          "type": "color",
+          "description": "Stronger version of theme color"
         }
-      }
-    },
-    "borderWidth": {
-      "s": {
-        "value": ".5",
-        "type": "borderWidth",
-        "description": "The smallest border size. Used for gridlines."
       },
-      "m": {
-        "value": "1",
-        "type": "borderWidth",
-        "description": "The default border size. Used for axes borders, default data lines."
+      "functional": {
+        "accent": {
+          "value": "#ffcb01",
+          "type": "color",
+          "description": "Used for author-driven accents of parts of charts, texts and other elements."
+        },
+        "filteredOut": {
+          "value": "#BEC5C9",
+          "type": "color",
+          "description": "Used for visual marks in charts that have been filtered out."
+        },
+        "focus": {
+          "value": "#ffcb01",
+          "type": "color",
+          "description": "Used for author-driven accents of parts of charts, texts and other elements."
+        },
+        "notAvailable": {
+          "value": "#b2b2b2",
+          "type": "color",
+          "description": "Used for visual marks (e.g. countries in maps) where data is missing from the dataset."
+        }
       },
-      "l": {
-        "value": "2",
-        "type": "borderWidth",
-        "description": "A larger border size. Used for borders between filled elements."
+      "category": {
+        "base": {
+          "0": {
+            "value": "#297cb5",
+            "type": "color"
+          },
+          "1": {
+            "value": "#905ea7",
+            "type": "color"
+          },
+          "2": {
+            "value": "#de5f4a",
+            "type": "color"
+          },
+          "3": {
+            "value": "#FFA81B",
+            "type": "color"
+          },
+          "4": {
+            "value": "#51a27c",
+            "type": "color"
+          },
+          "5": {
+            "value": "#9da61d",
+            "type": "color"
+          },
+          "99": {
+            "value": "{color.grey.500}",
+            "type": "color"
+          }
+        },
+        "weaker": {
+          "0": {
+            "value": "#83bad9",
+            "type": "color"
+          },
+          "1": {
+            "value": "#b386c8",
+            "type": "color"
+          },
+          "2": {
+            "value": "#e38c7c",
+            "type": "color"
+          },
+          "3": {
+            "value": "#f8c975",
+            "type": "color"
+          },
+          "4": {
+            "value": "#83c0a4",
+            "type": "color"
+          },
+          "5": {
+            "value": "#ced56d",
+            "type": "color"
+          },
+          "99": {
+            "value": "{color.grey.600}",
+            "type": "color"
+          }
+        },
+        "stronger": {
+          "0": {
+            "value": "#0161a3",
+            "type": "color"
+          },
+          "1": {
+            "value": "#492658",
+            "type": "color"
+          },
+          "2": {
+            "value": "#a72817",
+            "type": "color"
+          },
+          "3": {
+            "value": "#b26d00",
+            "type": "color"
+          },
+          "4": {
+            "value": "#0b5932",
+            "type": "color"
+          },
+          "5": {
+            "value": "#565d00",
+            "type": "color"
+          },
+          "99": {
+            "value": "{color.grey.400}",
+            "type": "color"
+          }
+        }
       },
-      "xl": {
-        "value": "3",
-        "type": "borderWidth",
-        "description": "A larger border size. Used for lines in focus, and the bottom chart container line."
+      "diverging": {
+        "negative": {
+          "1": {
+            "value": "{color.red.600}",
+            "type": "color",
+            "description": "Second step in the base diverging color scale, used for values lower than zero (or data median)."
+          },
+          "2": {
+            "value": "{color.red.200}",
+            "type": "color",
+            "description": "First step in the based diverging color scale, used for the lowest (most negative) value. "
+          }
+        },
+        "neutral": {
+          "value": "{color.background.weakest}",
+          "type": "color",
+          "description": "Third step in the base diverging color scale, used for zero or data median."
+        },
+        "positive": {
+          "1": {
+            "value": "{color.sequential.positive.3}",
+            "type": "color",
+            "description": "Fifth step in the base diverging color scale, used for the highest (most positive) value. "
+          },
+          "2": {
+            "value": "{color.teal.600}",
+            "type": "color",
+            "description": "Fourth step in the base diverging color scale, used for values higher than zero (or data median)."
+          }
+        }
       },
-      "xxl": {
-        "value": "4",
-        "type": "borderWidth",
-        "description": "The largest border size. Used for the top chart container line."
-      }
-    },
-    "borderWidthDouble": {
-      "s": {
-        "value": "{borderWidth.s} * 2",
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
+      "complementary": {
+        "weaker": {
+          "value": "{color.red.600}",
+          "type": "color",
+          "description": "Weaker version of complementary color."
+        },
+        "base": {
+          "value": "{color.red.500}",
+          "type": "color",
+          "description": "Main complementary color."
+        },
+        "stronger": {
+          "value": "{color.red.200}",
+          "type": "color",
+          "description": "Stronger version of complementary color."
+        }
       },
-      "m": {
-        "value": "{borderWidth.m} * 2",
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "l": {
-        "value": "{borderWidth.l} * 2",
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "xl": {
-        "value": "{borderWidth.xl} * 2",
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "xxl": {
-        "value": "{borderWidth.xxl} * 2",
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      }
-    },
-    "background": {
-      "base": {
-        "value": "{grey.900}",
-        "type": "color",
-        "description": "The default light background color, used e.g. as a backdrop for charts or cards."
-      },
-      "weaker": {
-        "value": "{grey.800}",
-        "type": "color",
-        "description": "A slightly shaded background color, used e.g. as a backdrop behind card elements."
-      },
-      "weakest": {
-        "value": "{grey.750}",
-        "type": "color",
-        "description": "A shaded background color, used e.g. as a backdrop in containers."
-      }
-    },
-    "foreground": {
-      "base": {
-        "value": "{grey.100}",
-        "type": "color",
-        "description": "Used for elements in the foreground that have a strong contrast to the background."
-      },
-      "weaker": {
-        "value": "{grey.400}",
-        "type": "color",
-        "description": "Used for elements in the foreground that have a weaker contrast to the background (e.g. axes)."
-      },
-      "weakest": {
-        "value": "{grey.600}",
-        "type": "color",
-        "description": "Used for elements in the foreground that have the weakest contrast to the background (e.g. ticks, help-lines)"
-      }
-    },
-    "text": {
-      "base": {
-        "value": "{grey.100}",
-        "type": "color",
-        "description": "Default text color for strong background contrast."
-      },
-      "weaker": {
-        "value": "{grey.400}",
-        "type": "color",
-        "description": "Text color with weaker background contrast."
-      }
-    },
-    "theme": {
-      "weaker": {
-        "value": "{teal.600}",
-        "type": "color",
-        "description": "Weaker version of theme color"
-      },
-      "base": {
-        "value": "{teal.400}",
-        "type": "color",
-        "description": "Main theme color, usually the brand color."
-      },
-      "stronger": {
-        "value": "{teal.200}",
-        "type": "color",
-        "description": "Stronger version of theme color"
-      }
-    },
-    "functional": {
-      "accent": {
-        "value": "#ffcb01",
-        "type": "color",
-        "description": "Used for author-driven accents of parts of charts, texts and other elements."
-      },
-      "filteredOut": {
-        "value": "#BEC5C9",
-        "type": "color",
-        "description": "Used for visual marks in charts that have been filtered out."
-      },
-      "focus": {
-        "value": "#ffcb01",
-        "type": "color",
-        "description": "Used for author-driven accents of parts of charts, texts and other elements."
-      },
-      "notAvailable": {
-        "value": "#b2b2b2",
-        "type": "color",
-        "description": "Used for visual marks (e.g. countries in maps) where data is missing from the dataset."
-      }
-    },
-    "category": {
-      "base": {
+      "sequential": {
         "0": {
-          "value": "#297cb5",
+          "value": "{color.sequential.positive.0}",
           "type": "color"
         },
         "1": {
-          "value": "#905ea7",
+          "value": "{color.sequential.positive.1}",
           "type": "color"
         },
         "2": {
-          "value": "#de5f4a",
+          "value": "{color.sequential.positive.2}",
           "type": "color"
         },
         "3": {
-          "value": "#FFA81B",
+          "value": "{color.sequential.positive.3}",
           "type": "color"
         },
-        "4": {
-          "value": "#51a27c",
-          "type": "color"
+        "positive": {
+          "0": {
+            "value": "{color.teal.800}",
+            "type": "color",
+            "description": "First step in the base (theme) sequential color scale, used for the lowest value. "
+          },
+          "1": {
+            "value": "{color.teal.600}",
+            "type": "color",
+            "description": "Second step in the base (theme) sequential color scale."
+          },
+          "2": {
+            "value": "{color.teal.400}",
+            "type": "color",
+            "description": "Thirs step in the base (theme) sequential color scale."
+          },
+          "3": {
+            "value": "{color.teal.200}",
+            "type": "color",
+            "description": "Third and final step in the base (theme) sequential color scale."
+          }
         },
-        "5": {
-          "value": "#9da61d",
-          "type": "color"
-        },
-        "99": {
-          "value": "{grey.500}",
-          "type": "color"
-        }
-      },
-      "weaker": {
-        "0": {
-          "value": "#83bad9",
-          "type": "color"
-        },
-        "1": {
-          "value": "#b386c8",
-          "type": "color"
-        },
-        "2": {
-          "value": "#e38c7c",
-          "type": "color"
-        },
-        "3": {
-          "value": "#f8c975",
-          "type": "color"
-        },
-        "4": {
-          "value": "#83c0a4",
-          "type": "color"
-        },
-        "5": {
-          "value": "#ced56d",
-          "type": "color"
-        },
-        "99": {
-          "value": "{grey.600}",
-          "type": "color"
-        }
-      },
-      "stronger": {
-        "0": {
-          "value": "#0161a3",
-          "type": "color"
-        },
-        "1": {
-          "value": "#492658",
-          "type": "color"
-        },
-        "2": {
-          "value": "#a72817",
-          "type": "color"
-        },
-        "3": {
-          "value": "#b26d00",
-          "type": "color"
-        },
-        "4": {
-          "value": "#0b5932",
-          "type": "color"
-        },
-        "5": {
-          "value": "#565d00",
-          "type": "color"
-        },
-        "99": {
-          "value": "{grey.400}",
-          "type": "color"
-        }
-      }
-    },
-    "diverging": {
-      "negative": {
-        "1": {
-          "value": "{red.600}",
-          "type": "color",
-          "description": "Second step in the base diverging color scale, used for values lower than zero (or data median)."
-        },
-        "2": {
-          "value": "{red.200}",
-          "type": "color",
-          "description": "First step in the based diverging color scale, used for the lowest (most negative) value. "
-        }
-      },
-      "neutral": {
-        "value": "{background.weakest}",
-        "type": "color",
-        "description": "Third step in the base diverging color scale, used for zero or data median."
-      },
-      "positive": {
-        "1": {
-          "value": "{sequential.positive.3}",
-          "type": "color",
-          "description": "Fifth step in the base diverging color scale, used for the highest (most positive) value. "
-        },
-        "2": {
-          "value": "{teal.600}",
-          "type": "color",
-          "description": "Fourth step in the base diverging color scale, used for values higher than zero (or data median)."
-        }
-      }
-    },
-    "complementary": {
-      "weaker": {
-        "value": "{red.600}",
-        "type": "color",
-        "description": "Weaker version of complementary color."
-      },
-      "base": {
-        "value": "{red.500}",
-        "type": "color",
-        "description": "Main complementary color."
-      },
-      "stronger": {
-        "value": "{red.200}",
-        "type": "color",
-        "description": "Stronger version of complementary color."
-      }
-    },
-    "sequential": {
-      "0": {
-        "value": "{sequential.positive.0}",
-        "type": "color"
-      },
-      "1": {
-        "value": "{sequential.positive.1}",
-        "type": "color"
-      },
-      "2": {
-        "value": "{sequential.positive.2}",
-        "type": "color"
-      },
-      "3": {
-        "value": "{sequential.positive.3}",
-        "type": "color"
-      },
-      "positive": {
-        "0": {
-          "value": "{teal.800}",
-          "type": "color",
-          "description": "First step in the base (theme) sequential color scale, used for the lowest value. "
-        },
-        "1": {
-          "value": "{teal.600}",
-          "type": "color",
-          "description": "Second step in the base (theme) sequential color scale."
-        },
-        "2": {
-          "value": "{teal.400}",
-          "type": "color",
-          "description": "Thirs step in the base (theme) sequential color scale."
-        },
-        "3": {
-          "value": "{teal.200}",
-          "type": "color",
-          "description": "Third and final step in the base (theme) sequential color scale."
-        }
-      },
-      "negative": {
-        "0": {
-          "value": "{red.800}",
-          "type": "color"
-        },
-        "1": {
-          "value": "{red.600}",
-          "type": "color"
-        },
-        "2": {
-          "value": "{red.400}",
-          "type": "color"
-        },
-        "3": {
-          "value": "{red.200}",
-          "type": "color"
+        "negative": {
+          "0": {
+            "value": "{color.red.800}",
+            "type": "color"
+          },
+          "1": {
+            "value": "{color.red.600}",
+            "type": "color"
+          },
+          "2": {
+            "value": "{color.red.400}",
+            "type": "color"
+          },
+          "3": {
+            "value": "{color.red.200}",
+            "type": "color"
+          }
         }
       }
     }
@@ -653,7 +657,7 @@
             "fontFamily": "{typography.fontFamily.base}",
             "fontWeight": "{typography.fontWeight.regular}",
             "lineHeight": "{typography.lineHeight.base}",
-            "fontSize": "{fontSize.m}",
+            "fontSize": "{size.fontSize.m}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -667,7 +671,7 @@
             "fontFamily": "{typography.fontFamily.heading}",
             "fontWeight": "{typography.fontWeight.bold}",
             "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{fontSize.xxl}",
+            "fontSize": "{size.fontSize.xxl}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -681,7 +685,7 @@
             "fontFamily": "{typography.fontFamily.heading}",
             "fontWeight": "{typography.fontWeight.bold}",
             "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{fontSize.xl}",
+            "fontSize": "{size.fontSize.xl}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -695,7 +699,7 @@
             "fontFamily": "{typography.fontFamily.base}",
             "fontWeight": "{typography.fontWeight.bold}",
             "lineHeight": "{typography.lineHeight.tighter}",
-            "fontSize": "{fontSize.m}",
+            "fontSize": "{size.fontSize.m}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -709,7 +713,7 @@
             "fontFamily": "{typography.fontFamily.base}",
             "fontWeight": "{typography.fontWeight.regular}",
             "lineHeight": "{typography.lineHeight.tighter}",
-            "fontSize": "{fontSize.m}",
+            "fontSize": "{size.fontSize.m}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -723,7 +727,7 @@
             "fontFamily": "{typography.fontFamily.base}",
             "fontWeight": "{typography.fontWeight.bold}",
             "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{fontSize.s}",
+            "fontSize": "{size.fontSize.s}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -737,7 +741,7 @@
             "fontFamily": "{typography.fontFamily.base}",
             "fontWeight": "{typography.fontWeight.regular}",
             "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{fontSize.s}",
+            "fontSize": "{size.fontSize.s}",
             "letterSpacing": "{typography.letterSpacing.base}",
             "paragraphSpacing": "{typography.paragraphSpacing.base}",
             "textDecoration": "{typography.textDecoration.none}",
@@ -750,194 +754,196 @@
     }
   },
   "_palettes": {
-    "grey": {
-      "100": {
-        "value": "#191919",
-        "type": "color"
+    "color": {
+      "grey": {
+        "100": {
+          "value": "#191919",
+          "type": "color"
+        },
+        "300": {
+          "value": "#3d4246",
+          "type": "color"
+        },
+        "400": {
+          "value": "#6b7581",
+          "type": "color"
+        },
+        "500": {
+          "value": "#9ea9b5",
+          "type": "color"
+        },
+        "600": {
+          "value": "#c0c8d2",
+          "type": "color"
+        },
+        "750": {
+          "value": "#e0e2e4",
+          "type": "color"
+        },
+        "800": {
+          "value": "#f1f2f3",
+          "type": "color"
+        },
+        "900": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "000": {
+          "value": "#000",
+          "type": "color"
+        }
       },
-      "300": {
-        "value": "#3d4246",
-        "type": "color"
+      "teal": {
+        "100": {
+          "value": "#002348",
+          "type": "color"
+        },
+        "200": {
+          "value": "#0E3E63",
+          "type": "color"
+        },
+        "300": {
+          "value": "#215A7D",
+          "type": "color"
+        },
+        "400": {
+          "value": "#377796",
+          "type": "color"
+        },
+        "500": {
+          "value": "#5196AE",
+          "type": "color"
+        },
+        "600": {
+          "value": "#79ABBC",
+          "type": "color"
+        },
+        "700": {
+          "value": "#9FC1CC",
+          "type": "color"
+        },
+        "800": {
+          "value": "#C3D6DC",
+          "type": "color"
+        },
+        "900": {
+          "value": "#E8ECED",
+          "type": "color"
+        }
       },
-      "400": {
-        "value": "#6b7581",
-        "type": "color"
+      "red": {
+        "100": {
+          "value": "#8D1000",
+          "type": "color"
+        },
+        "200": {
+          "value": "#a12917",
+          "type": "color"
+        },
+        "300": {
+          "value": "#b53d2b",
+          "type": "color"
+        },
+        "400": {
+          "value": "#c9513f",
+          "type": "color"
+        },
+        "500": {
+          "value": "#dc6454",
+          "type": "color"
+        },
+        "600": {
+          "value": "#e98676",
+          "type": "color"
+        },
+        "700": {
+          "value": "#f3a79a",
+          "type": "color"
+        },
+        "800": {
+          "value": "#fbc8bf",
+          "type": "color"
+        },
+        "900": {
+          "value": "#FFE9E5",
+          "type": "color"
+        }
       },
-      "500": {
-        "value": "#9ea9b5",
-        "type": "color"
+      "red-dark": {
+        "100": {
+          "value": "#400C0A",
+          "type": "color"
+        },
+        "200": {
+          "value": "#601817",
+          "type": "color"
+        },
+        "300": {
+          "value": "#832521",
+          "type": "color"
+        },
+        "400": {
+          "value": "#A7332A",
+          "type": "color"
+        },
+        "500": {
+          "value": "#CC4233",
+          "type": "color"
+        },
+        "600": {
+          "value": "#DA5C4B",
+          "type": "color"
+        },
+        "700": {
+          "value": "#E77463",
+          "type": "color"
+        },
+        "800": {
+          "value": "#F38C7C",
+          "type": "color"
+        },
+        "900": {
+          "value": "#FEA496",
+          "type": "color"
+        }
       },
-      "600": {
-        "value": "#c0c8d2",
-        "type": "color"
-      },
-      "750": {
-        "value": "#e0e2e4",
-        "type": "color"
-      },
-      "800": {
-        "value": "#f1f2f3",
-        "type": "color"
-      },
-      "900": {
-        "value": "#FFF",
-        "type": "color"
-      },
-      "000": {
-        "value": "#000",
-        "type": "color"
-      }
-    },
-    "teal": {
-      "100": {
-        "value": "#002348",
-        "type": "color"
-      },
-      "200": {
-        "value": "#0E3E63",
-        "type": "color"
-      },
-      "300": {
-        "value": "#215A7D",
-        "type": "color"
-      },
-      "400": {
-        "value": "#377796",
-        "type": "color"
-      },
-      "500": {
-        "value": "#5196AE",
-        "type": "color"
-      },
-      "600": {
-        "value": "#79ABBC",
-        "type": "color"
-      },
-      "700": {
-        "value": "#9FC1CC",
-        "type": "color"
-      },
-      "800": {
-        "value": "#C3D6DC",
-        "type": "color"
-      },
-      "900": {
-        "value": "#E8ECED",
-        "type": "color"
-      }
-    },
-    "red": {
-      "100": {
-        "value": "#8D1000",
-        "type": "color"
-      },
-      "200": {
-        "value": "#a12917",
-        "type": "color"
-      },
-      "300": {
-        "value": "#b53d2b",
-        "type": "color"
-      },
-      "400": {
-        "value": "#c9513f",
-        "type": "color"
-      },
-      "500": {
-        "value": "#dc6454",
-        "type": "color"
-      },
-      "600": {
-        "value": "#e98676",
-        "type": "color"
-      },
-      "700": {
-        "value": "#f3a79a",
-        "type": "color"
-      },
-      "800": {
-        "value": "#fbc8bf",
-        "type": "color"
-      },
-      "900": {
-        "value": "#FFE9E5",
-        "type": "color"
-      }
-    },
-    "red-dark": {
-      "100": {
-        "value": "#400C0A",
-        "type": "color"
-      },
-      "200": {
-        "value": "#601817",
-        "type": "color"
-      },
-      "300": {
-        "value": "#832521",
-        "type": "color"
-      },
-      "400": {
-        "value": "#A7332A",
-        "type": "color"
-      },
-      "500": {
-        "value": "#CC4233",
-        "type": "color"
-      },
-      "600": {
-        "value": "#DA5C4B",
-        "type": "color"
-      },
-      "700": {
-        "value": "#E77463",
-        "type": "color"
-      },
-      "800": {
-        "value": "#F38C7C",
-        "type": "color"
-      },
-      "900": {
-        "value": "#FEA496",
-        "type": "color"
-      }
-    },
-    "teal-dark": {
-      "100": {
-        "value": "#093A45",
-        "type": "color"
-      },
-      "200": {
-        "value": "#175462",
-        "type": "color"
-      },
-      "300": {
-        "value": "#256f81",
-        "type": "color"
-      },
-      "400": {
-        "value": "#348ba1",
-        "type": "color"
-      },
-      "500": {
-        "value": "#44a8c3",
-        "type": "color"
-      },
-      "600": {
-        "value": "#66b5cb",
-        "type": "color"
-      },
-      "700": {
-        "value": "#83c3d4",
-        "type": "color"
-      },
-      "800": {
-        "value": "#9ed0dd",
-        "type": "color"
-      },
-      "900": {
-        "value": "#B8DEE7",
-        "type": "color"
+      "teal-dark": {
+        "100": {
+          "value": "#093A45",
+          "type": "color"
+        },
+        "200": {
+          "value": "#175462",
+          "type": "color"
+        },
+        "300": {
+          "value": "#256f81",
+          "type": "color"
+        },
+        "400": {
+          "value": "#348ba1",
+          "type": "color"
+        },
+        "500": {
+          "value": "#44a8c3",
+          "type": "color"
+        },
+        "600": {
+          "value": "#66b5cb",
+          "type": "color"
+        },
+        "700": {
+          "value": "#83c3d4",
+          "type": "color"
+        },
+        "800": {
+          "value": "#9ed0dd",
+          "type": "color"
+        },
+        "900": {
+          "value": "#B8DEE7",
+          "type": "color"
+        }
       }
     }
   },
@@ -1002,7 +1008,7 @@
               "fontFamily": "{docs.typography.fontFamily.heading}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
               "lineHeight": "{docs.typography.lineHeight.tightest}",
-              "fontSize": "{docs.typography.fontSize.xxxl}",
+              "fontSize": "{docs.size.fontSize.xxxl}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1015,7 +1021,7 @@
               "fontFamily": "{docs.typography.fontFamily.heading}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
               "lineHeight": "{docs.typography.lineHeight.tightest}",
-              "fontSize": "{docs.typography.fontSize.xl}",
+              "fontSize": "{docs.size.fontSize.xl}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1028,7 +1034,7 @@
               "fontFamily": "{docs.typography.fontFamily.heading}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
               "lineHeight": "{docs.typography.lineHeight.tightest}",
-              "fontSize": "{docs.typography.fontSize.l}",
+              "fontSize": "{docs.size.fontSize.l}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1041,7 +1047,7 @@
               "fontFamily": "{docs.typography.fontFamily.heading}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
               "lineHeight": "{docs.typography.lineHeight.tightest}",
-              "fontSize": "{docs.typography.fontSize.m}",
+              "fontSize": "{docs.size.fontSize.m}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1054,7 +1060,7 @@
               "fontFamily": "{docs.typography.fontFamily.base}",
               "fontWeight": "{docs.typography.fontWeight.regular}",
               "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.typography.fontSize.m}",
+              "fontSize": "{docs.size.fontSize.m}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1067,7 +1073,7 @@
               "fontFamily": "{docs.typography.fontFamily.base}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
               "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.typography.fontSize.m}",
+              "fontSize": "{docs.size.fontSize.m}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1080,7 +1086,7 @@
               "fontFamily": "{docs.typography.fontFamily.base}",
               "fontWeight": "{docs.typography.fontWeight.regular}",
               "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.typography.fontSize.s}",
+              "fontSize": "{docs.size.fontSize.s}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1093,7 +1099,7 @@
               "fontFamily": "{docs.typography.fontFamily.base}",
               "fontWeight": "{docs.typography.fontWeight.regular}",
               "lineHeight": "{docs.typography.lineHeight.tighter}",
-              "fontSize": "{docs.typography.fontSize.l}",
+              "fontSize": "{docs.size.fontSize.l}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1106,7 +1112,7 @@
               "fontFamily": "{docs.typography.fontFamily.base}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
               "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.typography.fontSize.s}",
+              "fontSize": "{docs.size.fontSize.s}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1119,7 +1125,7 @@
               "fontFamily": "{docs.typography.fontFamily.mono}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
               "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.typography.fontSize.xs}",
+              "fontSize": "{docs.size.fontSize.xs}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1132,7 +1138,7 @@
               "fontFamily": "{docs.typography.fontFamily.mono}",
               "fontWeight": "{docs.typography.fontWeight.regular}",
               "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.typography.fontSize.s}",
+              "fontSize": "{docs.size.fontSize.s}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1145,7 +1151,7 @@
               "fontFamily": "{docs.typography.fontFamily.mono}",
               "fontWeight": "{docs.typography.fontWeight.regular}",
               "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.typography.fontSize.xs}",
+              "fontSize": "{docs.size.fontSize.xs}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1156,50 +1162,12 @@
         },
         "paragraphSpacing": {
           "base": {
-            "value": "{docs.typography.fontSize.m} * 1.5",
+            "value": "{docs.size.fontSize.m} * 1.5",
             "type": "paragraphSpacing"
           },
           "none": {
             "value": "{typography.paragraphSpacing.none}",
             "type": "paragraphSpacing"
-          }
-        },
-        "fontSize": {
-          "xs": {
-            "value": "{docs.typography.fontSize.s} / {docs.parameter.large.fontSize.scaleFactorBelowOne}",
-            "type": "fontSizes"
-          },
-          "s": {
-            "value": "{docs.typography.fontSize.m} / {docs.parameter.large.fontSize.scaleFactorBelowOne}",
-            "type": "fontSizes"
-          },
-          "m": {
-            "value": "{docs.parameter.large.fontSize.base}",
-            "type": "fontSizes"
-          },
-          "l": {
-            "value": "{docs.typography.fontSize.m} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          },
-          "xl": {
-            "value": "{docs.typography.fontSize.l} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          },
-          "xxl": {
-            "value": "{docs.typography.fontSize.xl} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          },
-          "xxxl": {
-            "value": "{docs.typography.fontSize.xxl} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          },
-          "xxxxl": {
-            "value": "{docs.typography.fontSize.xxxl} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          },
-          "xxxxxl": {
-            "value": "{docs.typography.fontSize.xxxxl} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
           }
         },
         "textCase": {
@@ -1216,6 +1184,146 @@
           "none": {
             "value": "{typography.textDecoration.none}",
             "type": "textDecoration"
+          }
+        }
+      },
+      "size": {
+        "fontSize": {
+          "xs": {
+            "value": "{docs.size.fontSize.s} / {docs.parameter.large.fontSize.scaleFactorBelowOne}",
+            "type": "fontSizes"
+          },
+          "s": {
+            "value": "{docs.size.fontSize.m} / {docs.parameter.large.fontSize.scaleFactorBelowOne}",
+            "type": "fontSizes"
+          },
+          "m": {
+            "value": "{docs.parameter.large.fontSize.base}",
+            "type": "fontSizes"
+          },
+          "l": {
+            "value": "{docs.size.fontSize.m} * {docs.parameter.large.fontSize.scaleFactor}",
+            "type": "fontSizes"
+          },
+          "xl": {
+            "value": "{docs.size.fontSize.l} * {docs.parameter.large.fontSize.scaleFactor}",
+            "type": "fontSizes"
+          },
+          "xxl": {
+            "value": "{docs.size.fontSize.xl} * {docs.parameter.large.fontSize.scaleFactor}",
+            "type": "fontSizes"
+          },
+          "xxxl": {
+            "value": "{docs.size.fontSize.xxl} * {docs.parameter.large.fontSize.scaleFactor}",
+            "type": "fontSizes"
+          },
+          "xxxxl": {
+            "value": "{docs.size.fontSize.xxxl} * {docs.parameter.large.fontSize.scaleFactor}",
+            "type": "fontSizes"
+          },
+          "xxxxxl": {
+            "value": "{docs.size.fontSize.xxxxl} * {docs.parameter.large.fontSize.scaleFactor}",
+            "type": "fontSizes"
+          }
+        },
+        "space": {
+          "size": {
+            "xxxxs": {
+              "value": "{docs.size.space.xxxxs}",
+              "type": "sizing"
+            },
+            "xxxs": {
+              "value": "{docs.size.space.xxxs}",
+              "type": "sizing"
+            },
+            "xxs": {
+              "value": "{docs.size.space.xxs}",
+              "type": "sizing"
+            },
+            "xs": {
+              "value": "{docs.size.space.xs}",
+              "type": "sizing"
+            },
+            "s": {
+              "value": "{docs.size.space.s}",
+              "type": "sizing"
+            },
+            "m": {
+              "value": "{docs.size.space.m}",
+              "type": "sizing"
+            },
+            "l": {
+              "value": "{docs.size.space.l}",
+              "type": "sizing"
+            },
+            "xl": {
+              "value": "{docs.size.space.xl}",
+              "type": "sizing"
+            },
+            "xxl": {
+              "value": "{docs.size.space.xxl}",
+              "type": "sizing"
+            },
+            "xxxl": {
+              "value": "{docs.size.space.xxxl}",
+              "type": "sizing"
+            },
+            "xxxxl": {
+              "value": "{docs.size.space.xxxxl}",
+              "type": "sizing"
+            },
+            "xxxxxl": {
+              "value": "{docs.size.space.xxxxxl}",
+              "type": "sizing"
+            }
+          },
+          "xxxxs": {
+            "value": "{docs.size.space.xxxs} / {docs.parameter.large.space.scaleFactorBelowOne}",
+            "type": "spacing"
+          },
+          "xxxs": {
+            "value": "{docs.size.space.xxs} / {docs.parameter.large.space.scaleFactorBelowOne}",
+            "type": "spacing"
+          },
+          "xxs": {
+            "value": "{docs.size.space.xs} / {docs.parameter.large.space.scaleFactorBelowOne}",
+            "type": "spacing"
+          },
+          "xs": {
+            "value": "{docs.size.space.s} / {docs.parameter.large.space.scaleFactorBelowOne}",
+            "type": "spacing"
+          },
+          "s": {
+            "value": "{docs.size.space.m} / {docs.parameter.large.space.scaleFactorBelowOne}",
+            "type": "spacing"
+          },
+          "m": {
+            "value": "{docs.parameter.large.space.base}",
+            "type": "spacing"
+          },
+          "l": {
+            "value": "{docs.size.space.m} * {docs.parameter.large.space.scaleFactor}",
+            "type": "spacing"
+          },
+          "xl": {
+            "value": "{docs.size.space.l} * {docs.parameter.large.space.scaleFactor}",
+            "type": "spacing"
+          },
+          "xxl": {
+            "value": "{docs.size.space.xl} * {docs.parameter.large.space.scaleFactor}",
+            "type": "spacing"
+          },
+          "xxxl": {
+            "value": "{docs.size.space.xxl} * {docs.parameter.large.space.scaleFactor}",
+            "type": "spacing"
+          },
+          "xxxxl": {
+            "value": "{docs.size.space.xxxl} * {docs.parameter.large.space.scaleFactor}",
+            "type": "spacing"
+          },
+          "xxxxxl": {
+            "value": "{docs.size.space.xxxxl} * {docs.parameter.large.space.scaleFactor}",
+            "type": "spacing"
           }
         }
       },
@@ -1281,154 +1389,61 @@
           }
         }
       },
-      "text": {
-        "base": {
-          "value": "{text.base}",
-          "type": "color"
-        },
-        "weaker": {
-          "value": "rgba({text.base}, .66)",
-          "type": "color"
-        }
-      },
-      "space": {
-        "size": {
-          "xxxxs": {
-            "value": "{docs.space.xxxxs}",
-            "type": "sizing"
+      "color": {
+        "text": {
+          "base": {
+            "value": "{color.text.base}",
+            "type": "color"
           },
-          "xxxs": {
-            "value": "{docs.space.xxxs}",
-            "type": "sizing"
-          },
-          "xxs": {
-            "value": "{docs.space.xxs}",
-            "type": "sizing"
-          },
-          "xs": {
-            "value": "{docs.space.xs}",
-            "type": "sizing"
-          },
-          "s": {
-            "value": "{docs.space.s}",
-            "type": "sizing"
-          },
-          "m": {
-            "value": "{docs.space.m}",
-            "type": "sizing"
-          },
-          "l": {
-            "value": "{docs.space.l}",
-            "type": "sizing"
-          },
-          "xl": {
-            "value": "{docs.space.xl}",
-            "type": "sizing"
-          },
-          "xxl": {
-            "value": "{docs.space.xxl}",
-            "type": "sizing"
-          },
-          "xxxl": {
-            "value": "{docs.space.xxxl}",
-            "type": "sizing"
-          },
-          "xxxxl": {
-            "value": "{docs.space.xxxxl}",
-            "type": "sizing"
-          },
-          "xxxxxl": {
-            "value": "{docs.space.xxxxxl}",
-            "type": "sizing"
+          "weaker": {
+            "value": "rgba({color.text.base}, .66)",
+            "type": "color"
           }
         },
-        "xxxxs": {
-          "value": "{docs.space.xxxs} / {docs.parameter.large.space.scaleFactorBelowOne}",
-          "type": "spacing"
+        "specs": {
+          "text": {
+            "value": "#7400d7",
+            "type": "color"
+          },
+          "line": {
+            "value": "#a034ff",
+            "type": "color"
+          }
         },
-        "xxxs": {
-          "value": "{docs.space.xxs} / {docs.parameter.large.space.scaleFactorBelowOne}",
-          "type": "spacing"
+        "background": {
+          "base": {
+            "value": "{color.background.base}",
+            "type": "color"
+          },
+          "weaker": {
+            "value": "{color.background.weaker}",
+            "type": "color"
+          }
         },
-        "xxs": {
-          "value": "{docs.space.xs} / {docs.parameter.large.space.scaleFactorBelowOne}",
-          "type": "spacing"
-        },
-        "xs": {
-          "value": "{docs.space.s} / {docs.parameter.large.space.scaleFactorBelowOne}",
-          "type": "spacing"
-        },
-        "s": {
-          "value": "{docs.space.m} / {docs.parameter.large.space.scaleFactorBelowOne}",
-          "type": "spacing"
-        },
-        "m": {
-          "value": "{docs.parameter.large.space.base}",
-          "type": "spacing"
-        },
-        "l": {
-          "value": "{docs.space.m} * {docs.parameter.large.space.scaleFactor}",
-          "type": "spacing"
-        },
-        "xl": {
-          "value": "{docs.space.l} * {docs.parameter.large.space.scaleFactor}",
-          "type": "spacing"
-        },
-        "xxl": {
-          "value": "{docs.space.xl} * {docs.parameter.large.space.scaleFactor}",
-          "type": "spacing"
-        },
-        "xxxl": {
-          "value": "{docs.space.xxl} * {docs.parameter.large.space.scaleFactor}",
-          "type": "spacing"
-        },
-        "xxxxl": {
-          "value": "{docs.space.xxxl} * {docs.parameter.large.space.scaleFactor}",
-          "type": "spacing"
-        },
-        "xxxxxl": {
-          "value": "{docs.space.xxxxl} * {docs.parameter.large.space.scaleFactor}",
-          "type": "spacing"
-        }
-      },
-      "specs": {
-        "text": {
-          "value": "#7400d7",
-          "type": "color"
-        },
-        "line": {
-          "value": "#a034ff",
-          "type": "color"
-        }
-      },
-      "background": {
-        "base": {
-          "value": "{background.base}",
-          "type": "color"
-        },
-        "weaker": {
-          "value": "{background.weaker}",
-          "type": "color"
-        }
-      },
-      "foreground": {
-        "base": {
-          "value": "{foreground.base}",
-          "type": "color"
-        },
-        "weaker": {
-          "value": "{foreground.weaker}",
-          "type": "color"
-        },
-        "weakest": {
-          "value": "{foreground.weakest}",
-          "type": "color"
+        "foreground": {
+          "base": {
+            "value": "{color.foreground.base}",
+            "type": "color"
+          },
+          "weaker": {
+            "value": "{color.foreground.weaker}",
+            "type": "color"
+          },
+          "weakest": {
+            "value": "{color.foreground.weakest}",
+            "type": "color"
+          }
         }
       }
     }
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["global", "typographyStyles", "_palettes", "_docs"]
+    "tokenSetOrder": [
+      "global",
+      "typographyStyles",
+      "_palettes",
+      "_docs"
+    ]
   }
 }
