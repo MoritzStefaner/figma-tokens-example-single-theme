@@ -1,6 +1,6 @@
 {
   "typography": {
-    "styles": {
+    "style": {
       "base": {
         "fontFamily": {
           "value": "Inter",
