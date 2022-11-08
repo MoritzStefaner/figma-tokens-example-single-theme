@@ -1,9 +1,9 @@
 :root {
-  --project-title: <BRAND>;
-  --version: v0.9.0;
-  --project-subtitle: Data Design Language;
-  --last-updated: 1986;
-  --authors: Moritz Stefaner / Truth & Beauty with Charistian Laesser, Alice Thudt, Flavio Gortana;
+  --meta-project-title: <BRAND>;
+  --meta-version: v0.9.0;
+  --meta-project-subtitle: Data Design Language;
+  --meta-last-updated: 1986;
+  --meta-authors: Moritz Stefaner / Truth & Beauty with Charistian Laesser, Alice Thudt, Flavio Gortana;
   --typography-font-family-base: Inter;
   --typography-font-family-heading: Inter;
   --typography-font-family-mono: IBM Plex Mono;

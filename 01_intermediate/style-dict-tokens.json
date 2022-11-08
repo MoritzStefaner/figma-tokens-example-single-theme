@@ -1,28 +1,30 @@
 {
-  "project-title": {
-    "value": "<BRAND>",
-    "type": "string",
-    "description": "Project title"
-  },
-  "version": {
-    "value": "v0.9.0",
-    "type": "string",
-    "description": "Version"
-  },
-  "project-subtitle": {
-    "value": "Data Design Language",
-    "type": "string",
-    "category": "content"
-  },
-  "last-updated": {
-    "value": 1986,
-    "type": "string",
-    "description": "Last updated"
-  },
-  "authors": {
-    "value": "Moritz Stefaner / Truth & Beauty with Charistian Laesser, Alice Thudt, Flavio Gortana",
-    "type": "string",
-    "description": "Authors"
+  "meta": {
+    "project-title": {
+      "value": "<BRAND>",
+      "type": "string",
+      "description": "Project title"
+    },
+    "version": {
+      "value": "v0.9.0",
+      "type": "string",
+      "description": "Version"
+    },
+    "project-subtitle": {
+      "value": "Data Design Language",
+      "type": "string",
+      "category": "content"
+    },
+    "last-updated": {
+      "value": 1986,
+      "type": "string",
+      "description": "Last updated"
+    },
+    "authors": {
+      "value": "Moritz Stefaner / Truth & Beauty with Charistian Laesser, Alice Thudt, Flavio Gortana",
+      "type": "string",
+      "description": "Authors"
+    }
   },
   "typography": {
     "fontFamily": {

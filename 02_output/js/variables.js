@@ -1,8 +1,8 @@
-export const ProjectTitle = "<BRAND>";
-export const Version = "v0.9.0";
-export const ProjectSubtitle = "Data Design Language";
-export const LastUpdated = 1986;
-export const Authors = "Moritz Stefaner / Truth & Beauty with Charistian Laesser, Alice Thudt, Flavio Gortana";
+export const MetaProjectTitle = "<BRAND>";
+export const MetaVersion = "v0.9.0";
+export const MetaProjectSubtitle = "Data Design Language";
+export const MetaLastUpdated = 1986;
+export const MetaAuthors = "Moritz Stefaner / Truth & Beauty with Charistian Laesser, Alice Thudt, Flavio Gortana";
 export const TypographyFontFamilyBase = "Inter";
 export const TypographyFontFamilyHeading = "Inter";
 export const TypographyFontFamilyMono = "IBM Plex Mono";
