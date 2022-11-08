@@ -105,106 +105,6 @@
           "value": "none",
           "type": "textDecoration"
         }
-      },
-      "styles": {
-        "base": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.regular}",
-            "lineHeight": "{typography.lineHeight.base}",
-            "fontSize": "{fontSize.m}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "The default text style."
-        },
-        "huge": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.heading}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{fontSize.xxl}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for summary statistics, large numbers, etc."
-        },
-        "title": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.heading}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{fontSize.xl}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for the title of a chart."
-        },
-        "majorPrimary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tighter}",
-            "fontSize": "{fontSize.m}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for legend main labels, as well as individual value annotations."
-        },
-        "majorSecondary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.regular}",
-            "lineHeight": "{typography.lineHeight.tighter}",
-            "fontSize": "{fontSize.m}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for secondary legend labels, description, and the chart subtitle."
-        },
-        "minorPrimary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{fontSize.s}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for smaller annotations in charts."
-        },
-        "minorSecondary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.regular}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{fontSize.s}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for tick labels, secondary annotations, footer text."
-        }
       }
     },
     "effects": {
@@ -746,104 +646,106 @@
     }
   },
   "typographyStyles": {
-    "styles": {
-      "base": {
-        "value": {
-          "fontFamily": "{typography.fontFamily.base}",
-          "fontWeight": "{typography.fontWeight.regular}",
-          "lineHeight": "{typography.lineHeight.base}",
-          "fontSize": "{fontSize.m}",
-          "letterSpacing": "{typography.letterSpacing.base}",
-          "paragraphSpacing": "{typography.paragraphSpacing.base}",
-          "textDecoration": "{typography.textDecoration.none}",
-          "textCase": "{typography.textCase.none}"
+    "typography": {
+      "styles": {
+        "base": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.regular}",
+            "lineHeight": "{typography.lineHeight.base}",
+            "fontSize": "{fontSize.m}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "The default text style."
         },
-        "type": "typography",
-        "description": "The default text style."
-      },
-      "huge": {
-        "value": {
-          "fontFamily": "{typography.fontFamily.heading}",
-          "fontWeight": "{typography.fontWeight.bold}",
-          "lineHeight": "{typography.lineHeight.tightest}",
-          "fontSize": "{fontSize.xxl}",
-          "letterSpacing": "{typography.letterSpacing.base}",
-          "paragraphSpacing": "{typography.paragraphSpacing.base}",
-          "textDecoration": "{typography.textDecoration.none}",
-          "textCase": "{typography.textCase.none}"
+        "huge": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.heading}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{fontSize.xxl}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for summary statistics, large numbers, etc."
         },
-        "type": "typography",
-        "description": "Used for summary statistics, large numbers, etc."
-      },
-      "title": {
-        "value": {
-          "fontFamily": "{typography.fontFamily.heading}",
-          "fontWeight": "{typography.fontWeight.bold}",
-          "lineHeight": "{typography.lineHeight.tightest}",
-          "fontSize": "{fontSize.xl}",
-          "letterSpacing": "{typography.letterSpacing.base}",
-          "paragraphSpacing": "{typography.paragraphSpacing.base}",
-          "textDecoration": "{typography.textDecoration.none}",
-          "textCase": "{typography.textCase.none}"
+        "title": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.heading}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{fontSize.xl}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for the title of a chart."
         },
-        "type": "typography",
-        "description": "Used for the title of a chart."
-      },
-      "majorPrimary": {
-        "value": {
-          "fontFamily": "{typography.fontFamily.base}",
-          "fontWeight": "{typography.fontWeight.bold}",
-          "lineHeight": "{typography.lineHeight.tighter}",
-          "fontSize": "{fontSize.m}",
-          "letterSpacing": "{typography.letterSpacing.base}",
-          "paragraphSpacing": "{typography.paragraphSpacing.base}",
-          "textDecoration": "{typography.textDecoration.none}",
-          "textCase": "{typography.textCase.none}"
+        "majorPrimary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tighter}",
+            "fontSize": "{fontSize.m}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for legend main labels, as well as individual value annotations."
         },
-        "type": "typography",
-        "description": "Used for legend main labels, as well as individual value annotations."
-      },
-      "majorSecondary": {
-        "value": {
-          "fontFamily": "{typography.fontFamily.base}",
-          "fontWeight": "{typography.fontWeight.regular}",
-          "lineHeight": "{typography.lineHeight.tighter}",
-          "fontSize": "{fontSize.m}",
-          "letterSpacing": "{typography.letterSpacing.base}",
-          "paragraphSpacing": "{typography.paragraphSpacing.base}",
-          "textDecoration": "{typography.textDecoration.none}",
-          "textCase": "{typography.textCase.none}"
+        "majorSecondary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.regular}",
+            "lineHeight": "{typography.lineHeight.tighter}",
+            "fontSize": "{fontSize.m}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for secondary legend labels, description, and the chart subtitle."
         },
-        "type": "typography",
-        "description": "Used for secondary legend labels, description, and the chart subtitle."
-      },
-      "minorPrimary": {
-        "value": {
-          "fontFamily": "{typography.fontFamily.base}",
-          "fontWeight": "{typography.fontWeight.bold}",
-          "lineHeight": "{typography.lineHeight.tightest}",
-          "fontSize": "{fontSize.s}",
-          "letterSpacing": "{typography.letterSpacing.base}",
-          "paragraphSpacing": "{typography.paragraphSpacing.base}",
-          "textDecoration": "{typography.textDecoration.none}",
-          "textCase": "{typography.textCase.none}"
+        "minorPrimary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{fontSize.s}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for smaller annotations in charts."
         },
-        "type": "typography",
-        "description": "Used for smaller annotations in charts."
-      },
-      "minorSecondary": {
-        "value": {
-          "fontFamily": "{typography.fontFamily.base}",
-          "fontWeight": "{typography.fontWeight.regular}",
-          "lineHeight": "{typography.lineHeight.tightest}",
-          "fontSize": "{fontSize.s}",
-          "letterSpacing": "{typography.letterSpacing.base}",
-          "paragraphSpacing": "{typography.paragraphSpacing.base}",
-          "textDecoration": "{typography.textDecoration.none}",
-          "textCase": "{typography.textCase.none}"
-        },
-        "type": "typography",
-        "description": "Used for tick labels, secondary annotations, footer text."
+        "minorSecondary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.regular}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{fontSize.s}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for tick labels, secondary annotations, footer text."
+        }
       }
     }
   },
@@ -1527,11 +1429,6 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "global",
-      "typographyStyles",
-      "_palettes",
-      "_docs"
-    ]
+    "tokenSetOrder": ["global", "typographyStyles", "_palettes", "_docs"]
   }
 }

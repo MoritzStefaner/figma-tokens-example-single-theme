@@ -1,110 +1,5 @@
 {
-  "meta": {
-    "projectTitle": {
-      "value": "<BRAND>",
-      "type": "string",
-      "description": "Project title"
-    },
-    "version": {
-      "value": "v0.9.0",
-      "type": "string",
-      "description": "Version"
-    },
-    "projectSubtitle": {
-      "value": "Data Design Language",
-      "type": "string",
-      "description": "Project subtitle"
-    },
-    "lastUpdated": {
-      "value": 1986,
-      "type": "string",
-      "description": "Last updated"
-    },
-    "authors": {
-      "value": "Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana",
-      "type": "string",
-      "description": "Authors"
-    }
-  },
   "typography": {
-    "fontFamily": {
-      "base": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      },
-      "heading": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      },
-      "mono": {
-        "value": "IBM Plex Mono",
-        "type": "fontFamilies"
-      }
-    },
-    "lineHeight": {
-      "base": {
-        "value": "160%",
-        "type": "lineHeights"
-      },
-      "tighter": {
-        "value": "145%",
-        "type": "lineHeights"
-      },
-      "tightest": {
-        "value": "115%",
-        "type": "lineHeights"
-      }
-    },
-    "fontWeight": {
-      "regular": {
-        "value": 400,
-        "type": "fontWeights"
-      },
-      "bold": {
-        "value": 700,
-        "type": "fontWeights"
-      },
-      "semiBold": {
-        "value": 600,
-        "type": "fontWeights"
-      }
-    },
-    "letterSpacing": {
-      "base": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "looser": {
-        "value": "15%",
-        "type": "letterSpacing"
-      }
-    },
-    "paragraphSpacing": {
-      "none": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "base": {
-        "value": 8,
-        "type": "paragraphSpacing"
-      }
-    },
-    "textCase": {
-      "none": {
-        "value": "none",
-        "type": "textCase"
-      },
-      "uppercase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "textDecoration": {
-      "none": {
-        "value": "none",
-        "type": "textDecoration"
-      }
-    },
     "styles": {
       "base": {
         "fontFamily": {
@@ -344,6 +239,111 @@
           "type": "textCase"
         }
       }
+    },
+    "fontFamily": {
+      "base": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "heading": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "IBM Plex Mono",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeight": {
+      "base": {
+        "value": "160%",
+        "type": "lineHeights"
+      },
+      "tighter": {
+        "value": "145%",
+        "type": "lineHeights"
+      },
+      "tightest": {
+        "value": "115%",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "value": 400,
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": 700,
+        "type": "fontWeights"
+      },
+      "semiBold": {
+        "value": 600,
+        "type": "fontWeights"
+      }
+    },
+    "letterSpacing": {
+      "base": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "looser": {
+        "value": "15%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "none": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "base": {
+        "value": 8,
+        "type": "paragraphSpacing"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    }
+  },
+  "meta": {
+    "projectTitle": {
+      "value": "<BRAND>",
+      "type": "string",
+      "description": "Project title"
+    },
+    "version": {
+      "value": "v0.9.0",
+      "type": "string",
+      "description": "Version"
+    },
+    "projectSubtitle": {
+      "value": "Data Design Language",
+      "type": "string",
+      "description": "Project subtitle"
+    },
+    "lastUpdated": {
+      "value": 1986,
+      "type": "string",
+      "description": "Last updated"
+    },
+    "authors": {
+      "value": "Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana",
+      "type": "string",
+      "description": "Authors"
     }
   },
   "effects": {
