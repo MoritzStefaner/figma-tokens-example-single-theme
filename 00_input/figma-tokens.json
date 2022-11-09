@@ -1227,51 +1227,51 @@
         "space": {
           "size": {
             "xxxxs": {
-              "value": "{docs.size.space.xxxxs}",
+              "value": "{size.space.xxxxs}",
               "type": "sizing"
             },
             "xxxs": {
-              "value": "{docs.size.space.xxxs}",
+              "value": "{size.space.xxxs}",
               "type": "sizing"
             },
             "xxs": {
-              "value": "{docs.size.space.xxs}",
+              "value": "{size.space.xxs}",
               "type": "sizing"
             },
             "xs": {
-              "value": "{docs.size.space.xs}",
+              "value": "{size.space.xs}",
               "type": "sizing"
             },
             "s": {
-              "value": "{docs.size.space.s}",
+              "value": "{size.space.s}",
               "type": "sizing"
             },
             "m": {
-              "value": "{docs.size.space.m}",
+              "value": "{size.space.m}",
               "type": "sizing"
             },
             "l": {
-              "value": "{docs.size.space.l}",
+              "value": "{size.space.l}",
               "type": "sizing"
             },
             "xl": {
-              "value": "{docs.size.space.xl}",
+              "value": "{size.space.xl}",
               "type": "sizing"
             },
             "xxl": {
-              "value": "{docs.size.space.xxl}",
+              "value": "{size.space.xxl}",
               "type": "sizing"
             },
             "xxxl": {
-              "value": "{docs.size.space.xxxl}",
+              "value": "{size.space.xxxl}",
               "type": "sizing"
             },
             "xxxxl": {
-              "value": "{docs.size.space.xxxxl}",
+              "value": "{size.space.xxxxl}",
               "type": "sizing"
             },
             "xxxxxl": {
-              "value": "{docs.size.space.xxxxxl}",
+              "value": "{size.space.xxxxxl}",
               "type": "sizing"
             }
           },
