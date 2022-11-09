@@ -250,7 +250,7 @@
         "type": "fontFamilies"
       },
       "mono": {
-        "value": "IBM Plex Mono",
+        "value": "Fira Mono",
         "type": "fontFamilies"
       }
     },

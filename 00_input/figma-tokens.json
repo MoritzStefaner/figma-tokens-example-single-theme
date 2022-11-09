@@ -38,7 +38,7 @@
           "type": "fontFamilies"
         },
         "mono": {
-          "value": "IBM Plex Mono",
+          "value": "Fira Mono",
           "type": "fontFamilies"
         }
       },
@@ -1000,7 +1000,7 @@
             "type": "letterSpacing"
           }
         },
-        "styles": {
+        "style": {
           "h1": {
             "value": {
               "fontFamily": "{docs.typography.fontFamily.heading}",
@@ -1019,7 +1019,7 @@
               "fontFamily": "{docs.typography.fontFamily.heading}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
               "lineHeight": "{docs.typography.lineHeight.tightest}",
-              "fontSize": "{docs.size.fontSize.xl}",
+              "fontSize": "{docs.size.fontSize.xxl}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
               "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
               "textDecoration": "{docs.typography.textDecoration.none}",
@@ -1030,7 +1030,7 @@
           "h3": {
             "value": {
               "fontFamily": "{docs.typography.fontFamily.heading}",
-              "fontWeight": "{docs.typography.fontWeight.bold}",
+              "fontWeight": "{docs.typography.fontWeight.semiBold}",
               "lineHeight": "{docs.typography.lineHeight.tightest}",
               "fontSize": "{docs.size.fontSize.l}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
@@ -1069,7 +1069,7 @@
           "tableHeader": {
             "value": {
               "fontFamily": "{docs.typography.fontFamily.base}",
-              "fontWeight": "{docs.typography.fontWeight.bold}",
+              "fontWeight": "{docs.typography.fontWeight.semiBold}",
               "lineHeight": "{docs.typography.lineHeight.base}",
               "fontSize": "{docs.size.fontSize.m}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
@@ -1108,7 +1108,7 @@
           "key": {
             "value": {
               "fontFamily": "{docs.typography.fontFamily.base}",
-              "fontWeight": "{docs.typography.fontWeight.bold}",
+              "fontWeight": "{docs.typography.fontWeight.semiBold}",
               "lineHeight": "{docs.typography.lineHeight.base}",
               "fontSize": "{docs.size.fontSize.s}",
               "letterSpacing": "{docs.typography.letterSpacing.base}",
@@ -1120,7 +1120,7 @@
           },
           "keySmall": {
             "value": {
-              "fontFamily": "{docs.typography.fontFamily.mono}",
+              "fontFamily": "{docs.typography.fontFamily.base}",
               "fontWeight": "{docs.typography.fontWeight.bold}",
               "lineHeight": "{docs.typography.lineHeight.base}",
               "fontSize": "{docs.size.fontSize.xs}",
@@ -1437,6 +1437,11 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["global", "typographyStyles", "_palettes", "_docs"]
+    "tokenSetOrder": [
+      "global",
+      "typographyStyles",
+      "_palettes",
+      "_docs"
+    ]
   }
 }
