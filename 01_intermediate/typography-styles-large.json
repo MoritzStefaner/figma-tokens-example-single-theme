@@ -1,0 +1,463 @@
+{
+  "size": {
+    "parameter": {
+      "fontSize": {
+        "scaleFactor": {
+          "value": 1.33,
+          "type": "other"
+        },
+        "scaleFactorBelowOne": {
+          "value": 1.1,
+          "type": "other"
+        },
+        "base": {
+          "value": 16,
+          "type": "other"
+        }
+      },
+      "space": {
+        "scaleFactor": {
+          "value": 1.5,
+          "type": "other"
+        },
+        "scaleFactorBelowOne": {
+          "value": 1.5,
+          "type": "other"
+        },
+        "base": {
+          "value": 24,
+          "type": "other"
+        }
+      }
+    },
+    "chartWidth": {
+      "value": 1080,
+      "type": "sizing"
+    },
+    "breakpoint": {
+      "xs": {
+        "value": 480,
+        "type": "sizing"
+      },
+      "sm": {
+        "value": 640,
+        "type": "sizing"
+      },
+      "md": {
+        "value": 960,
+        "type": "sizing"
+      },
+      "lg": {
+        "value": 1200,
+        "type": "sizing"
+      },
+      "xl": {
+        "value": 1440,
+        "type": "sizing"
+      }
+    },
+    "maxContentWidth": {
+      "value": 1440,
+      "type": "sizing"
+    },
+    "minContentWidth": {
+      "value": 320,
+      "type": "sizing"
+    },
+    "borderRadius": {
+      "base": {
+        "value": 2,
+        "type": "borderRadius"
+      },
+      "bigger": {
+        "value": 5,
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "s": {
+        "value": 0.5,
+        "type": "borderWidth",
+        "description": "The smallest border size. Used for gridlines."
+      },
+      "m": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "The default border size. Used for axes borders, default data lines."
+      },
+      "l": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "A larger border size. Used for borders between filled elements."
+      },
+      "xl": {
+        "value": 3,
+        "type": "borderWidth",
+        "description": "A larger border size. Used for lines in focus, and the bottom chart container line."
+      },
+      "xxl": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "The largest border size. Used for the top chart container line."
+      }
+    },
+    "borderWidthDouble": {
+      "s": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Double size of respective border token, for e.g. line background strokes."
+      },
+      "m": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Double size of respective border token, for e.g. line background strokes."
+      },
+      "l": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "Double size of respective border token, for e.g. line background strokes."
+      },
+      "xl": {
+        "value": 6,
+        "type": "borderWidth",
+        "description": "Double size of respective border token, for e.g. line background strokes."
+      },
+      "xxl": {
+        "value": 8,
+        "type": "borderWidth",
+        "description": "Double size of respective border token, for e.g. line background strokes."
+      }
+    },
+    "fontSize": {
+      "xs": {
+        "value": 13.223,
+        "type": "fontSizes"
+      },
+      "s": {
+        "value": 14.545,
+        "type": "fontSizes"
+      },
+      "m": {
+        "value": 16,
+        "type": "fontSizes"
+      },
+      "l": {
+        "value": 21.28,
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": 28.302,
+        "type": "fontSizes"
+      },
+      "xxl": {
+        "value": 37.642,
+        "type": "fontSizes"
+      }
+    },
+    "space": {
+      "xxxxs": {
+        "value": 3.161,
+        "type": "spacing"
+      },
+      "xxxs": {
+        "value": 4.741,
+        "type": "spacing"
+      },
+      "xxs": {
+        "value": 7.111,
+        "type": "spacing"
+      },
+      "xs": {
+        "value": 10.667,
+        "type": "spacing"
+      },
+      "s": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "m": {
+        "value": 24,
+        "type": "spacing"
+      },
+      "l": {
+        "value": 36,
+        "type": "spacing"
+      },
+      "xl": {
+        "value": 54,
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": 81,
+        "type": "spacing"
+      },
+      "xxxl": {
+        "value": 121.5,
+        "type": "spacing"
+      },
+      "xxxxl": {
+        "value": 182.25,
+        "type": "spacing"
+      },
+      "xxxxxl": {
+        "value": 273.375,
+        "type": "spacing"
+      }
+    }
+  },
+  "typography": {
+    "style": {
+      "base": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "lineHeight": "160%",
+          "fontSize": 16,
+          "letterSpacing": "0%",
+          "paragraphSpacing": 8,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "The default text style."
+      },
+      "huge": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": "115%",
+          "fontSize": 37.642,
+          "letterSpacing": "0%",
+          "paragraphSpacing": 8,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Used for summary statistics, large numbers, etc."
+      },
+      "title": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": "115%",
+          "fontSize": 28.302,
+          "letterSpacing": "0%",
+          "paragraphSpacing": 8,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Used for the title of a chart."
+      },
+      "majorPrimary": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": "145%",
+          "fontSize": 16,
+          "letterSpacing": "0%",
+          "paragraphSpacing": 8,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Used for legend main labels, as well as individual value annotations."
+      },
+      "majorSecondary": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "lineHeight": "145%",
+          "fontSize": 16,
+          "letterSpacing": "0%",
+          "paragraphSpacing": 8,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Used for secondary legend labels, description, and the chart subtitle."
+      },
+      "minorPrimary": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": "115%",
+          "fontSize": 14.545,
+          "letterSpacing": "0%",
+          "paragraphSpacing": 8,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Used for smaller annotations in charts."
+      },
+      "minorSecondary": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "lineHeight": "115%",
+          "fontSize": 14.545,
+          "letterSpacing": "0%",
+          "paragraphSpacing": 8,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Used for tick labels, secondary annotations, footer text."
+      }
+    },
+    "fontFamily": {
+      "base": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "heading": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "Fira Mono",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeight": {
+      "base": {
+        "value": "160%",
+        "type": "lineHeights"
+      },
+      "tighter": {
+        "value": "145%",
+        "type": "lineHeights"
+      },
+      "tightest": {
+        "value": "115%",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "value": 400,
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": 700,
+        "type": "fontWeights"
+      },
+      "semiBold": {
+        "value": 600,
+        "type": "fontWeights"
+      }
+    },
+    "letterSpacing": {
+      "base": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "looser": {
+        "value": "15%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "none": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "base": {
+        "value": 8,
+        "type": "paragraphSpacing"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    }
+  },
+  "meta": {
+    "projectTitle": {
+      "value": "<BRAND>",
+      "type": "string",
+      "description": "Project title"
+    },
+    "version": {
+      "value": "v0.9.0",
+      "type": "string",
+      "description": "Version"
+    },
+    "projectSubtitle": {
+      "value": "Data Design Language",
+      "type": "string",
+      "description": "Project subtitle"
+    },
+    "lastUpdated": {
+      "value": 1986,
+      "type": "string",
+      "description": "Last updated"
+    },
+    "authors": {
+      "value": "Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana",
+      "type": "string",
+      "description": "Authors"
+    }
+  },
+  "effect": {
+    "depth": {
+      "card": {
+        "value": {
+          "x": 1,
+          "y": 1,
+          "blur": 3,
+          "spread": 0,
+          "color": "#00000033",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "hover": {
+        "value": {
+          "x": 3,
+          "y": 3,
+          "blur": 6,
+          "spread": 0,
+          "color": "#00000033",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "modal": {
+        "value": {
+          "color": "#00000033",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 7,
+          "blur": 10,
+          "spread": 0
+        },
+        "type": "boxShadow"
+      },
+      "ui": {
+        "value": {
+          "x": 1,
+          "y": 1,
+          "blur": 2,
+          "spread": 0,
+          "color": "#00000033",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    }
+  }
+}

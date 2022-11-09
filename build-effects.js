@@ -1,7 +1,7 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
 const config = {
-  source: ['./01_intermediate/style-dict-tokens.json'],
+  source: ['./01_intermediate/global.json'],
   platforms: {
     css: {
       buildPath: './02_output/css/',

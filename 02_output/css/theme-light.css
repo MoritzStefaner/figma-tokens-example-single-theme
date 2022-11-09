@@ -1,4 +1,4 @@
-:root {
+.theme-light {
   --color-sequential-negative-3: #a12917;
   --color-sequential-negative-2: #c9513f;
   --color-sequential-negative-1: #e98676;
@@ -55,73 +55,49 @@
   --color-background-weakest: #e0e2e4; /* A shaded background color, used e.g. as a backdrop in containers. */
   --color-background-weaker: #f1f2f3; /* A slightly shaded background color, used e.g. as a backdrop behind card elements. */
   --color-background-base: #ffffff; /* The default light background color, used e.g. as a backdrop for charts or cards. */
-  --size-border-width-double-xxl: 8px; /* Double size of respective border token, for e.g. line background strokes. */
-  --size-border-width-double-xl: 6px; /* Double size of respective border token, for e.g. line background strokes. */
-  --size-border-width-double-l: 4px; /* Double size of respective border token, for e.g. line background strokes. */
-  --size-border-width-double-m: 2px; /* Double size of respective border token, for e.g. line background strokes. */
-  --size-border-width-double-s: 1px; /* Double size of respective border token, for e.g. line background strokes. */
-  --size-border-width-xxl: 4px; /* The largest border size. Used for the top chart container line. */
-  --size-border-width-xl: 3px; /* A larger border size. Used for lines in focus, and the bottom chart container line. */
-  --size-border-width-l: 2px; /* A larger border size. Used for borders between filled elements. */
-  --size-border-width-m: 1px; /* The default border size. Used for axes borders, default data lines. */
-  --size-border-width-s: 0.5px; /* The smallest border size. Used for gridlines. */
-  --size-border-radius-bigger: 5px;
-  --size-border-radius-base: 2px;
-  --size-space-xxxxxl: 273.375px;
-  --size-space-xxxxl: 182.25px;
-  --size-space-xxxl: 121.5px;
-  --size-space-xxl: 81px;
-  --size-space-xl: 54px;
-  --size-space-l: 36px;
-  --size-space-m: 24px;
-  --size-space-s: 16px;
-  --size-space-xs: 10.667px;
-  --size-space-xxs: 7.111px;
-  --size-space-xxxs: 4.741px;
-  --size-space-xxxxs: 3.161px;
-  --size-font-size-xxl: 37.642px;
-  --size-font-size-xl: 28.302px;
-  --size-font-size-l: 21.28px;
-  --size-font-size-m: 16px;
-  --size-font-size-s: 14.545px;
-  --size-font-size-xs: 13.223px;
-  --size-chart-width: 1080px;
-  --size-min-content-width: 320px;
-  --size-max-content-width: 1440px;
-  --size-breakpoint-xl: 1440px;
-  --size-breakpoint-lg: 1200px;
-  --size-breakpoint-md: 960px;
-  --size-breakpoint-sm: 640px;
-  --size-breakpoint-xs: 480px;
-  --size-parameter-space-base: 24;
-  --size-parameter-space-scale-factor-below-one: 1.5;
-  --size-parameter-space-scale-factor: 1.5;
-  --size-parameter-font-size-base: 16;
-  --size-parameter-font-size-scale-factor-below-one: 1.1;
-  --size-parameter-font-size-scale-factor: 1.33;
-  --effect-depth-ui: 1px 1px 2px 0px #00000033;
-  --effect-depth-modal: 0px 7px 10px 0px #00000033;
-  --effect-depth-hover: 3px 3px 6px 0px #00000033;
-  --effect-depth-card: 1px 1px 3px 0px #00000033;
-  --typography-text-decoration-none: none;
-  --typography-text-case-uppercase: uppercase;
-  --typography-text-case-none: none;
-  --typography-paragraph-spacing-base: 8;
-  --typography-paragraph-spacing-none: 0;
-  --typography-letter-spacing-looser: 15%;
-  --typography-letter-spacing-base: 0%;
-  --typography-font-weight-semi-bold: 600;
-  --typography-font-weight-bold: 700;
-  --typography-font-weight-regular: 400;
-  --typography-line-height-tightest: 115%;
-  --typography-line-height-tighter: 145%;
-  --typography-line-height-base: 160%;
-  --typography-font-family-mono: Fira Mono;
-  --typography-font-family-heading: Inter;
-  --typography-font-family-base: Inter;
-  --meta-authors: Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana; /* Authors */
-  --meta-last-updated: 1986; /* Last updated */
-  --meta-project-subtitle: Data Design Language; /* Project subtitle */
-  --meta-version: v0.9.0; /* Version */
-  --meta-project-title: <BRAND>; /* Project title */
+  --color-teal-dark-900: #b8dee7;
+  --color-teal-dark-800: #9ed0dd;
+  --color-teal-dark-700: #83c3d4;
+  --color-teal-dark-600: #66b5cb;
+  --color-teal-dark-500: #44a8c3;
+  --color-teal-dark-400: #348ba1;
+  --color-teal-dark-300: #256f81;
+  --color-teal-dark-200: #175462;
+  --color-teal-dark-100: #093a45;
+  --color-red-dark-900: #fea496;
+  --color-red-dark-800: #f38c7c;
+  --color-red-dark-700: #e77463;
+  --color-red-dark-600: #da5c4b;
+  --color-red-dark-500: #cc4233;
+  --color-red-dark-400: #a7332a;
+  --color-red-dark-300: #832521;
+  --color-red-dark-200: #601817;
+  --color-red-dark-100: #400c0a;
+  --color-red-900: #ffe9e5;
+  --color-red-800: #fbc8bf;
+  --color-red-700: #f3a79a;
+  --color-red-600: #e98676;
+  --color-red-500: #dc6454;
+  --color-red-400: #c9513f;
+  --color-red-300: #b53d2b;
+  --color-red-200: #a12917;
+  --color-red-100: #8d1000;
+  --color-teal-900: #e8eced;
+  --color-teal-800: #c3d6dc;
+  --color-teal-700: #9fc1cc;
+  --color-teal-600: #79abbc;
+  --color-teal-500: #5196ae;
+  --color-teal-400: #377796;
+  --color-teal-300: #215a7d;
+  --color-teal-200: #0e3e63;
+  --color-teal-100: #002348;
+  --color-grey-000: #000000;
+  --color-grey-900: #ffffff;
+  --color-grey-800: #f1f2f3;
+  --color-grey-750: #e0e2e4;
+  --color-grey-600: #c0c8d2;
+  --color-grey-500: #9ea9b5;
+  --color-grey-400: #6b7581;
+  --color-grey-300: #3d4246;
+  --color-grey-100: #191919;
 }

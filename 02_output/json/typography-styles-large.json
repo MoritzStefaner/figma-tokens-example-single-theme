@@ -1,0 +1,76 @@
+{
+  "typography": {
+    "style": {
+      "base": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "lineHeight": "160%",
+        "fontSize": 16,
+        "letterSpacing": "0%",
+        "paragraphSpacing": 8,
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "huge": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "lineHeight": "115%",
+        "fontSize": 37.642,
+        "letterSpacing": "0%",
+        "paragraphSpacing": 8,
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "title": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "lineHeight": "115%",
+        "fontSize": 28.302,
+        "letterSpacing": "0%",
+        "paragraphSpacing": 8,
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "majorPrimary": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "lineHeight": "145%",
+        "fontSize": 16,
+        "letterSpacing": "0%",
+        "paragraphSpacing": 8,
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "majorSecondary": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "lineHeight": "145%",
+        "fontSize": 16,
+        "letterSpacing": "0%",
+        "paragraphSpacing": 8,
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "minorPrimary": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "lineHeight": "115%",
+        "fontSize": 14.545,
+        "letterSpacing": "0%",
+        "paragraphSpacing": 8,
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "minorSecondary": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "lineHeight": "115%",
+        "fontSize": 14.545,
+        "letterSpacing": "0%",
+        "paragraphSpacing": 8,
+        "textDecoration": "none",
+        "textCase": "none"
+      }
+    }
+  }
+}

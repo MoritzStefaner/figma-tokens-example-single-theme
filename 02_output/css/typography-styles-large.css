@@ -1,0 +1,104 @@
+/*
+  base
+  The default text style.
+*/
+
+.typography-style-base {
+  font-family: Inter;
+  font-size: 16;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+
+/*
+  huge
+  Used for summary statistics, large numbers, etc.
+*/
+
+.typography-style-huge {
+  font-family: Inter;
+  font-size: 37.642;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+
+/*
+  title
+  Used for the title of a chart.
+*/
+
+.typography-style-title {
+  font-family: Inter;
+  font-size: 28.302;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+
+/*
+  majorPrimary
+  Used for legend main labels, as well as individual value annotations.
+*/
+
+.typography-style-major-primary {
+  font-family: Inter;
+  font-size: 16;
+  font-weight: 700;
+  line-height: 145%;
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+
+/*
+  majorSecondary
+  Used for secondary legend labels, description, and the chart subtitle.
+*/
+
+.typography-style-major-secondary {
+  font-family: Inter;
+  font-size: 16;
+  font-weight: 400;
+  line-height: 145%;
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+
+/*
+  minorPrimary
+  Used for smaller annotations in charts.
+*/
+
+.typography-style-minor-primary {
+  font-family: Inter;
+  font-size: 14.545;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+
+/*
+  minorSecondary
+  Used for tick labels, secondary annotations, footer text.
+*/
+
+.typography-style-minor-secondary {
+  font-family: Inter;
+  font-size: 14.545;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
