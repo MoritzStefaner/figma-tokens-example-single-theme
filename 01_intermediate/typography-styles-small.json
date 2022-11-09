@@ -34,6 +34,150 @@
       "value": 480,
       "type": "sizing"
     },
+    "meta": {
+      "label": {
+        "value": "Small",
+        "type": "other"
+      }
+    },
+    "config": {
+      "large": {
+        "fontSize": {
+          "scaleFactor": {
+            "value": 1.33,
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": 1.1,
+            "type": "other"
+          },
+          "base": {
+            "value": 16,
+            "type": "other"
+          }
+        },
+        "space": {
+          "scaleFactor": {
+            "value": 1.5,
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": 1.5,
+            "type": "other"
+          },
+          "base": {
+            "value": 24,
+            "type": "other"
+          }
+        }
+      },
+      "small": {
+        "fontSize": {
+          "scaleFactor": {
+            "value": 1.2,
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": 1.1,
+            "type": "other"
+          },
+          "base": {
+            "value": 14,
+            "type": "other"
+          }
+        },
+        "space": {
+          "scaleFactor": {
+            "value": 1.25,
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": 1.25,
+            "type": "other"
+          },
+          "base": {
+            "value": 17.5,
+            "type": "other"
+          }
+        }
+      }
+    },
+    "fontSize": {
+      "xs": {
+        "value": 11.57,
+        "type": "fontSizes"
+      },
+      "s": {
+        "value": 12.727,
+        "type": "fontSizes"
+      },
+      "m": {
+        "value": 14,
+        "type": "fontSizes"
+      },
+      "l": {
+        "value": 16.8,
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": 20.16,
+        "type": "fontSizes"
+      },
+      "xxl": {
+        "value": 24.192,
+        "type": "fontSizes"
+      }
+    },
+    "space": {
+      "xxxxs": {
+        "value": 5.734,
+        "type": "spacing"
+      },
+      "xxxs": {
+        "value": 7.168,
+        "type": "spacing"
+      },
+      "xxs": {
+        "value": 8.96,
+        "type": "spacing"
+      },
+      "xs": {
+        "value": 11.2,
+        "type": "spacing"
+      },
+      "s": {
+        "value": 14,
+        "type": "spacing"
+      },
+      "m": {
+        "value": 17.5,
+        "type": "spacing"
+      },
+      "l": {
+        "value": 21.875,
+        "type": "spacing"
+      },
+      "xl": {
+        "value": 27.344,
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": 34.18,
+        "type": "spacing"
+      },
+      "xxxl": {
+        "value": 42.725,
+        "type": "spacing"
+      },
+      "xxxxl": {
+        "value": 53.406,
+        "type": "spacing"
+      },
+      "xxxxxl": {
+        "value": 66.757,
+        "type": "spacing"
+      }
+    },
     "breakpoint": {
       "xs": {
         "value": 480,
@@ -126,82 +270,6 @@
         "value": 8,
         "type": "borderWidth",
         "description": "Double size of respective border token, for e.g. line background strokes."
-      }
-    },
-    "fontSize": {
-      "xs": {
-        "value": 11.57,
-        "type": "fontSizes"
-      },
-      "s": {
-        "value": 12.727,
-        "type": "fontSizes"
-      },
-      "m": {
-        "value": 14,
-        "type": "fontSizes"
-      },
-      "l": {
-        "value": 16.8,
-        "type": "fontSizes"
-      },
-      "xl": {
-        "value": 20.16,
-        "type": "fontSizes"
-      },
-      "xxl": {
-        "value": 24.192,
-        "type": "fontSizes"
-      }
-    },
-    "space": {
-      "xxxxs": {
-        "value": 5.734,
-        "type": "spacing"
-      },
-      "xxxs": {
-        "value": 7.168,
-        "type": "spacing"
-      },
-      "xxs": {
-        "value": 8.96,
-        "type": "spacing"
-      },
-      "xs": {
-        "value": 11.2,
-        "type": "spacing"
-      },
-      "s": {
-        "value": 14,
-        "type": "spacing"
-      },
-      "m": {
-        "value": 17.5,
-        "type": "spacing"
-      },
-      "l": {
-        "value": 21.875,
-        "type": "spacing"
-      },
-      "xl": {
-        "value": 27.344,
-        "type": "spacing"
-      },
-      "xxl": {
-        "value": 34.18,
-        "type": "spacing"
-      },
-      "xxxl": {
-        "value": 42.725,
-        "type": "spacing"
-      },
-      "xxxxl": {
-        "value": 53.406,
-        "type": "spacing"
-      },
-      "xxxxxl": {
-        "value": 66.757,
-        "type": "spacing"
       }
     }
   },

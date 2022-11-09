@@ -13,6 +13,7 @@
 
 # todo create one nested complete-complete json with all variations?
 
+
 # process global tokens
 token-transformer \
 00_input/figma-tokens.json \
@@ -44,14 +45,14 @@ token-transformer \
 00_input/figma-tokens.json \
 01_intermediate/theme-dark.json \
 _palettes,themeDark \
-palettes
+_palettes
 
 # light theme
 token-transformer \
 00_input/figma-tokens.json \
 01_intermediate/theme-light.json \
 _palettes,themeLight \
-palettes
+_palettes
 
 # large theme
 token-transformer \
@@ -64,3 +65,12 @@ token-transformer \
 00_input/figma-tokens.json \
 01_intermediate/size-small.json \
 sizeSmall,dynamicSize
+
+
+# process _docs
+token-transformer \
+--resolveReferences=false \
+00_input/figma-tokens.json \
+01_intermediate/_docs.json \
+global,_palettes,_docs,themeLight,sizeLarge,dynamicSize \
+

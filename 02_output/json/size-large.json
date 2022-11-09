@@ -13,6 +13,35 @@
       }
     },
     "chartWidth": 1080,
+    "meta": {
+      "label": "Large"
+    },
+    "config": {
+      "large": {
+        "fontSize": {
+          "scaleFactor": 1.33,
+          "scaleFactorBelowOne": 1.1,
+          "base": 16
+        },
+        "space": {
+          "scaleFactor": 1.5,
+          "scaleFactorBelowOne": 1.5,
+          "base": 24
+        }
+      },
+      "small": {
+        "fontSize": {
+          "scaleFactor": 1.2,
+          "scaleFactorBelowOne": 1.1,
+          "base": 14
+        },
+        "space": {
+          "scaleFactor": 1.25,
+          "scaleFactorBelowOne": 1.25,
+          "base": 17.5
+        }
+      }
+    },
     "fontSize": {
       "xs": 13.223,
       "s": 14.545,
