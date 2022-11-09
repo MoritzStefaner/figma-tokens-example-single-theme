@@ -156,36 +156,6 @@
       }
     },
     "size": {
-      "parameter": {
-        "fontSize": {
-          "scaleFactor": {
-            "value": "1.33",
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": "1.1",
-            "type": "other"
-          },
-          "base": {
-            "value": "16",
-            "type": "other"
-          }
-        },
-        "space": {
-          "scaleFactor": {
-            "value": "1.5",
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": "1.5",
-            "type": "other"
-          },
-          "base": {
-            "value": "{size.parameter.fontSize.base} * {size.parameter.space.scaleFactor}",
-            "type": "other"
-          }
-        }
-      },
       "breakpoint": {
         "xs": {
           "value": "480",
@@ -214,10 +184,6 @@
       },
       "minContentWidth": {
         "value": "320",
-        "type": "sizing"
-      },
-      "chartWidth": {
-        "value": "1080",
         "type": "sizing"
       },
       "fontSize": {
@@ -360,7 +326,189 @@
           "description": "Double size of respective border token, for e.g. line background strokes."
         }
       }
-    },
+    }
+  },
+  "typographyStyles": {
+    "typography": {
+      "style": {
+        "base": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.regular}",
+            "lineHeight": "{typography.lineHeight.base}",
+            "fontSize": "{size.fontSize.m}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "The default text style."
+        },
+        "huge": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.heading}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{size.fontSize.xxl}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for summary statistics, large numbers, etc."
+        },
+        "title": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.heading}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{size.fontSize.xl}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for the title of a chart."
+        },
+        "majorPrimary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tighter}",
+            "fontSize": "{size.fontSize.m}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for legend main labels, as well as individual value annotations."
+        },
+        "majorSecondary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.regular}",
+            "lineHeight": "{typography.lineHeight.tighter}",
+            "fontSize": "{size.fontSize.m}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for secondary legend labels, description, and the chart subtitle."
+        },
+        "minorPrimary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{size.fontSize.s}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for smaller annotations in charts."
+        },
+        "minorSecondary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.regular}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{size.fontSize.s}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for tick labels, secondary annotations, footer text."
+        }
+      }
+    }
+  },
+  "sizeLarge": {
+    "size": {
+      "parameter": {
+        "fontSize": {
+          "scaleFactor": {
+            "value": "1.33",
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": "1.1",
+            "type": "other"
+          },
+          "base": {
+            "value": "16",
+            "type": "other"
+          }
+        },
+        "space": {
+          "scaleFactor": {
+            "value": "1.5",
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": "1.5",
+            "type": "other"
+          },
+          "base": {
+            "value": "{size.parameter.fontSize.base} * {size.parameter.space.scaleFactor}",
+            "type": "other"
+          }
+        }
+      },
+      "chartWidth": {
+        "value": "1080",
+        "type": "sizing"
+      }
+    }
+  },
+  "sizeSmall": {
+    "size": {
+      "parameter": {
+        "fontSize": {
+          "scaleFactor": {
+            "value": "1.2",
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": "1.1",
+            "type": "other"
+          },
+          "base": {
+            "value": "14",
+            "type": "other"
+          }
+        },
+        "space": {
+          "scaleFactor": {
+            "value": "1.25",
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": "1.25",
+            "type": "other"
+          },
+          "base": {
+            "value": "{size.parameter.fontSize.base} * {size.parameter.space.scaleFactor}",
+            "type": "other"
+          }
+        }
+      },
+      "chartWidth": {
+        "value": "480",
+        "type": "sizing"
+      }
+    }
+  },
+  "themeLight": {
     "color": {
       "background": {
         "base": {
@@ -647,106 +795,271 @@
       }
     }
   },
-  "typographyStyles": {
-    "typography": {
-      "style": {
+  "themeDark": {
+    "color": {
+      "background": {
         "base": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.regular}",
-            "lineHeight": "{typography.lineHeight.base}",
-            "fontSize": "{size.fontSize.m}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "The default text style."
+          "value": "#111",
+          "type": "color"
         },
-        "huge": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.heading}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{size.fontSize.xxl}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for summary statistics, large numbers, etc."
+        "weaker": {
+          "value": "#333",
+          "type": "color",
+          "description": "slightly shaded background"
         },
-        "title": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.heading}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{size.fontSize.xl}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for the title of a chart."
+        "weakest": {
+          "value": "#666",
+          "type": "color"
+        }
+      },
+      "foreground": {
+        "base": {
+          "value": "#eaeaea",
+          "type": "color"
         },
-        "majorPrimary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tighter}",
-            "fontSize": "{size.fontSize.m}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for legend main labels, as well as individual value annotations."
+        "weaker": {
+          "value": "#abafb0",
+          "type": "color"
         },
-        "majorSecondary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.regular}",
-            "lineHeight": "{typography.lineHeight.tighter}",
-            "fontSize": "{size.fontSize.m}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for secondary legend labels, description, and the chart subtitle."
+        "weakest": {
+          "value": "#717576",
+          "type": "color"
+        }
+      },
+      "text": {
+        "weaker": {
+          "value": "#ABAFB0",
+          "type": "color"
         },
-        "minorPrimary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{size.fontSize.s}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for smaller annotations in charts."
+        "base": {
+          "value": "#f8f8f8",
+          "type": "color"
         },
-        "minorSecondary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.regular}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{size.fontSize.s}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
+        "stronger": {
+          "value": "#FFF",
+          "type": "color",
+          "description": "Stronger text color for maximum background contrast."
+        }
+      },
+      "theme": {
+        "base": {
+          "value": "{color.teal-dark.500}",
+          "type": "color"
+        },
+        "weaker": {
+          "value": "{color.teal-dark.300}",
+          "type": "color"
+        },
+        "stronger": {
+          "value": "{color.teal-dark.700}",
+          "type": "color"
+        }
+      },
+      "functional": {
+        "accent": {
+          "value": "#ffcb01",
+          "type": "color"
+        },
+        "focus": {
+          "value": "#ffcb01",
+          "type": "color"
+        },
+        "not-available": {
+          "value": "#cccccc",
+          "type": "color"
+        },
+        "filtered-out": {
+          "value": "#474b69",
+          "type": "color"
+        }
+      },
+      "category": {
+        "stronger": {
+          "0": {
+            "value": "#83BAD9",
+            "type": "color"
           },
-          "type": "typography",
-          "description": "Used for tick labels, secondary annotations, footer text."
+          "1": {
+            "value": "#B386C8",
+            "type": "color"
+          },
+          "2": {
+            "value": "#E38C7C",
+            "type": "color"
+          },
+          "3": {
+            "value": "#F8C975",
+            "type": "color"
+          },
+          "4": {
+            "value": "#83C0A4",
+            "type": "color"
+          },
+          "5": {
+            "value": "#CED56D",
+            "type": "color"
+          },
+          "99": {
+            "value": "{color.grey.600}",
+            "type": "color"
+          }
+        },
+        "base": {
+          "0": {
+            "value": "#22699A",
+            "type": "color"
+          },
+          "1": {
+            "value": "#825497",
+            "type": "color"
+          },
+          "2": {
+            "value": "#C85543",
+            "type": "color"
+          },
+          "3": {
+            "value": "#DC9D38",
+            "type": "color"
+          },
+          "4": {
+            "value": "#458A69",
+            "type": "color"
+          },
+          "5": {
+            "value": "#7E8518",
+            "type": "color"
+          },
+          "99": {
+            "value": "{color.grey.500}",
+            "type": "color"
+          }
+        },
+        "weaker": {
+          "0": {
+            "value": "#124874",
+            "type": "color"
+          },
+          "1": {
+            "value": "#613F70",
+            "type": "color"
+          },
+          "2": {
+            "value": "#993D31",
+            "type": "color"
+          },
+          "3": {
+            "value": "#A07730",
+            "type": "color"
+          },
+          "4": {
+            "value": "#366D53",
+            "type": "color"
+          },
+          "5": {
+            "value": "#575B20",
+            "type": "color"
+          },
+          "99": {
+            "value": "{color.grey.400}",
+            "type": "color"
+          }
+        }
+      },
+      "complementary": {
+        "base": {
+          "value": "{color.red-dark.500}",
+          "type": "color",
+          "description": "Second step in the base diverging color scale, used for values lower than zero (or data median)."
+        },
+        "weaker": {
+          "value": "{color.red-dark.300}",
+          "type": "color",
+          "description": "Second step in the base diverging color scale, used for values lower than zero (or data median)."
+        },
+        "stronger": {
+          "value": "{color.red-dark.600}",
+          "type": "color",
+          "description": "First step in the based diverging color scale, used for the lowest (most negative) value. "
+        }
+      },
+      "diverging": {
+        "positive": {
+          "1": {
+            "value": "{color.teal-dark.300}",
+            "type": "color"
+          },
+          "2": {
+            "value": "{color.teal-dark.600}",
+            "type": "color"
+          }
+        },
+        "neutral": {
+          "value": "#2C343E",
+          "type": "color"
+        },
+        "negative": {
+          "1": {
+            "value": "{color.red-dark.300}",
+            "type": "color"
+          },
+          "2": {
+            "value": "{color.red-dark.600}",
+            "type": "color"
+          }
+        }
+      },
+      "sequential": {
+        "0": {
+          "value": "{color.sequential.positive.0}",
+          "type": "color"
+        },
+        "1": {
+          "value": "{color.sequential.positive.1}",
+          "type": "color"
+        },
+        "2": {
+          "value": "{color.sequential.positive.2}",
+          "type": "color"
+        },
+        "3": {
+          "value": "{color.sequential.positive.3}",
+          "type": "color"
+        },
+        "positive": {
+          "0": {
+            "value": "{color.teal-dark.200}",
+            "type": "color"
+          },
+          "1": {
+            "value": "{color.teal-dark.400}",
+            "type": "color"
+          },
+          "2": {
+            "value": "{color.teal-dark.600}",
+            "type": "color"
+          },
+          "3": {
+            "value": "{color.teal-dark.800}",
+            "type": "color"
+          }
+        },
+        "negative": {
+          "0": {
+            "value": "{color.red-dark.200}",
+            "type": "color"
+          },
+          "1": {
+            "value": "{color.red-dark.400}",
+            "type": "color"
+          },
+          "2": {
+            "value": "{color.red-dark.600}",
+            "type": "color"
+          },
+          "3": {
+            "value": "{color.red-dark.800}",
+            "type": "color"
+          }
         }
       }
     }
@@ -1227,51 +1540,51 @@
         "space": {
           "size": {
             "xxxxs": {
-              "value": "{docs.size.space.xxxxs}",
+              "value": "{size.space.xxxxs}",
               "type": "sizing"
             },
             "xxxs": {
-              "value": "{docs.size.space.xxxs}",
+              "value": "{size.space.xxxs}",
               "type": "sizing"
             },
             "xxs": {
-              "value": "{docs.size.space.xxs}",
+              "value": "{size.space.xxs}",
               "type": "sizing"
             },
             "xs": {
-              "value": "{docs.size.space.xs}",
+              "value": "{size.space.xs}",
               "type": "sizing"
             },
             "s": {
-              "value": "{docs.size.space.s}",
+              "value": "{size.space.s}",
               "type": "sizing"
             },
             "m": {
-              "value": "{docs.size.space.m}",
+              "value": "{size.space.m}",
               "type": "sizing"
             },
             "l": {
-              "value": "{docs.size.space.l}",
+              "value": "{size.space.l}",
               "type": "sizing"
             },
             "xl": {
-              "value": "{docs.size.space.xl}",
+              "value": "{size.space.xl}",
               "type": "sizing"
             },
             "xxl": {
-              "value": "{docs.size.space.xxl}",
+              "value": "{size.space.xxl}",
               "type": "sizing"
             },
             "xxxl": {
-              "value": "{docs.size.space.xxxl}",
+              "value": "{size.space.xxxl}",
               "type": "sizing"
             },
             "xxxxl": {
-              "value": "{docs.size.space.xxxxl}",
+              "value": "{size.space.xxxxl}",
               "type": "sizing"
             },
             "xxxxxl": {
-              "value": "{docs.size.space.xxxxxl}",
+              "value": "{size.space.xxxxxl}",
               "type": "sizing"
             }
           },
@@ -1437,6 +1750,15 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["global", "typographyStyles", "_palettes", "_docs"]
+    "tokenSetOrder": [
+      "global",
+      "typographyStyles",
+      "sizeLarge",
+      "sizeSmall",
+      "themeLight",
+      "themeDark",
+      "_palettes",
+      "_docs"
+    ]
   }
 }
