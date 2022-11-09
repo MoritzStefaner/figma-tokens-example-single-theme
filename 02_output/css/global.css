@@ -1,0 +1,46 @@
+:root {
+  --size-border-width-double-xxl: 8px; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-xl: 6px; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-l: 4px; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-m: 2px; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-double-s: 1px; /* Double size of respective border token, for e.g. line background strokes. */
+  --size-border-width-xxl: 4px; /* The largest border size. Used for the top chart container line. */
+  --size-border-width-xl: 3px; /* A larger border size. Used for lines in focus, and the bottom chart container line. */
+  --size-border-width-l: 2px; /* A larger border size. Used for borders between filled elements. */
+  --size-border-width-m: 1px; /* The default border size. Used for axes borders, default data lines. */
+  --size-border-width-s: 0.5px; /* The smallest border size. Used for gridlines. */
+  --size-border-radius-bigger: 5px;
+  --size-border-radius-base: 2px;
+  --size-min-content-width: 320px;
+  --size-max-content-width: 1440px;
+  --size-breakpoint-xl: 1440px;
+  --size-breakpoint-lg: 1200px;
+  --size-breakpoint-md: 960px;
+  --size-breakpoint-sm: 640px;
+  --size-breakpoint-xs: 480px;
+  --effect-depth-ui: 1px 1px 2px 0px #00000033;
+  --effect-depth-modal: 0px 7px 10px 0px #00000033;
+  --effect-depth-hover: 3px 3px 6px 0px #00000033;
+  --effect-depth-card: 1px 1px 3px 0px #00000033;
+  --typography-text-decoration-none: none;
+  --typography-text-case-uppercase: uppercase;
+  --typography-text-case-none: none;
+  --typography-paragraph-spacing-base: 8;
+  --typography-paragraph-spacing-none: 0;
+  --typography-letter-spacing-looser: 15%;
+  --typography-letter-spacing-base: 0%;
+  --typography-font-weight-semi-bold: 600;
+  --typography-font-weight-bold: 700;
+  --typography-font-weight-regular: 400;
+  --typography-line-height-tightest: 115%;
+  --typography-line-height-tighter: 145%;
+  --typography-line-height-base: 160%;
+  --typography-font-family-mono: Fira Mono;
+  --typography-font-family-heading: Inter;
+  --typography-font-family-base: Inter;
+  --meta-authors: Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana; /* Authors */
+  --meta-last-updated: 1986; /* Last updated */
+  --meta-project-subtitle: Data Design Language; /* Project subtitle */
+  --meta-version: v0.9.0; /* Version */
+  --meta-project-title: <BRAND>; /* Project title */
+}

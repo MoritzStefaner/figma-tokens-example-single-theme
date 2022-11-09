@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "projectTitle": {
+      "value": "<BRAND>",
+      "type": "string",
+      "description": "Project title"
+    },
+    "version": {
+      "value": "v0.9.0",
+      "type": "string",
+      "description": "Version"
+    },
+    "projectSubtitle": {
+      "value": "Data Design Language",
+      "type": "string",
+      "description": "Project subtitle"
+    },
+    "lastUpdated": {
+      "value": 1986,
+      "type": "string",
+      "description": "Last updated"
+    },
+    "authors": {
+      "value": "Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana",
+      "type": "string",
+      "description": "Authors"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "base": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "heading": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "Fira Mono",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeight": {
+      "base": {
+        "value": "160%",
+        "type": "lineHeights"
+      },
+      "tighter": {
+        "value": "145%",
+        "type": "lineHeights"
+      },
+      "tightest": {
+        "value": "115%",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "value": 400,
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": 700,
+        "type": "fontWeights"
+      },
+      "semiBold": {
+        "value": 600,
+        "type": "fontWeights"
+      }
+    },
+    "letterSpacing": {
+      "base": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "looser": {
+        "value": "15%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "none": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "base": {
+        "value": 8,
+        "type": "paragraphSpacing"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    }
+  },
+  "effect": {
+    "depth": {
+      "card": {
+        "value": {
+          "x": 1,
+          "y": 1,
+          "blur": 3,
+          "spread": 0,
+          "color": "#00000033",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "hover": {
+        "value": {
+          "x": 3,
+          "y": 3,
+          "blur": 6,
+          "spread": 0,
+          "color": "#00000033",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "modal": {
+        "value": {
+          "color": "#00000033",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 7,
+          "blur": 10,
+          "spread": 0
+        },
+        "type": "boxShadow"
+      },
+      "ui": {
+        "value": {
+          "x": 1,
+          "y": 1,
+          "blur": 2,
+          "spread": 0,
+          "color": "#00000033",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    }
+  },
+  "size": {
+    "breakpoint": {
+      "xs": {
+        "value": 480,
+        "type": "sizing"
+      },
+      "sm": {
+        "value": 640,
+        "type": "sizing"
+      },
+      "md": {
+        "value": 960,
+        "type": "sizing"
+      },
+      "lg": {
+        "value": 1200,
+        "type": "sizing"
+      },
+      "xl": {
+        "value": 1440,
+        "type": "sizing"
+      }
+    },
+    "maxContentWidth": {
+      "value": 1440,
+      "type": "sizing"
+    },
+    "minContentWidth": {
+      "value": 320,
+      "type": "sizing"
+    },
+    "borderRadius": {
+      "base": {
+        "value": 2,
+        "type": "borderRadius"
+      },
+      "bigger": {
+        "value": 5,
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "s": {
+        "value": 0.5,
+        "type": "borderWidth",
+        "description": "The smallest border size. Used for gridlines."
+      },
+      "m": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "The default border size. Used for axes borders, default data lines."
+      },
+      "l": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "A larger border size. Used for borders between filled elements."
+      },
+      "xl": {
+        "value": 3,
+        "type": "borderWidth",
+        "description": "A larger border size. Used for lines in focus, and the bottom chart container line."
+      },
+      "xxl": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "The largest border size. Used for the top chart container line."
+      }
+    },
+    "borderWidthDouble": {
+      "s": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "Double size of respective border token, for e.g. line background strokes."
+      },
+      "m": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "Double size of respective border token, for e.g. line background strokes."
+      },
+      "l": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "Double size of respective border token, for e.g. line background strokes."
+      },
+      "xl": {
+        "value": 6,
+        "type": "borderWidth",
+        "description": "Double size of respective border token, for e.g. line background strokes."
+      },
+      "xxl": {
+        "value": 8,
+        "type": "borderWidth",
+        "description": "Double size of respective border token, for e.g. line background strokes."
+      }
+    }
+  }
+}

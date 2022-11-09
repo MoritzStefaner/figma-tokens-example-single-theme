@@ -1,7 +1,7 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
 const config = {
-  source: ['./01_intermediate/style-dict-tokens.json'],
+  source: ['./01_intermediate/global.json'],
   platforms: {
     css: {
       buildPath: './02_output/css/',
@@ -10,8 +10,7 @@ const config = {
           destination: 'effect-classes.css',
           format: 'css/shadowClasses',
           selector: ':root',
-          filter: (token) =>
-            token.type === 'boxShadow' || console.log(token.type),
+          filter: (token) => token.type === 'boxShadow',
           options: {
             showFileHeader: false,
           },

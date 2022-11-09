@@ -1,0 +1,39 @@
+{
+  "size": {
+    "parameter": {
+      "fontSize": {
+        "scaleFactor": 1.33,
+        "scaleFactorBelowOne": 1.1,
+        "base": 16
+      },
+      "space": {
+        "scaleFactor": 1.5,
+        "scaleFactorBelowOne": 1.5,
+        "base": 24
+      }
+    },
+    "chartWidth": 1080,
+    "fontSize": {
+      "xs": 13.223,
+      "s": 14.545,
+      "m": 16,
+      "l": 21.28,
+      "xl": 28.302,
+      "xxl": 37.642
+    },
+    "space": {
+      "xxxxs": 3.161,
+      "xxxs": 4.741,
+      "xxs": 7.111,
+      "xs": 10.667,
+      "s": 16,
+      "m": 24,
+      "l": 36,
+      "xl": 54,
+      "xxl": 81,
+      "xxxl": 121.5,
+      "xxxxl": 182.25,
+      "xxxxxl": 273.375
+    }
+  }
+}

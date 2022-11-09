@@ -1,9 +1,21 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
-function getStyleDictionaryConfig() {
+const transforms = {
+  web: [
+    'attribute/cti',
+    'name/cti/kebab',
+    'sizes/px',
+    'color/css',
+    'time/seconds',
+    'shadow/shorthand',
+  ],
+  js: ['attribute/cti', 'name/cti/pascal', 'color/hex'],
+};
+
+function getStyleDictionaryConfig(theme = 'global') {
   return {
     source: [
-      '01_intermediate/style-dict-tokens.json',
+      `01_intermediate/${theme}.json`,
       // '01_intermediate/typography-styles-expanded.json', // in case you want to add explicit versions of all typography style tokens
     ],
     platforms: {
@@ -11,19 +23,13 @@ function getStyleDictionaryConfig() {
       css: {
         transformGroup: 'web',
         buildPath: `02_output/css/`,
-        transforms: [
-          'attribute/cti',
-          'name/cti/kebab',
-          'sizes/px',
-          'color/css',
-          'time/seconds',
-          'shadow/shorthand',
-        ],
+        transforms: transforms.web,
         files: [
           {
-            destination: 'tokens.css',
+            destination: `${theme}.css`,
             format: 'css/variables',
             options: {
+              selector: `${theme === 'global' ? ':root' : '.' + theme}`,
               showFileHeader: false,
               outputReferences: true,
             },
@@ -35,10 +41,10 @@ function getStyleDictionaryConfig() {
       js: {
         transformGroup: 'js',
         buildPath: `02_output/js/`,
-        transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex'],
+        transforms: transforms.js,
         files: [
           {
-            destination: 'tokens.js',
+            destination: `${theme}.js`,
             format: 'javascript/es6',
             options: {
               showFileHeader: false,
@@ -46,6 +52,32 @@ function getStyleDictionaryConfig() {
           },
         ],
       },
+
+      json: {
+        transformGroup: 'js',
+        buildPath: `02_output/json/`,
+        transforms: transforms.js,
+        files: [
+          {
+            destination: `${theme}.json`,
+            format: 'json/nested',
+            options: {
+              showFileHeader: false,
+            },
+          },
+        ],
+      },
+
+      // noop: {
+      //   transformGroup: 'noop',
+      //   buildPath: `02_output/json/`,
+      //   files: [
+      //     {
+      //       destination: `__${theme}.json`,
+      //       format: 'noop',
+      //     },
+      //   ],
+      // },
     },
   };
 }
@@ -115,13 +147,31 @@ StyleDictionaryPackage.registerParser({
   },
 });
 
+StyleDictionaryPackage.registerTransformGroup({
+  name: 'noop',
+  transforms: [],
+});
+
+StyleDictionaryPackage.registerFormat({
+  name: 'noop',
+  formatter: function ({ dictionary, platform, options, file }) {
+    return JSON.stringify(dictionary.tokens, null, 2);
+  },
+});
+
 // run build
 
 console.log('Build started...');
 
-const StyleDictionary = StyleDictionaryPackage.extend(
-  getStyleDictionaryConfig()
+['global', 'theme-dark', 'theme-light', 'size-large', 'size-small'].map(
+  function (theme) {
+    console.log('\n==============================================');
+    console.log(`\nProcessing: [${theme}]`);
+
+    StyleDictionaryPackage.extend(
+      getStyleDictionaryConfig(theme)
+    ).buildAllPlatforms();
+  }
 );
 
-StyleDictionary.buildAllPlatforms();
 console.log('\nEnd processing');

@@ -1,0 +1,27 @@
+.size-small {
+  --size-space-xxxxxl: 66.757px;
+  --size-space-xxxxl: 53.406px;
+  --size-space-xxxl: 42.725px;
+  --size-space-xxl: 34.18px;
+  --size-space-xl: 27.344px;
+  --size-space-l: 21.875px;
+  --size-space-m: 17.5px;
+  --size-space-s: 14px;
+  --size-space-xs: 11.2px;
+  --size-space-xxs: 8.96px;
+  --size-space-xxxs: 7.168px;
+  --size-space-xxxxs: 5.734px;
+  --size-font-size-xxl: 24.192px;
+  --size-font-size-xl: 20.16px;
+  --size-font-size-l: 16.8px;
+  --size-font-size-m: 14px;
+  --size-font-size-s: 12.727px;
+  --size-font-size-xs: 11.57px;
+  --size-chart-width: 480px;
+  --size-parameter-space-base: 17.5;
+  --size-parameter-space-scale-factor-below-one: 1.25;
+  --size-parameter-space-scale-factor: 1.25;
+  --size-parameter-font-size-base: 14;
+  --size-parameter-font-size-scale-factor-below-one: 1.1;
+  --size-parameter-font-size-scale-factor: 1.2;
+}

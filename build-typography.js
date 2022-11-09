@@ -1,24 +1,57 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
-const config = {
-  source: ['./01_intermediate/typography-styles.json'],
-  platforms: {
-    css: {
-      buildPath: './02_output/css/',
-      files: [
-        {
-          destination: 'typography-style-classes.css',
-          format: 'css/typographyClasses',
-          selector: ':root',
-          filter: (token) => token.type === 'typography',
-          options: {
-            showFileHeader: false,
+function getStyleDictionaryConfig(theme = 'dynamic') {
+  return {
+    source: [`./01_intermediate/typography-styles-${theme}.json`],
+    platforms: {
+      css: {
+        buildPath: './02_output/css/',
+        files: [
+          {
+            destination: `typography-styles-${theme}.css`,
+            format: 'css/typographyClasses',
+            selector: ':root',
+            filter: (token) => token.type === 'typography',
+            options: {
+              showFileHeader: false,
+            },
           },
-        },
-      ],
+        ],
+      },
+      // default js es6 build
+      js: {
+        transformGroup: 'js',
+        buildPath: `02_output/js/`,
+        transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex'],
+        files: [
+          {
+            destination: `typography-styles-${theme}.js`,
+            format: 'javascript/es6',
+            filter: (token) => token.type === 'typography',
+            options: {
+              showFileHeader: false,
+            },
+          },
+        ],
+      },
+      json: {
+        transformGroup: 'js',
+        buildPath: `02_output/json/`,
+        transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex'],
+        files: [
+          {
+            destination: `typography-styles-${theme}.json`,
+            format: 'json/nested',
+            filter: (token) => token.type === 'typography',
+            options: {
+              showFileHeader: false,
+            },
+          },
+        ],
+      },
     },
-  },
-};
+  };
+}
 
 const kebabize = (str) =>
   str.replace(
@@ -75,4 +108,14 @@ StyleDictionaryPackage.registerParser({
   },
 });
 
-StyleDictionaryPackage.extend(config).buildAllPlatforms();
+StyleDictionaryPackage.extend(
+  getStyleDictionaryConfig('dynamic')
+).buildPlatform('css');
+
+['large', 'small'].map(function (theme) {
+  console.log('\n==============================================');
+  console.log(`\nProcessing: [${theme}]`);
+  StyleDictionaryPackage.extend(
+    getStyleDictionaryConfig(theme)
+  ).buildAllPlatforms();
+});

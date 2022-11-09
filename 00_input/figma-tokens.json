@@ -1,4 +1,84 @@
 {
+  "dynamicSize": {
+    "size": {
+      "fontSize": {
+        "xs": {
+          "value": "{size.fontSize.s} / {size.parameter.fontSize.scaleFactorBelowOne}",
+          "type": "fontSizes"
+        },
+        "s": {
+          "value": "{size.fontSize.m} / {size.parameter.fontSize.scaleFactorBelowOne}",
+          "type": "fontSizes"
+        },
+        "m": {
+          "value": "{size.parameter.fontSize.base}",
+          "type": "fontSizes"
+        },
+        "l": {
+          "value": "{size.fontSize.m} * {size.parameter.fontSize.scaleFactor}",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "{size.fontSize.l} * {size.parameter.fontSize.scaleFactor}",
+          "type": "fontSizes"
+        },
+        "xxl": {
+          "value": "{size.fontSize.xl} * {size.parameter.fontSize.scaleFactor}",
+          "type": "fontSizes"
+        }
+      },
+      "space": {
+        "xxxxs": {
+          "value": "{size.space.xxxs} / {size.parameter.space.scaleFactorBelowOne}",
+          "type": "spacing"
+        },
+        "xxxs": {
+          "value": "{size.space.xxs} / {size.parameter.space.scaleFactorBelowOne}",
+          "type": "spacing"
+        },
+        "xxs": {
+          "value": "{size.space.xs} / {size.parameter.space.scaleFactorBelowOne}",
+          "type": "spacing"
+        },
+        "xs": {
+          "value": "{size.space.s} / {size.parameter.space.scaleFactorBelowOne}",
+          "type": "spacing"
+        },
+        "s": {
+          "value": "{size.space.m} / {size.parameter.space.scaleFactorBelowOne}",
+          "type": "spacing"
+        },
+        "m": {
+          "value": "{size.parameter.space.base}",
+          "type": "spacing"
+        },
+        "l": {
+          "value": "{size.space.m} * {size.parameter.space.scaleFactor}",
+          "type": "spacing"
+        },
+        "xl": {
+          "value": "{size.space.l} * {size.parameter.space.scaleFactor}",
+          "type": "spacing"
+        },
+        "xxl": {
+          "value": "{size.space.xl} * {size.parameter.space.scaleFactor}",
+          "type": "spacing"
+        },
+        "xxxl": {
+          "value": "{size.space.xxl} * {size.parameter.space.scaleFactor}",
+          "type": "spacing"
+        },
+        "xxxxl": {
+          "value": "{size.space.xxxl} * {size.parameter.space.scaleFactor}",
+          "type": "spacing"
+        },
+        "xxxxxl": {
+          "value": "{size.space.xxxxl} * {size.parameter.space.scaleFactor}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
   "global": {
     "meta": {
       "projectTitle": {
@@ -186,82 +266,7 @@
         "value": "320",
         "type": "sizing"
       },
-      "fontSize": {
-        "xs": {
-          "value": "{size.fontSize.s} / {size.parameter.fontSize.scaleFactorBelowOne}",
-          "type": "fontSizes"
-        },
-        "s": {
-          "value": "{size.fontSize.m} / {size.parameter.fontSize.scaleFactorBelowOne}",
-          "type": "fontSizes"
-        },
-        "m": {
-          "value": "{size.parameter.fontSize.base}",
-          "type": "fontSizes"
-        },
-        "l": {
-          "value": "{size.fontSize.m} * {size.parameter.fontSize.scaleFactor}",
-          "type": "fontSizes"
-        },
-        "xl": {
-          "value": "{size.fontSize.l} * {size.parameter.fontSize.scaleFactor}",
-          "type": "fontSizes"
-        },
-        "xxl": {
-          "value": "{size.fontSize.xl} * {size.parameter.fontSize.scaleFactor}",
-          "type": "fontSizes"
-        }
-      },
-      "space": {
-        "xxxxs": {
-          "value": "{size.space.xxxs} / {size.parameter.space.scaleFactorBelowOne}",
-          "type": "spacing"
-        },
-        "xxxs": {
-          "value": "{size.space.xxs} / {size.parameter.space.scaleFactorBelowOne}",
-          "type": "spacing"
-        },
-        "xxs": {
-          "value": "{size.space.xs} / {size.parameter.space.scaleFactorBelowOne}",
-          "type": "spacing"
-        },
-        "xs": {
-          "value": "{size.space.s} / {size.parameter.space.scaleFactorBelowOne}",
-          "type": "spacing"
-        },
-        "s": {
-          "value": "{size.space.m} / {size.parameter.space.scaleFactorBelowOne}",
-          "type": "spacing"
-        },
-        "m": {
-          "value": "{size.parameter.space.base}",
-          "type": "spacing"
-        },
-        "l": {
-          "value": "{size.space.m} * {size.parameter.space.scaleFactor}",
-          "type": "spacing"
-        },
-        "xl": {
-          "value": "{size.space.l} * {size.parameter.space.scaleFactor}",
-          "type": "spacing"
-        },
-        "xxl": {
-          "value": "{size.space.xl} * {size.parameter.space.scaleFactor}",
-          "type": "spacing"
-        },
-        "xxxl": {
-          "value": "{size.space.xxl} * {size.parameter.space.scaleFactor}",
-          "type": "spacing"
-        },
-        "xxxxl": {
-          "value": "{size.space.xxxl} * {size.parameter.space.scaleFactor}",
-          "type": "spacing"
-        },
-        "xxxxxl": {
-          "value": "{size.space.xxxxl} * {size.parameter.space.scaleFactor}",
-          "type": "spacing"
-        }
-      },
+
       "borderRadius": {
         "base": {
           "value": "2",
