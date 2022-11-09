@@ -8,11 +8,7 @@
     ]
   },
   "scripts": {
-    "build": "npm run build:token-transform; npm run build:style-dictionary; npm run build:style-dictionary:typography-classes; npm run build:style-dictionary:effect-classes",
-    "build:token-transform": "./token-transform.sh",
-    "build:style-dictionary": "node build.js",
-    "build:style-dictionary:typography-classes": "node build-typography.js",
-    "build:style-dictionary:effect-classes": "node build-effects.js",
+    "build": "./build-all.sh",
     "watch": "npm-watch"
   },
   "dependencies": {
