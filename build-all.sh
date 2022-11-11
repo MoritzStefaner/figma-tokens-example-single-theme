@@ -7,3 +7,4 @@ node build-typography.js
 node build-effects.js
 node build-docs.js
 node build-docs-typography.js
+node build-fluid-sizing.js

@@ -66,11 +66,20 @@ token-transformer \
 01_intermediate/size-small.json \
 sizeSmall,dynamicSize
 
-
 # process _docs
 token-transformer \
 --resolveReferences=false \
 00_input/figma-tokens.json \
 01_intermediate/_docs.json \
 global,_palettes,_docs,themeLight,sizeLarge,dynamicSize \
+
+# wrap large theme in theme name
+cat ./01_intermediate/size-large.json \
+| jq '{"size-large": .size}' \
+> ./01_intermediate/size-large-namespaced.json
+
+# wrap small theme in theme name
+cat ./01_intermediate/size-small.json \
+| jq '{"size-small": .size}' \
+> ./01_intermediate/size-small-namespaced.json
 
