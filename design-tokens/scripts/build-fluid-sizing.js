@@ -2,7 +2,7 @@ const StyleDictionaryPackage = require('style-dictionary');
 
 function getStyleDictionaryConfig(theme = 'dynamic') {
   return {
-    source: [`./01_intermediate/size-*-namespaced.json`],
+    source: [`./01_intermediate/namespaced/size-*.json`],
     platforms: {
       css: {
         buildPath: './02_output/css/',
