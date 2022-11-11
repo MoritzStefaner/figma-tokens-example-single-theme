@@ -1,6 +1,10 @@
 name: Token build
 on: [push]
 
+defaults:
+  run:
+    working-directory: design-tokens
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,9 +14,9 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.4.0
         with:
-         node-version: 16
-         cache: 'npm'
-         cache-dependency-path: package-lock.json
+          node-version: 16
+          cache: 'npm'
+          cache-dependency-path: design-tokens/package-lock.json
       # install dependencies
       - run: npm install
       # run token build
