@@ -75,11 +75,21 @@ global,_palettes,_docs,themeLight,sizeLarge,dynamicSize \
 
 # wrap large theme in theme name
 cat ./01_intermediate/size-large.json \
-| jq '{"size-large": .size}' \
-> ./01_intermediate/size-large-namespaced.json
+| jq '{"size":{"large": .size}}' \
+> ./01_intermediate/namespaced/size-large.json
 
 # wrap small theme in theme name
 cat ./01_intermediate/size-small.json \
-| jq '{"size-small": .size}' \
-> ./01_intermediate/size-small-namespaced.json
+| jq '{"size":{"small": .size}}' \
+> ./01_intermediate/namespaced/size-small.json
+
+# wrap dark theme in theme name
+cat ./01_intermediate/theme-dark.json \
+| jq '{"color":{"dark": .color}}' \
+> ./01_intermediate/namespaced/theme-dark.json
+
+# wrap light theme in theme name
+cat ./01_intermediate/theme-light.json \
+| jq '{"color":{"light": .color}}' \
+> ./01_intermediate/namespaced/theme-light.json
 
