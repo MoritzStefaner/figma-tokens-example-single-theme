@@ -1,19 +1,5 @@
 #!/bin/bash
 
-# process all tokens
-# token-transformer \
-# 00_input/figma-tokens.json \
-# 01_intermediate/tokens-complete.json
-
-# process all tokens, expand typography and effects
-# token-transformer \
-# --expandTypography=true --expandShadow=true \
-# 00_input/figma-tokens.json \
-# 01_intermediate/tokens-complete-expanded.json
-
-# todo create one nested complete-complete json with all variations?
-
-
 # process global tokens
 token-transformer \
 00_input/figma-tokens.json \
@@ -27,6 +13,13 @@ token-transformer \
 00_input/figma-tokens.json \
 01_intermediate/typography-styles-dynamic.json \
 global,typographyStyles,dynamicSize,sizeLarge
+
+# # typography
+# token-transformer \
+# --resolveReferences=true --expandTypography=true \
+# 00_input/figma-tokens.json \
+# 01_intermediate/typography-styles-expanded.json \
+# global,typographyStyles,dynamicSize,sizeLarge
 
 # typography
 token-transformer \
@@ -76,20 +69,20 @@ global,_palettes,_docs,themeLight,sizeLarge,dynamicSize \
 # wrap large theme in theme name
 cat ./01_intermediate/size-large.json \
 | jq '{"size":{"large": .size}}' \
-> ./01_intermediate/namespaced/size-large.json
+> ./01_intermediate/namespaced-size-large.json
 
 # wrap small theme in theme name
 cat ./01_intermediate/size-small.json \
 | jq '{"size":{"small": .size}}' \
-> ./01_intermediate/namespaced/size-small.json
+> ./01_intermediate/namespaced-size-small.json
 
 # wrap dark theme in theme name
 cat ./01_intermediate/theme-dark.json \
 | jq '{"color":{"dark": .color}}' \
-> ./01_intermediate/namespaced/theme-dark.json
+> ./01_intermediate/namespaced-theme-dark.json
 
 # wrap light theme in theme name
 cat ./01_intermediate/theme-light.json \
 | jq '{"color":{"light": .color}}' \
-> ./01_intermediate/namespaced/theme-light.json
+> ./01_intermediate/namespaced-theme-light.json
 
