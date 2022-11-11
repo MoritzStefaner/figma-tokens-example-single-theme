@@ -4,7 +4,7 @@ const transforms = {
   web: [
     'attribute/cti',
     'name/cti/kebab',
-    'sizes/px',
+    'sizes/px', // 'sizes/rem',
     'color/css',
     'time/seconds',
     'shadow/shorthand',
@@ -110,6 +110,31 @@ StyleDictionaryPackage.registerTransform({
   },
   transformer: function (prop) {
     return parseFloat(prop.original.value) + 'px';
+  },
+});
+
+StyleDictionaryPackage.registerTransform({
+  name: 'sizes/rem',
+  type: 'value',
+  matcher: function (prop) {
+    // You can be more specific here if you e.g. only want 'em' units for font sizes
+    return [
+      'fontSize',
+      'fontSizes',
+      'spacing',
+      'borderRadius',
+      'borderWidth',
+      'sizing',
+      'breakpoint',
+      'space',
+      'x',
+      'y',
+      'blur',
+      'spread',
+    ].includes(prop.original.type);
+  },
+  transformer: function (prop) {
+    return parseFloat(prop.original.value) / 16 + 'rem';
   },
 });
 
