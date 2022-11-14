@@ -13,6 +13,7 @@
       }
     },
     "chartWidth": 480,
+    "viewportLimit": 480,
     "meta": {
       "label": "Small"
     },

@@ -145,6 +145,7 @@
   --size-small-config-large-font-size-scale-factor-below-one: 1.1;
   --size-small-config-large-font-size-scale-factor: 1.33;
   --size-small-meta-label: Small;
+  --size-small-viewport-limit: 480px;
   --size-small-chart-width: 480px;
   --size-small-parameter-space-base: 17.5;
   --size-small-parameter-space-scale-factor-below-one: 1.25;
@@ -183,6 +184,7 @@
   --size-large-config-large-font-size-scale-factor-below-one: 1.1;
   --size-large-config-large-font-size-scale-factor: 1.33;
   --size-large-meta-label: Large;
+  --size-large-viewport-limit: 1440px;
   --size-large-chart-width: 1080px;
   --size-large-parameter-space-base: 24;
   --size-large-parameter-space-scale-factor-below-one: 1.5;

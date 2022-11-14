@@ -116,6 +116,7 @@
         }
       },
       "chartWidth": 1080,
+      "viewportLimit": 1440,
       "meta": {
         "label": "Large"
       },
@@ -182,6 +183,7 @@
         }
       },
       "chartWidth": 480,
+      "viewportLimit": 480,
       "meta": {
         "label": "Small"
       },

@@ -34,6 +34,10 @@
       "value": 480,
       "type": "sizing"
     },
+    "viewportLimit": {
+      "value": 480,
+      "type": "sizing"
+    },
     "meta": {
       "label": {
         "value": "Small",

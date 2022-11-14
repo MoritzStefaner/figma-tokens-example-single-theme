@@ -34,6 +34,10 @@
       "value": 1080,
       "type": "sizing"
     },
+    "viewportLimit": {
+      "value": 1440,
+      "type": "sizing"
+    },
     "meta": {
       "label": {
         "value": "Large",
