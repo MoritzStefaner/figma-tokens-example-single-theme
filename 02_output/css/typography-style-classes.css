@@ -1,0 +1,104 @@
+/*
+  base
+  The default text style.
+*/
+
+.typography-style-base {
+  font-family: var(--typography-font-family-base);
+  font-size: var(--size-font-size-m);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-base);
+  letter-spacing: var(--typography-letter-spacing-base);
+  text-transform: var(--typography-text-case-none);
+  text-decoration: var(--typography-text-decoration-none);
+}
+
+/*
+  huge
+  Used for summary statistics, large numbers, etc.
+*/
+
+.typography-style-huge {
+  font-family: var(--typography-font-family-heading);
+  font-size: var(--size-font-size-xxl);
+  font-weight: var(--typography-font-weight-bold);
+  line-height: var(--typography-line-height-tightest);
+  letter-spacing: var(--typography-letter-spacing-base);
+  text-transform: var(--typography-text-case-none);
+  text-decoration: var(--typography-text-decoration-none);
+}
+
+/*
+  title
+  Used for the title of a chart.
+*/
+
+.typography-style-title {
+  font-family: var(--typography-font-family-heading);
+  font-size: var(--size-font-size-xl);
+  font-weight: var(--typography-font-weight-bold);
+  line-height: var(--typography-line-height-tightest);
+  letter-spacing: var(--typography-letter-spacing-base);
+  text-transform: var(--typography-text-case-none);
+  text-decoration: var(--typography-text-decoration-none);
+}
+
+/*
+  majorPrimary
+  Used for legend main labels, as well as individual value annotations.
+*/
+
+.typography-style-major-primary {
+  font-family: var(--typography-font-family-base);
+  font-size: var(--size-font-size-m);
+  font-weight: var(--typography-font-weight-bold);
+  line-height: var(--typography-line-height-tighter);
+  letter-spacing: var(--typography-letter-spacing-base);
+  text-transform: var(--typography-text-case-none);
+  text-decoration: var(--typography-text-decoration-none);
+}
+
+/*
+  majorSecondary
+  Used for secondary legend labels, description, and the chart subtitle.
+*/
+
+.typography-style-major-secondary {
+  font-family: var(--typography-font-family-base);
+  font-size: var(--size-font-size-m);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-tighter);
+  letter-spacing: var(--typography-letter-spacing-base);
+  text-transform: var(--typography-text-case-none);
+  text-decoration: var(--typography-text-decoration-none);
+}
+
+/*
+  minorPrimary
+  Used for smaller annotations in charts.
+*/
+
+.typography-style-minor-primary {
+  font-family: var(--typography-font-family-base);
+  font-size: var(--size-font-size-s);
+  font-weight: var(--typography-font-weight-bold);
+  line-height: var(--typography-line-height-tightest);
+  letter-spacing: var(--typography-letter-spacing-base);
+  text-transform: var(--typography-text-case-none);
+  text-decoration: var(--typography-text-decoration-none);
+}
+
+/*
+  minorSecondary
+  Used for tick labels, secondary annotations, footer text.
+*/
+
+.typography-style-minor-secondary {
+  font-family: var(--typography-font-family-base);
+  font-size: var(--size-font-size-s);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-tightest);
+  letter-spacing: var(--typography-letter-spacing-base);
+  text-transform: var(--typography-text-case-none);
+  text-decoration: var(--typography-text-decoration-none);
+}

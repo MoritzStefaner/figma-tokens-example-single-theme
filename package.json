@@ -8,9 +8,11 @@
     ]
   },
   "scripts": {
-    "build": "npm run build:token-transform; npm run build:style-dictionary",
-    "build:token-transform": "token-transformer --expand-typography --expand-shadow 00_input/figma-tokens.json 01_intermediate/style-dict-tokens.json global,typographyStyles,_palettes _palettes",
-    "build:style-dictionary": "style-dictionary build --config config.json",
+    "build": "npm run build:token-transform; npm run build:style-dictionary; npm run build:style-dictionary:typography-classes; npm run build:style-dictionary:effect-classes",
+    "build:token-transform": "./token-transform.sh",
+    "build:style-dictionary": "node build.js",
+    "build:style-dictionary:typography-classes": "node build-typography.js",
+    "build:style-dictionary:effect-classes": "node build-effects.js",
     "watch": "npm-watch"
   },
   "dependencies": {
