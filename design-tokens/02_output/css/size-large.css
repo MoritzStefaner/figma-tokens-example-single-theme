@@ -30,6 +30,7 @@
   --size-config-large-font-size-scale-factor-below-one: 1.1;
   --size-config-large-font-size-scale-factor: 1.33;
   --size-meta-label: Large;
+  --size-viewport-limit: 1440px;
   --size-chart-width: 1080px;
   --size-parameter-space-base: 24;
   --size-parameter-space-scale-factor-below-one: 1.5;

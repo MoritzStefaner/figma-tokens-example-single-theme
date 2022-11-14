@@ -11,21 +11,14 @@
 */
 
 :root {
-  --fluid-min-width: 320; /* lower scaling limit (no unit) */
-  --fluid-max-width: 1440; /* upper scaling limit (no unit) */
-  --sf: calc(1rem / 16); /* scale factor (with unit) */
-}
+  /* lower viewport limit (no unit) */
+  --fluid-min-width: var(--size-small-viewport-limit, 320);
 
-@media screen and (min-width: 1440px) {
-  :root {
-    --fluid-screen: var(--size-max-content-width);
-  }
-}
+  /* upper viewport limit (no unit) */
+  --fluid-max-width: var(--size-large-viewport-limit, 1440);
 
-@media screen and (max-width: 480px) {
-  :root {
-    --fluid-screen: var(--size-min-content-width);
-  }
+  /* scale factor based on text zoom (with unit) */
+  --sf: calc(1rem / 16);
 }
 
 .size-fluid {
@@ -52,12 +45,14 @@
 }
 
 :root {
-  /* calculate scaling factor based on window width */
-
-  --fluid-screen: 100vw;
-  --fluid-bp: calc(
-    (var(--fluid-screen) - var(--fluid-min-width) * 1px) /
-      (var(--fluid-max-width) - var(--fluid-min-width))
+  /* calculate scaling factor (0px-1px) based on viewport */
+  --fluid-bp: clamp(
+    0px,
+    calc(
+      (100vw - var(--fluid-min-width) * 1px) /
+        (var(--fluid-max-width) - var(--fluid-min-width))
+    ),
+    1px
   );
 
   /* calculate fluid font-sizes */

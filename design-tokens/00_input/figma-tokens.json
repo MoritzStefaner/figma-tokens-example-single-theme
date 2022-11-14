@@ -178,6 +178,7 @@
           "type": "sizing"
         }
       },
+
       "maxContentWidth": {
         "value": "1440",
         "type": "sizing"
@@ -186,6 +187,7 @@
         "value": "320",
         "type": "sizing"
       },
+
       "borderRadius": {
         "base": {
           "value": "2",
@@ -534,6 +536,10 @@
         "value": "1080",
         "type": "sizing"
       },
+      "viewportLimit": {
+        "value": "1440",
+        "type": "sizing"
+      },
       "meta": {
         "label": {
           "value": "Large",
@@ -575,6 +581,10 @@
         }
       },
       "chartWidth": {
+        "value": "480",
+        "type": "sizing"
+      },
+      "viewportLimit": {
         "value": "480",
         "type": "sizing"
       },

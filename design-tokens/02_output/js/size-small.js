@@ -5,6 +5,7 @@ export const SizeParameterSpaceScaleFactor = 1.25;
 export const SizeParameterSpaceScaleFactorBelowOne = 1.25;
 export const SizeParameterSpaceBase = 17.5;
 export const SizeChartWidth = 480;
+export const SizeViewportLimit = 480;
 export const SizeMetaLabel = "Small";
 export const SizeConfigLargeFontSizeScaleFactor = 1.33;
 export const SizeConfigLargeFontSizeScaleFactorBelowOne = 1.1;

@@ -995,6 +995,23 @@
           "chartWidth"
         ]
       },
+      "viewportLimit": {
+        "value": 1440,
+        "type": "sizing",
+        "filePath": "01_intermediate/namespaced-size-large.json",
+        "isSource": true,
+        "original": {
+          "value": 1440,
+          "type": "sizing"
+        },
+        "name": "viewportLimit",
+        "attributes": {},
+        "path": [
+          "size",
+          "large",
+          "viewportLimit"
+        ]
+      },
       "meta": {
         "label": {
           "value": "Large",
@@ -1734,6 +1751,23 @@
           "size",
           "small",
           "chartWidth"
+        ]
+      },
+      "viewportLimit": {
+        "value": 480,
+        "type": "sizing",
+        "filePath": "01_intermediate/namespaced-size-small.json",
+        "isSource": true,
+        "original": {
+          "value": 480,
+          "type": "sizing"
+        },
+        "name": "viewportLimit",
+        "attributes": {},
+        "path": [
+          "size",
+          "small",
+          "viewportLimit"
         ]
       },
       "meta": {

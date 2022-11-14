@@ -1,0 +1,160 @@
+{
+  "size": {
+    "config": {
+      "large": {
+        "fontSize": {
+          "scaleFactor": {
+            "value": 1.33,
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": 1.1,
+            "type": "other"
+          },
+          "base": {
+            "value": 16,
+            "type": "other"
+          }
+        },
+        "space": {
+          "scaleFactor": {
+            "value": 1.5,
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": 1.5,
+            "type": "other"
+          },
+          "base": {
+            "value": 24,
+            "type": "other"
+          }
+        }
+      },
+      "small": {
+        "fontSize": {
+          "scaleFactor": {
+            "value": 1.2,
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": 1.1,
+            "type": "other"
+          },
+          "base": {
+            "value": 14,
+            "type": "other"
+          }
+        },
+        "space": {
+          "scaleFactor": {
+            "value": 1.25,
+            "type": "other"
+          },
+          "scaleFactorBelowOne": {
+            "value": 1.25,
+            "type": "other"
+          },
+          "base": {
+            "value": 17.5,
+            "type": "other"
+          }
+        }
+      }
+    },
+    "fontSize": {
+      "xs": {
+        "value": "{size.parameter.fontSize.base} / {size.parameter.fontSize.scaleFactorBelowOne} / {size.parameter.fontSize.scaleFactorBelowOne}",
+        "type": "fontSizes",
+        "failedToResolve": true
+      },
+      "s": {
+        "value": "{size.parameter.fontSize.base} / {size.parameter.fontSize.scaleFactorBelowOne}",
+        "type": "fontSizes",
+        "failedToResolve": true
+      },
+      "m": {
+        "value": "{size.parameter.fontSize.base}",
+        "type": "fontSizes",
+        "failedToResolve": true
+      },
+      "l": {
+        "value": "{size.parameter.fontSize.base} * {size.parameter.fontSize.scaleFactor}",
+        "type": "fontSizes",
+        "failedToResolve": true
+      },
+      "xl": {
+        "value": "{size.parameter.fontSize.base} * {size.parameter.fontSize.scaleFactor} * {size.parameter.fontSize.scaleFactor}",
+        "type": "fontSizes",
+        "failedToResolve": true
+      },
+      "xxl": {
+        "value": "{size.parameter.fontSize.base} * {size.parameter.fontSize.scaleFactor} * {size.parameter.fontSize.scaleFactor} * {size.parameter.fontSize.scaleFactor}",
+        "type": "fontSizes",
+        "failedToResolve": true
+      }
+    },
+    "space": {
+      "xxxxs": {
+        "value": "{size.parameter.space.base} / {size.parameter.space.scaleFactorBelowOne} / {size.parameter.space.scaleFactorBelowOne} / {size.parameter.space.scaleFactorBelowOne} / {size.parameter.space.scaleFactorBelowOne} / {size.parameter.space.scaleFactorBelowOne}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "xxxs": {
+        "value": "{size.parameter.space.base} / {size.parameter.space.scaleFactorBelowOne} / {size.parameter.space.scaleFactorBelowOne} / {size.parameter.space.scaleFactorBelowOne} / {size.parameter.space.scaleFactorBelowOne}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "xxs": {
+        "value": "{size.parameter.space.base} / {size.parameter.space.scaleFactorBelowOne} / {size.parameter.space.scaleFactorBelowOne} / {size.parameter.space.scaleFactorBelowOne}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "xs": {
+        "value": "{size.parameter.space.base} / {size.parameter.space.scaleFactorBelowOne} / {size.parameter.space.scaleFactorBelowOne}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "s": {
+        "value": "{size.parameter.space.base} / {size.parameter.space.scaleFactorBelowOne}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "m": {
+        "value": "{size.parameter.space.base}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "l": {
+        "value": "{size.parameter.space.base} * {size.parameter.space.scaleFactor}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "xl": {
+        "value": "{size.parameter.space.base} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "xxl": {
+        "value": "{size.parameter.space.base} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "xxxl": {
+        "value": "{size.parameter.space.base} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "xxxxl": {
+        "value": "{size.parameter.space.base} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "xxxxxl": {
+        "value": "{size.parameter.space.base} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor} * {size.parameter.space.scaleFactor}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    }
+  }
+}
