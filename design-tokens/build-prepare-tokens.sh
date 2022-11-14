@@ -1,18 +1,25 @@
 #!/bin/bash
 
+# token-transformer params:
+# input
+# output
+# included sets
+# "silently" included sets (available during processing for resolving references, but not part of output)
+
 # process global tokens
 token-transformer \
 00_input/figma-tokens.json \
 01_intermediate/global.json \
 global,_palettes \
-_palettes
+_palettes # _palettes are not part of output
 
 # typography
 token-transformer \
 --resolveReferences=false \
 00_input/figma-tokens.json \
 01_intermediate/typography-styles-dynamic.json \
-global,typography,sizeLarge
+global,typography,sizeLarge \
+global
 
 # dark theme
 token-transformer \
