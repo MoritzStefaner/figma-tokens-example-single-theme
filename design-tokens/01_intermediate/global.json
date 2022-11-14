@@ -221,33 +221,6 @@
         "type": "borderWidth",
         "description": "The largest border size. Used for the top chart container line."
       }
-    },
-    "borderWidthDouble": {
-      "s": {
-        "value": 1,
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "m": {
-        "value": 2,
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "l": {
-        "value": 4,
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "xl": {
-        "value": 6,
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "xxl": {
-        "value": 8,
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      }
     }
   }
 }
