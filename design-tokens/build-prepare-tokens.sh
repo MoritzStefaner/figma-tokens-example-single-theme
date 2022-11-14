@@ -12,7 +12,7 @@ token-transformer \
 --resolveReferences=false \
 00_input/figma-tokens.json \
 01_intermediate/typography-styles-dynamic.json \
-global,typographyStyles,dynamicSize,sizeLarge
+global,typography,sizeLarge
 
 # dark theme
 token-transformer \
@@ -32,11 +32,11 @@ _palettes
 token-transformer \
 00_input/figma-tokens.json \
 01_intermediate/size-large.json \
-sizeLarge,dynamicSize
+typography,sizeLarge
 
 # small theme
 token-transformer \
 00_input/figma-tokens.json \
 01_intermediate/size-small.json \
-sizeSmall,dynamicSize
+typography,sizeSmall
 

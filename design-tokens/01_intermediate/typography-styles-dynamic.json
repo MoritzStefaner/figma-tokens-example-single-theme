@@ -248,36 +248,87 @@
         "type": "borderWidth",
         "description": "The largest border size. Used for the top chart container line."
       }
-    },
-    "borderWidthDouble": {
-      "s": {
-        "value": "{size.borderWidth.s} * 2",
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "m": {
-        "value": "{size.borderWidth.m} * 2",
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "l": {
-        "value": "{size.borderWidth.l} * 2",
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "xl": {
-        "value": "{size.borderWidth.xl} * 2",
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      },
-      "xxl": {
-        "value": "{size.borderWidth.xxl} * 2",
-        "type": "borderWidth",
-        "description": "Double size of respective border token, for e.g. line background strokes."
-      }
     }
   },
   "typography": {
+    "fontFamily": {
+      "base": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "heading": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "Fira Mono",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeight": {
+      "base": {
+        "value": "160%",
+        "type": "lineHeights"
+      },
+      "tighter": {
+        "value": "145%",
+        "type": "lineHeights"
+      },
+      "tightest": {
+        "value": "115%",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "value": 400,
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": 700,
+        "type": "fontWeights"
+      },
+      "semiBold": {
+        "value": 600,
+        "type": "fontWeights"
+      }
+    },
+    "letterSpacing": {
+      "base": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "looser": {
+        "value": "15%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "none": {
+        "value": 0,
+        "type": "paragraphSpacing"
+      },
+      "base": {
+        "value": 8,
+        "type": "paragraphSpacing"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    },
     "style": {
       "base": {
         "value": {
@@ -376,84 +427,6 @@
         },
         "type": "typography",
         "description": "Used for tick labels, secondary annotations, footer text."
-      }
-    },
-    "fontFamily": {
-      "base": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      },
-      "heading": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      },
-      "mono": {
-        "value": "Fira Mono",
-        "type": "fontFamilies"
-      }
-    },
-    "lineHeight": {
-      "base": {
-        "value": "160%",
-        "type": "lineHeights"
-      },
-      "tighter": {
-        "value": "145%",
-        "type": "lineHeights"
-      },
-      "tightest": {
-        "value": "115%",
-        "type": "lineHeights"
-      }
-    },
-    "fontWeight": {
-      "regular": {
-        "value": 400,
-        "type": "fontWeights"
-      },
-      "bold": {
-        "value": 700,
-        "type": "fontWeights"
-      },
-      "semiBold": {
-        "value": 600,
-        "type": "fontWeights"
-      }
-    },
-    "letterSpacing": {
-      "base": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "looser": {
-        "value": "15%",
-        "type": "letterSpacing"
-      }
-    },
-    "paragraphSpacing": {
-      "none": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "base": {
-        "value": 8,
-        "type": "paragraphSpacing"
-      }
-    },
-    "textCase": {
-      "none": {
-        "value": "none",
-        "type": "textCase"
-      },
-      "uppercase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "textDecoration": {
-      "none": {
-        "value": "none",
-        "type": "textDecoration"
       }
     }
   },

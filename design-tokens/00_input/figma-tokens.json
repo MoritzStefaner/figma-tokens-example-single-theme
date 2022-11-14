@@ -27,86 +27,6 @@
         "description": "Authors"
       }
     },
-    "typography": {
-      "fontFamily": {
-        "base": {
-          "value": "Inter",
-          "type": "fontFamilies"
-        },
-        "heading": {
-          "value": "Inter",
-          "type": "fontFamilies"
-        },
-        "mono": {
-          "value": "Fira Mono",
-          "type": "fontFamilies"
-        }
-      },
-      "lineHeight": {
-        "base": {
-          "value": "160%",
-          "type": "lineHeights"
-        },
-        "tighter": {
-          "value": "145%",
-          "type": "lineHeights"
-        },
-        "tightest": {
-          "value": "115%",
-          "type": "lineHeights"
-        }
-      },
-      "fontWeight": {
-        "regular": {
-          "value": "400",
-          "type": "fontWeights"
-        },
-        "bold": {
-          "value": "700",
-          "type": "fontWeights"
-        },
-        "semiBold": {
-          "value": "600",
-          "type": "fontWeights"
-        }
-      },
-      "letterSpacing": {
-        "base": {
-          "value": "0%",
-          "type": "letterSpacing"
-        },
-        "looser": {
-          "value": "15%",
-          "type": "letterSpacing"
-        }
-      },
-      "paragraphSpacing": {
-        "none": {
-          "value": "0",
-          "type": "paragraphSpacing"
-        },
-        "base": {
-          "value": "8",
-          "type": "paragraphSpacing"
-        }
-      },
-      "textCase": {
-        "none": {
-          "value": "none",
-          "type": "textCase"
-        },
-        "uppercase": {
-          "value": "uppercase",
-          "type": "textCase"
-        }
-      },
-      "textDecoration": {
-        "none": {
-          "value": "none",
-          "type": "textDecoration"
-        }
-      }
-    },
     "effect": {
       "depth": {
         "card": {
@@ -178,7 +98,6 @@
           "type": "sizing"
         }
       },
-
       "maxContentWidth": {
         "value": "1440",
         "type": "sizing"
@@ -187,7 +106,6 @@
         "value": "320",
         "type": "sizing"
       },
-
       "borderRadius": {
         "base": {
           "value": "2",
@@ -224,141 +142,10 @@
           "type": "borderWidth",
           "description": "The largest border size. Used for the top chart container line."
         }
-      },
-      "borderWidthDouble": {
-        "s": {
-          "value": "{size.borderWidth.s} * 2",
-          "type": "borderWidth",
-          "description": "Double size of respective border token, for e.g. line background strokes."
-        },
-        "m": {
-          "value": "{size.borderWidth.m} * 2",
-          "type": "borderWidth",
-          "description": "Double size of respective border token, for e.g. line background strokes."
-        },
-        "l": {
-          "value": "{size.borderWidth.l} * 2",
-          "type": "borderWidth",
-          "description": "Double size of respective border token, for e.g. line background strokes."
-        },
-        "xl": {
-          "value": "{size.borderWidth.xl} * 2",
-          "type": "borderWidth",
-          "description": "Double size of respective border token, for e.g. line background strokes."
-        },
-        "xxl": {
-          "value": "{size.borderWidth.xxl} * 2",
-          "type": "borderWidth",
-          "description": "Double size of respective border token, for e.g. line background strokes."
-        }
       }
     }
   },
-  "typographyStyles": {
-    "typography": {
-      "style": {
-        "base": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.regular}",
-            "lineHeight": "{typography.lineHeight.base}",
-            "fontSize": "{size.fontSize.m}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "The default text style."
-        },
-        "huge": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.heading}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{size.fontSize.xxl}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for summary statistics, large numbers, etc."
-        },
-        "title": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.heading}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{size.fontSize.xl}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for the title of a chart."
-        },
-        "majorPrimary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tighter}",
-            "fontSize": "{size.fontSize.m}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for legend main labels, as well as individual value annotations."
-        },
-        "majorSecondary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.regular}",
-            "lineHeight": "{typography.lineHeight.tighter}",
-            "fontSize": "{size.fontSize.m}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for secondary legend labels, description, and the chart subtitle."
-        },
-        "minorPrimary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.bold}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{size.fontSize.s}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for smaller annotations in charts."
-        },
-        "minorSecondary": {
-          "value": {
-            "fontFamily": "{typography.fontFamily.base}",
-            "fontWeight": "{typography.fontWeight.regular}",
-            "lineHeight": "{typography.lineHeight.tightest}",
-            "fontSize": "{size.fontSize.s}",
-            "letterSpacing": "{typography.letterSpacing.base}",
-            "paragraphSpacing": "{typography.paragraphSpacing.base}",
-            "textDecoration": "{typography.textDecoration.none}",
-            "textCase": "{typography.textCase.none}"
-          },
-          "type": "typography",
-          "description": "Used for tick labels, secondary annotations, footer text."
-        }
-      }
-    }
-  },
-  "dynamicSize": {
+  "typography": {
     "size": {
       "config": {
         "large": {
@@ -496,6 +283,186 @@
         "xxxxxl": {
           "value": "{size.space.xxxxl} * {size.parameter.space.scaleFactor}",
           "type": "spacing"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "base": {
+          "value": "Inter",
+          "type": "fontFamilies"
+        },
+        "heading": {
+          "value": "Inter",
+          "type": "fontFamilies"
+        },
+        "mono": {
+          "value": "Fira Mono",
+          "type": "fontFamilies"
+        }
+      },
+      "lineHeight": {
+        "base": {
+          "value": "160%",
+          "type": "lineHeights"
+        },
+        "tighter": {
+          "value": "145%",
+          "type": "lineHeights"
+        },
+        "tightest": {
+          "value": "115%",
+          "type": "lineHeights"
+        }
+      },
+      "fontWeight": {
+        "regular": {
+          "value": "400",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "700",
+          "type": "fontWeights"
+        },
+        "semiBold": {
+          "value": "600",
+          "type": "fontWeights"
+        }
+      },
+      "letterSpacing": {
+        "base": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "looser": {
+          "value": "15%",
+          "type": "letterSpacing"
+        }
+      },
+      "paragraphSpacing": {
+        "none": {
+          "value": "0",
+          "type": "paragraphSpacing"
+        },
+        "base": {
+          "value": "8",
+          "type": "paragraphSpacing"
+        }
+      },
+      "textCase": {
+        "none": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "uppercase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
+      },
+      "textDecoration": {
+        "none": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "style": {
+        "base": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.regular}",
+            "lineHeight": "{typography.lineHeight.base}",
+            "fontSize": "{size.fontSize.m}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "The default text style."
+        },
+        "huge": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.heading}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{size.fontSize.xxl}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for summary statistics, large numbers, etc."
+        },
+        "title": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.heading}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{size.fontSize.xl}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for the title of a chart."
+        },
+        "majorPrimary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tighter}",
+            "fontSize": "{size.fontSize.m}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for legend main labels, as well as individual value annotations."
+        },
+        "majorSecondary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.regular}",
+            "lineHeight": "{typography.lineHeight.tighter}",
+            "fontSize": "{size.fontSize.m}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for secondary legend labels, description, and the chart subtitle."
+        },
+        "minorPrimary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.bold}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{size.fontSize.s}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for smaller annotations in charts."
+        },
+        "minorSecondary": {
+          "value": {
+            "fontFamily": "{typography.fontFamily.base}",
+            "fontWeight": "{typography.fontWeight.regular}",
+            "lineHeight": "{typography.lineHeight.tightest}",
+            "fontSize": "{size.fontSize.s}",
+            "letterSpacing": "{typography.letterSpacing.base}",
+            "paragraphSpacing": "{typography.paragraphSpacing.base}",
+            "textDecoration": "{typography.textDecoration.none}",
+            "textCase": "{typography.textCase.none}"
+          },
+          "type": "typography",
+          "description": "Used for tick labels, secondary annotations, footer text."
         }
       }
     }
@@ -1358,508 +1325,16 @@
       }
     }
   },
-  "_docs": {
-    "docs": {
-      "typography": {
-        "fontFamily": {
-          "base": {
-            "value": "{typography.fontFamily.base}",
-            "type": "fontFamilies"
-          },
-          "heading": {
-            "value": "{typography.fontFamily.heading}",
-            "type": "fontFamilies"
-          },
-          "mono": {
-            "value": "{typography.fontFamily.mono}",
-            "type": "fontFamilies"
-          }
-        },
-        "fontWeight": {
-          "regular": {
-            "value": "{typography.fontWeight.regular}",
-            "type": "fontWeights"
-          },
-          "bold": {
-            "value": "{typography.fontWeight.bold}",
-            "type": "fontWeights"
-          },
-          "semiBold": {
-            "value": "600",
-            "type": "fontWeights"
-          }
-        },
-        "lineHeight": {
-          "base": {
-            "value": "{typography.lineHeight.base}",
-            "type": "lineHeights"
-          },
-          "tighter": {
-            "value": "{typography.lineHeight.tighter}",
-            "type": "lineHeights"
-          },
-          "tightest": {
-            "value": "{typography.lineHeight.tightest}",
-            "type": "lineHeights"
-          }
-        },
-        "letterSpacing": {
-          "base": {
-            "value": "{typography.letterSpacing.base}",
-            "type": "letterSpacing"
-          },
-          "looser": {
-            "value": "{typography.letterSpacing.looser}",
-            "type": "letterSpacing"
-          }
-        },
-        "style": {
-          "h1": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.heading}",
-              "fontWeight": "{docs.typography.fontWeight.bold}",
-              "lineHeight": "{docs.typography.lineHeight.tightest}",
-              "fontSize": "{docs.size.fontSize.xxxl}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "h2": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.heading}",
-              "fontWeight": "{docs.typography.fontWeight.bold}",
-              "lineHeight": "{docs.typography.lineHeight.tightest}",
-              "fontSize": "{docs.size.fontSize.xxl}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "h3": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.heading}",
-              "fontWeight": "{docs.typography.fontWeight.semiBold}",
-              "lineHeight": "{docs.typography.lineHeight.tightest}",
-              "fontSize": "{docs.size.fontSize.l}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "h4": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.heading}",
-              "fontWeight": "{docs.typography.fontWeight.bold}",
-              "lineHeight": "{docs.typography.lineHeight.tightest}",
-              "fontSize": "{docs.size.fontSize.m}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "base": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.base}",
-              "fontWeight": "{docs.typography.fontWeight.regular}",
-              "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.size.fontSize.m}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "tableHeader": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.base}",
-              "fontWeight": "{docs.typography.fontWeight.semiBold}",
-              "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.size.fontSize.m}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "small": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.base}",
-              "fontWeight": "{docs.typography.fontWeight.regular}",
-              "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.size.fontSize.s}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "large": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.base}",
-              "fontWeight": "{docs.typography.fontWeight.regular}",
-              "lineHeight": "{docs.typography.lineHeight.tighter}",
-              "fontSize": "{docs.size.fontSize.l}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "key": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.base}",
-              "fontWeight": "{docs.typography.fontWeight.semiBold}",
-              "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.size.fontSize.s}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "keySmall": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.base}",
-              "fontWeight": "{docs.typography.fontWeight.bold}",
-              "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.size.fontSize.xs}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "displayValue": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.mono}",
-              "fontWeight": "{docs.typography.fontWeight.regular}",
-              "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.size.fontSize.s}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          },
-          "displayValueSmall": {
-            "value": {
-              "fontFamily": "{docs.typography.fontFamily.mono}",
-              "fontWeight": "{docs.typography.fontWeight.regular}",
-              "lineHeight": "{docs.typography.lineHeight.base}",
-              "fontSize": "{docs.size.fontSize.xs}",
-              "letterSpacing": "{docs.typography.letterSpacing.base}",
-              "paragraphSpacing": "{docs.typography.paragraphSpacing.base}",
-              "textDecoration": "{docs.typography.textDecoration.none}",
-              "textCase": "{docs.typography.textCase.none}"
-            },
-            "type": "typography"
-          }
-        },
-        "paragraphSpacing": {
-          "base": {
-            "value": "{docs.size.fontSize.m} * 1.5",
-            "type": "paragraphSpacing"
-          },
-          "none": {
-            "value": "{typography.paragraphSpacing.none}",
-            "type": "paragraphSpacing"
-          }
-        },
-        "textCase": {
-          "none": {
-            "value": "{typography.textCase.none}",
-            "type": "textCase"
-          },
-          "uppercase": {
-            "value": "{typography.textCase.uppercase}",
-            "type": "textCase"
-          }
-        },
-        "textDecoration": {
-          "none": {
-            "value": "{typography.textDecoration.none}",
-            "type": "textDecoration"
-          }
-        }
-      },
-      "size": {
-        "fontSize": {
-          "xs": {
-            "value": "{docs.size.fontSize.s} / {docs.parameter.large.fontSize.scaleFactorBelowOne}",
-            "type": "fontSizes"
-          },
-          "s": {
-            "value": "{docs.size.fontSize.m} / {docs.parameter.large.fontSize.scaleFactorBelowOne}",
-            "type": "fontSizes"
-          },
-          "m": {
-            "value": "{docs.parameter.large.fontSize.base}",
-            "type": "fontSizes"
-          },
-          "l": {
-            "value": "{docs.size.fontSize.m} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          },
-          "xl": {
-            "value": "{docs.size.fontSize.l} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          },
-          "xxl": {
-            "value": "{docs.size.fontSize.xl} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          },
-          "xxxl": {
-            "value": "{docs.size.fontSize.xxl} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          },
-          "xxxxl": {
-            "value": "{docs.size.fontSize.xxxl} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          },
-          "xxxxxl": {
-            "value": "{docs.size.fontSize.xxxxl} * {docs.parameter.large.fontSize.scaleFactor}",
-            "type": "fontSizes"
-          }
-        },
-        "space": {
-          "size": {
-            "xxxxs": {
-              "value": "{size.space.xxxxs}",
-              "type": "sizing"
-            },
-            "xxxs": {
-              "value": "{size.space.xxxs}",
-              "type": "sizing"
-            },
-            "xxs": {
-              "value": "{size.space.xxs}",
-              "type": "sizing"
-            },
-            "xs": {
-              "value": "{size.space.xs}",
-              "type": "sizing"
-            },
-            "s": {
-              "value": "{size.space.s}",
-              "type": "sizing"
-            },
-            "m": {
-              "value": "{size.space.m}",
-              "type": "sizing"
-            },
-            "l": {
-              "value": "{size.space.l}",
-              "type": "sizing"
-            },
-            "xl": {
-              "value": "{size.space.xl}",
-              "type": "sizing"
-            },
-            "xxl": {
-              "value": "{size.space.xxl}",
-              "type": "sizing"
-            },
-            "xxxl": {
-              "value": "{size.space.xxxl}",
-              "type": "sizing"
-            },
-            "xxxxl": {
-              "value": "{size.space.xxxxl}",
-              "type": "sizing"
-            },
-            "xxxxxl": {
-              "value": "{size.space.xxxxxl}",
-              "type": "sizing"
-            }
-          },
-          "xxxxs": {
-            "value": "{docs.size.space.xxxs} / {docs.parameter.large.space.scaleFactorBelowOne}",
-            "type": "spacing"
-          },
-          "xxxs": {
-            "value": "{docs.size.space.xxs} / {docs.parameter.large.space.scaleFactorBelowOne}",
-            "type": "spacing"
-          },
-          "xxs": {
-            "value": "{docs.size.space.xs} / {docs.parameter.large.space.scaleFactorBelowOne}",
-            "type": "spacing"
-          },
-          "xs": {
-            "value": "{docs.size.space.s} / {docs.parameter.large.space.scaleFactorBelowOne}",
-            "type": "spacing"
-          },
-          "s": {
-            "value": "{docs.size.space.m} / {docs.parameter.large.space.scaleFactorBelowOne}",
-            "type": "spacing"
-          },
-          "m": {
-            "value": "{docs.parameter.large.space.base}",
-            "type": "spacing"
-          },
-          "l": {
-            "value": "{docs.size.space.m} * {docs.parameter.large.space.scaleFactor}",
-            "type": "spacing"
-          },
-          "xl": {
-            "value": "{docs.size.space.l} * {docs.parameter.large.space.scaleFactor}",
-            "type": "spacing"
-          },
-          "xxl": {
-            "value": "{docs.size.space.xl} * {docs.parameter.large.space.scaleFactor}",
-            "type": "spacing"
-          },
-          "xxxl": {
-            "value": "{docs.size.space.xxl} * {docs.parameter.large.space.scaleFactor}",
-            "type": "spacing"
-          },
-          "xxxxl": {
-            "value": "{docs.size.space.xxxl} * {docs.parameter.large.space.scaleFactor}",
-            "type": "spacing"
-          },
-          "xxxxxl": {
-            "value": "{docs.size.space.xxxxl} * {docs.parameter.large.space.scaleFactor}",
-            "type": "spacing"
-          }
-        }
-      },
-      "parameter": {
-        "large": {
-          "fontSize": {
-            "scaleFactor": {
-              "value": "1.5",
-              "type": "other"
-            },
-            "scaleFactorBelowOne": {
-              "value": "1.2",
-              "type": "other"
-            },
-            "base": {
-              "value": "18",
-              "type": "other"
-            }
-          },
-          "space": {
-            "scaleFactor": {
-              "value": "1.5",
-              "type": "other"
-            },
-            "scaleFactorBelowOne": {
-              "value": "1.5",
-              "type": "other"
-            },
-            "base": {
-              "value": "{docs.parameter.large.fontSize.base} * {docs.parameter.large.space.scaleFactor}",
-              "type": "other"
-            }
-          }
-        },
-        "small": {
-          "fontSize": {
-            "scaleFactor": {
-              "value": "1.25",
-              "type": "other"
-            },
-            "scaleFactorBelowOne": {
-              "value": "1.1",
-              "type": "other"
-            },
-            "base": {
-              "value": "14",
-              "type": "other"
-            }
-          },
-          "space": {
-            "scaleFactor": {
-              "value": "1.5",
-              "type": "other"
-            },
-            "scaleFactorBelowOne": {
-              "value": "1.5",
-              "type": "other"
-            },
-            "base": {
-              "value": "{docs.parameter.small.fontSize.base} * {docs.parameter.small.space.scaleFactor}",
-              "type": "other"
-            }
-          }
-        }
-      },
-      "color": {
-        "text": {
-          "base": {
-            "value": "{color.text.base}",
-            "type": "color"
-          },
-          "weaker": {
-            "value": "rgba({color.text.base}, .66)",
-            "type": "color"
-          }
-        },
-        "specs": {
-          "text": {
-            "value": "#7400d7",
-            "type": "color"
-          },
-          "line": {
-            "value": "#a034ff",
-            "type": "color"
-          }
-        },
-        "background": {
-          "base": {
-            "value": "{color.background.base}",
-            "type": "color"
-          },
-          "weaker": {
-            "value": "{color.background.weaker}",
-            "type": "color"
-          }
-        },
-        "foreground": {
-          "base": {
-            "value": "{color.foreground.base}",
-            "type": "color"
-          },
-          "weaker": {
-            "value": "{color.foreground.weaker}",
-            "type": "color"
-          },
-          "weakest": {
-            "value": "{color.foreground.weakest}",
-            "type": "color"
-          }
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "global",
-      "typographyStyles",
-      "dynamicSize",
+      "typography",
       "sizeLarge",
       "sizeSmall",
       "themeLight",
       "themeDark",
-      "_palettes",
-      "_docs"
+      "_palettes"
     ]
   }
 }

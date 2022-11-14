@@ -6,38 +6,6 @@
     "lastUpdated": 1986,
     "authors": "Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana"
   },
-  "typography": {
-    "fontFamily": {
-      "base": "Inter",
-      "heading": "Inter",
-      "mono": "Fira Mono"
-    },
-    "lineHeight": {
-      "base": "160%",
-      "tighter": "145%",
-      "tightest": "115%"
-    },
-    "fontWeight": {
-      "regular": 400,
-      "bold": 700,
-      "semiBold": 600
-    },
-    "letterSpacing": {
-      "base": "0%",
-      "looser": "15%"
-    },
-    "paragraphSpacing": {
-      "none": 0,
-      "base": 8
-    },
-    "textCase": {
-      "none": "none",
-      "uppercase": "uppercase"
-    },
-    "textDecoration": {
-      "none": "none"
-    }
-  },
   "effect": {
     "depth": {
       "card": {
@@ -94,13 +62,6 @@
       "l": 2,
       "xl": 3,
       "xxl": 4
-    },
-    "borderWidthDouble": {
-      "s": 1,
-      "m": 2,
-      "l": 4,
-      "xl": 6,
-      "xxl": 8
     }
   }
 }

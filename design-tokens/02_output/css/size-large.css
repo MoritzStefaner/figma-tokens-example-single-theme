@@ -1,4 +1,27 @@
 .size-large {
+  --typography-style-minor-secondary: [object Object]; /* Used for tick labels, secondary annotations, footer text. */
+  --typography-style-minor-primary: [object Object]; /* Used for smaller annotations in charts. */
+  --typography-style-major-secondary: [object Object]; /* Used for secondary legend labels, description, and the chart subtitle. */
+  --typography-style-major-primary: [object Object]; /* Used for legend main labels, as well as individual value annotations. */
+  --typography-style-title: [object Object]; /* Used for the title of a chart. */
+  --typography-style-huge: [object Object]; /* Used for summary statistics, large numbers, etc. */
+  --typography-style-base: [object Object]; /* The default text style. */
+  --typography-text-decoration-none: none;
+  --typography-text-case-uppercase: uppercase;
+  --typography-text-case-none: none;
+  --typography-paragraph-spacing-base: 8;
+  --typography-paragraph-spacing-none: 0;
+  --typography-letter-spacing-looser: 15%;
+  --typography-letter-spacing-base: 0%;
+  --typography-font-weight-semi-bold: 600;
+  --typography-font-weight-bold: 700;
+  --typography-font-weight-regular: 400;
+  --typography-line-height-tightest: 115%;
+  --typography-line-height-tighter: 145%;
+  --typography-line-height-base: 160%;
+  --typography-font-family-mono: Fira Mono;
+  --typography-font-family-heading: Inter;
+  --typography-font-family-base: Inter;
   --size-space-xxxxxl: 273.375px;
   --size-space-xxxxl: 182.25px;
   --size-space-xxxl: 121.5px;
