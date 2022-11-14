@@ -10,8 +10,7 @@ const config = {
           destination: 'effect-classes.css',
           format: 'css/shadowClasses',
           selector: ':root',
-          filter: (token) =>
-            token.type === 'boxShadow' || console.log(token.type),
+          filter: (token) => token.type === 'boxShadow',
           options: {
             showFileHeader: false,
           },
