@@ -14,10 +14,7 @@ const transforms = {
 
 function getStyleDictionaryConfig(theme = 'global') {
   return {
-    source: [
-      `01_intermediate/${theme}.json`,
-      // '01_intermediate/typography-styles-expanded.json', // in case you want to add explicit versions of all typography style tokens
-    ],
+    source: [`01_intermediate/${theme}.json`],
     platforms: {
       // default css build
       css: {

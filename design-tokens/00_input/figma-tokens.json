@@ -1,30 +1,258 @@
 {
+  "_palettes": {
+    "color": {
+      "grey": {
+        "100": {
+          "value": "#191919",
+          "type": "color"
+        },
+        "300": {
+          "value": "#3d4246",
+          "type": "color"
+        },
+        "400": {
+          "value": "#6b7581",
+          "type": "color"
+        },
+        "500": {
+          "value": "#9ea9b5",
+          "type": "color"
+        },
+        "600": {
+          "value": "#c0c8d2",
+          "type": "color"
+        },
+        "750": {
+          "value": "#e0e2e4",
+          "type": "color"
+        },
+        "800": {
+          "value": "#f1f2f3",
+          "type": "color"
+        },
+        "900": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "000": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "teal": {
+        "100": {
+          "value": "#002348",
+          "type": "color"
+        },
+        "200": {
+          "value": "#0E3E63",
+          "type": "color"
+        },
+        "300": {
+          "value": "#215A7D",
+          "type": "color"
+        },
+        "400": {
+          "value": "#377796",
+          "type": "color"
+        },
+        "500": {
+          "value": "#5196AE",
+          "type": "color"
+        },
+        "600": {
+          "value": "#79ABBC",
+          "type": "color"
+        },
+        "700": {
+          "value": "#9FC1CC",
+          "type": "color"
+        },
+        "800": {
+          "value": "#C3D6DC",
+          "type": "color"
+        },
+        "900": {
+          "value": "#E8ECED",
+          "type": "color"
+        }
+      },
+      "red": {
+        "100": {
+          "value": "#8D1000",
+          "type": "color"
+        },
+        "200": {
+          "value": "#a12917",
+          "type": "color"
+        },
+        "300": {
+          "value": "#b53d2b",
+          "type": "color"
+        },
+        "400": {
+          "value": "#c9513f",
+          "type": "color"
+        },
+        "500": {
+          "value": "#dc6454",
+          "type": "color"
+        },
+        "600": {
+          "value": "#e98676",
+          "type": "color"
+        },
+        "700": {
+          "value": "#f3a79a",
+          "type": "color"
+        },
+        "800": {
+          "value": "#fbc8bf",
+          "type": "color"
+        },
+        "900": {
+          "value": "#FFE9E5",
+          "type": "color"
+        }
+      },
+      "red-dark": {
+        "100": {
+          "value": "#400C0A",
+          "type": "color"
+        },
+        "200": {
+          "value": "#601817",
+          "type": "color"
+        },
+        "300": {
+          "value": "#832521",
+          "type": "color"
+        },
+        "400": {
+          "value": "#A7332A",
+          "type": "color"
+        },
+        "500": {
+          "value": "#CC4233",
+          "type": "color"
+        },
+        "600": {
+          "value": "#DA5C4B",
+          "type": "color"
+        },
+        "700": {
+          "value": "#E77463",
+          "type": "color"
+        },
+        "800": {
+          "value": "#F38C7C",
+          "type": "color"
+        },
+        "900": {
+          "value": "#FEA496",
+          "type": "color"
+        }
+      },
+      "teal-dark": {
+        "100": {
+          "value": "#093A45",
+          "type": "color"
+        },
+        "200": {
+          "value": "#175462",
+          "type": "color"
+        },
+        "300": {
+          "value": "#256f81",
+          "type": "color"
+        },
+        "400": {
+          "value": "#348ba1",
+          "type": "color"
+        },
+        "500": {
+          "value": "#44a8c3",
+          "type": "color"
+        },
+        "600": {
+          "value": "#66b5cb",
+          "type": "color"
+        },
+        "700": {
+          "value": "#83c3d4",
+          "type": "color"
+        },
+        "800": {
+          "value": "#9ed0dd",
+          "type": "color"
+        },
+        "900": {
+          "value": "#B8DEE7",
+          "type": "color"
+        }
+      }
+    }
+  },
   "global": {
-    "meta": {
-      "projectTitle": {
-        "value": "<BRAND>",
-        "type": "string",
-        "description": "Project title"
+    "size": {
+      "breakpoint": {
+        "xs": {
+          "value": "480",
+          "type": "sizing"
+        },
+        "sm": {
+          "value": "640",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "960",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "1200",
+          "type": "sizing"
+        },
+        "xl": {
+          "value": "1440",
+          "type": "sizing"
+        }
       },
-      "version": {
-        "value": "v0.9.0",
-        "type": "string",
-        "description": "Version"
+      "borderRadius": {
+        "base": {
+          "value": "2",
+          "type": "borderRadius"
+        },
+        "bigger": {
+          "value": "5",
+          "type": "borderRadius"
+        }
       },
-      "projectSubtitle": {
-        "value": "Data Design Language",
-        "type": "string",
-        "description": "Project subtitle"
-      },
-      "lastUpdated": {
-        "value": "2022-10-26",
-        "type": "string",
-        "description": "Last updated"
-      },
-      "authors": {
-        "value": "Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana",
-        "type": "string",
-        "description": "Authors"
+      "borderWidth": {
+        "s": {
+          "value": ".5",
+          "type": "borderWidth",
+          "description": "The smallest border size. Used for gridlines."
+        },
+        "m": {
+          "value": "1",
+          "type": "borderWidth",
+          "description": "The default border size. Used for axes borders, default data lines."
+        },
+        "l": {
+          "value": "2",
+          "type": "borderWidth",
+          "description": "A larger border size. Used for borders between filled elements."
+        },
+        "xl": {
+          "value": "3",
+          "type": "borderWidth",
+          "description": "A larger border size. Used for lines in focus, and the bottom chart container line."
+        },
+        "xxl": {
+          "value": "4",
+          "type": "borderWidth",
+          "description": "The largest border size. Used for the top chart container line."
+        }
       }
     },
     "effect": {
@@ -74,30 +302,10 @@
           "type": "boxShadow"
         }
       }
-    },
+    }
+  },
+  "config": {
     "size": {
-      "breakpoint": {
-        "xs": {
-          "value": "480",
-          "type": "sizing"
-        },
-        "sm": {
-          "value": "640",
-          "type": "sizing"
-        },
-        "md": {
-          "value": "960",
-          "type": "sizing"
-        },
-        "lg": {
-          "value": "1200",
-          "type": "sizing"
-        },
-        "xl": {
-          "value": "1440",
-          "type": "sizing"
-        }
-      },
       "maxContentWidth": {
         "value": "1440",
         "type": "sizing"
@@ -105,110 +313,38 @@
       "minContentWidth": {
         "value": "320",
         "type": "sizing"
+      }
+    },
+    "meta": {
+      "projectTitle": {
+        "value": "<BRAND>",
+        "type": "string",
+        "description": "Project title"
       },
-      "borderRadius": {
-        "base": {
-          "value": "2",
-          "type": "borderRadius"
-        },
-        "bigger": {
-          "value": "5",
-          "type": "borderRadius"
-        }
+      "version": {
+        "value": "v0.9.0",
+        "type": "string",
+        "description": "Version"
       },
-      "borderWidth": {
-        "s": {
-          "value": ".5",
-          "type": "borderWidth",
-          "description": "The smallest border size. Used for gridlines."
-        },
-        "m": {
-          "value": "1",
-          "type": "borderWidth",
-          "description": "The default border size. Used for axes borders, default data lines."
-        },
-        "l": {
-          "value": "2",
-          "type": "borderWidth",
-          "description": "A larger border size. Used for borders between filled elements."
-        },
-        "xl": {
-          "value": "3",
-          "type": "borderWidth",
-          "description": "A larger border size. Used for lines in focus, and the bottom chart container line."
-        },
-        "xxl": {
-          "value": "4",
-          "type": "borderWidth",
-          "description": "The largest border size. Used for the top chart container line."
-        }
+      "projectSubtitle": {
+        "value": "Data Design Language",
+        "type": "string",
+        "description": "Project subtitle"
+      },
+      "lastUpdated": {
+        "value": "2022-10-26",
+        "type": "string",
+        "description": "Last updated"
+      },
+      "authors": {
+        "value": "Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana",
+        "type": "string",
+        "description": "Authors"
       }
     }
   },
   "typography": {
     "size": {
-      "config": {
-        "large": {
-          "fontSize": {
-            "scaleFactor": {
-              "value": "1.33",
-              "type": "other"
-            },
-            "scaleFactorBelowOne": {
-              "value": "1.1",
-              "type": "other"
-            },
-            "base": {
-              "value": "16",
-              "type": "other"
-            }
-          },
-          "space": {
-            "scaleFactor": {
-              "value": "1.5",
-              "type": "other"
-            },
-            "scaleFactorBelowOne": {
-              "value": "1.5",
-              "type": "other"
-            },
-            "base": {
-              "value": "{size.config.large.fontSize.base} * {size.config.large.space.scaleFactor}",
-              "type": "other"
-            }
-          }
-        },
-        "small": {
-          "fontSize": {
-            "scaleFactor": {
-              "value": "1.2",
-              "type": "other"
-            },
-            "scaleFactorBelowOne": {
-              "value": "1.1",
-              "type": "other"
-            },
-            "base": {
-              "value": "14",
-              "type": "other"
-            }
-          },
-          "space": {
-            "scaleFactor": {
-              "value": "1.25",
-              "type": "other"
-            },
-            "scaleFactorBelowOne": {
-              "value": "1.25",
-              "type": "other"
-            },
-            "base": {
-              "value": "{size.config.small.fontSize.base} * {size.config.small.space.scaleFactor}",
-              "type": "other"
-            }
-          }
-        }
-      },
       "fontSize": {
         "xs": {
           "value": "{size.fontSize.s} / {size.parameter.fontSize.scaleFactorBelowOne}",
@@ -472,29 +608,29 @@
       "parameter": {
         "fontSize": {
           "scaleFactor": {
-            "value": "{size.config.large.fontSize.scaleFactor}",
+            "value": "1.33",
             "type": "other"
           },
           "scaleFactorBelowOne": {
-            "value": "{size.config.large.fontSize.scaleFactorBelowOne}",
+            "value": "1.1",
             "type": "other"
           },
           "base": {
-            "value": "{size.config.large.fontSize.base}",
+            "value": "16",
             "type": "other"
           }
         },
         "space": {
           "scaleFactor": {
-            "value": "{size.config.large.space.scaleFactor}",
+            "value": "1.5",
             "type": "other"
           },
           "scaleFactorBelowOne": {
-            "value": "{size.config.large.space.scaleFactorBelowOne}",
+            "value": "1.5",
             "type": "other"
           },
           "base": {
-            "value": "{size.config.large.space.base}",
+            "value": "24",
             "type": "other"
           }
         }
@@ -504,7 +640,7 @@
         "type": "sizing"
       },
       "viewportLimit": {
-        "value": "1440",
+        "value": "{size.maxContentWidth}",
         "type": "sizing"
       },
       "meta": {
@@ -520,29 +656,29 @@
       "parameter": {
         "fontSize": {
           "scaleFactor": {
-            "value": "{size.config.small.fontSize.scaleFactor}",
+            "value": "1.2",
             "type": "other"
           },
           "scaleFactorBelowOne": {
-            "value": "{size.config.small.fontSize.scaleFactorBelowOne}",
+            "value": "1.1",
             "type": "other"
           },
           "base": {
-            "value": "{size.config.small.fontSize.base}",
+            "value": "14",
             "type": "other"
           }
         },
         "space": {
           "scaleFactor": {
-            "value": "{size.config.small.space.scaleFactor}",
+            "value": "1.25",
             "type": "other"
           },
           "scaleFactorBelowOne": {
-            "value": "{size.config.small.space.scaleFactorBelowOne}",
+            "value": "1.25",
             "type": "other"
           },
           "base": {
-            "value": "{size.config.small.space.base}",
+            "value": "17.5",
             "type": "other"
           }
         }
@@ -552,7 +688,7 @@
         "type": "sizing"
       },
       "viewportLimit": {
-        "value": "480",
+        "value": "{size.minContentWidth}",
         "type": "sizing"
       },
       "meta": {
@@ -1131,210 +1267,17 @@
       }
     }
   },
-  "_palettes": {
-    "color": {
-      "grey": {
-        "100": {
-          "value": "#191919",
-          "type": "color"
-        },
-        "300": {
-          "value": "#3d4246",
-          "type": "color"
-        },
-        "400": {
-          "value": "#6b7581",
-          "type": "color"
-        },
-        "500": {
-          "value": "#9ea9b5",
-          "type": "color"
-        },
-        "600": {
-          "value": "#c0c8d2",
-          "type": "color"
-        },
-        "750": {
-          "value": "#e0e2e4",
-          "type": "color"
-        },
-        "800": {
-          "value": "#f1f2f3",
-          "type": "color"
-        },
-        "900": {
-          "value": "#FFF",
-          "type": "color"
-        },
-        "000": {
-          "value": "#000",
-          "type": "color"
-        }
-      },
-      "teal": {
-        "100": {
-          "value": "#002348",
-          "type": "color"
-        },
-        "200": {
-          "value": "#0E3E63",
-          "type": "color"
-        },
-        "300": {
-          "value": "#215A7D",
-          "type": "color"
-        },
-        "400": {
-          "value": "#377796",
-          "type": "color"
-        },
-        "500": {
-          "value": "#5196AE",
-          "type": "color"
-        },
-        "600": {
-          "value": "#79ABBC",
-          "type": "color"
-        },
-        "700": {
-          "value": "#9FC1CC",
-          "type": "color"
-        },
-        "800": {
-          "value": "#C3D6DC",
-          "type": "color"
-        },
-        "900": {
-          "value": "#E8ECED",
-          "type": "color"
-        }
-      },
-      "red": {
-        "100": {
-          "value": "#8D1000",
-          "type": "color"
-        },
-        "200": {
-          "value": "#a12917",
-          "type": "color"
-        },
-        "300": {
-          "value": "#b53d2b",
-          "type": "color"
-        },
-        "400": {
-          "value": "#c9513f",
-          "type": "color"
-        },
-        "500": {
-          "value": "#dc6454",
-          "type": "color"
-        },
-        "600": {
-          "value": "#e98676",
-          "type": "color"
-        },
-        "700": {
-          "value": "#f3a79a",
-          "type": "color"
-        },
-        "800": {
-          "value": "#fbc8bf",
-          "type": "color"
-        },
-        "900": {
-          "value": "#FFE9E5",
-          "type": "color"
-        }
-      },
-      "red-dark": {
-        "100": {
-          "value": "#400C0A",
-          "type": "color"
-        },
-        "200": {
-          "value": "#601817",
-          "type": "color"
-        },
-        "300": {
-          "value": "#832521",
-          "type": "color"
-        },
-        "400": {
-          "value": "#A7332A",
-          "type": "color"
-        },
-        "500": {
-          "value": "#CC4233",
-          "type": "color"
-        },
-        "600": {
-          "value": "#DA5C4B",
-          "type": "color"
-        },
-        "700": {
-          "value": "#E77463",
-          "type": "color"
-        },
-        "800": {
-          "value": "#F38C7C",
-          "type": "color"
-        },
-        "900": {
-          "value": "#FEA496",
-          "type": "color"
-        }
-      },
-      "teal-dark": {
-        "100": {
-          "value": "#093A45",
-          "type": "color"
-        },
-        "200": {
-          "value": "#175462",
-          "type": "color"
-        },
-        "300": {
-          "value": "#256f81",
-          "type": "color"
-        },
-        "400": {
-          "value": "#348ba1",
-          "type": "color"
-        },
-        "500": {
-          "value": "#44a8c3",
-          "type": "color"
-        },
-        "600": {
-          "value": "#66b5cb",
-          "type": "color"
-        },
-        "700": {
-          "value": "#83c3d4",
-          "type": "color"
-        },
-        "800": {
-          "value": "#9ed0dd",
-          "type": "color"
-        },
-        "900": {
-          "value": "#B8DEE7",
-          "type": "color"
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
+      "_palettes",
       "global",
+      "config",
       "typography",
       "sizeLarge",
       "sizeSmall",
       "themeLight",
-      "themeDark",
-      "_palettes"
+      "themeDark"
     ]
   }
 }

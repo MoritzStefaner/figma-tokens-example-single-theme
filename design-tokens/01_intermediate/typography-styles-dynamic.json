@@ -3,29 +3,29 @@
     "parameter": {
       "fontSize": {
         "scaleFactor": {
-          "value": "{size.config.large.fontSize.scaleFactor}",
+          "value": 1.33,
           "type": "other"
         },
         "scaleFactorBelowOne": {
-          "value": "{size.config.large.fontSize.scaleFactorBelowOne}",
+          "value": 1.1,
           "type": "other"
         },
         "base": {
-          "value": "{size.config.large.fontSize.base}",
+          "value": 16,
           "type": "other"
         }
       },
       "space": {
         "scaleFactor": {
-          "value": "{size.config.large.space.scaleFactor}",
+          "value": 1.5,
           "type": "other"
         },
         "scaleFactorBelowOne": {
-          "value": "{size.config.large.space.scaleFactorBelowOne}",
+          "value": 1.5,
           "type": "other"
         },
         "base": {
-          "value": "{size.config.large.space.base}",
+          "value": 24,
           "type": "other"
         }
       }
@@ -35,75 +35,13 @@
       "type": "sizing"
     },
     "viewportLimit": {
-      "value": 1440,
+      "value": "{size.maxContentWidth}",
       "type": "sizing"
     },
     "meta": {
       "label": {
         "value": "Large",
         "type": "other"
-      }
-    },
-    "config": {
-      "large": {
-        "fontSize": {
-          "scaleFactor": {
-            "value": 1.33,
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": 1.1,
-            "type": "other"
-          },
-          "base": {
-            "value": 16,
-            "type": "other"
-          }
-        },
-        "space": {
-          "scaleFactor": {
-            "value": 1.5,
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": 1.5,
-            "type": "other"
-          },
-          "base": {
-            "value": "{size.config.large.fontSize.base} * {size.config.large.space.scaleFactor}",
-            "type": "other"
-          }
-        }
-      },
-      "small": {
-        "fontSize": {
-          "scaleFactor": {
-            "value": 1.2,
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": 1.1,
-            "type": "other"
-          },
-          "base": {
-            "value": 14,
-            "type": "other"
-          }
-        },
-        "space": {
-          "scaleFactor": {
-            "value": 1.25,
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": 1.25,
-            "type": "other"
-          },
-          "base": {
-            "value": "{size.config.small.fontSize.base} * {size.config.small.space.scaleFactor}",
-            "type": "other"
-          }
-        }
       }
     },
     "fontSize": {
@@ -181,6 +119,14 @@
         "value": "{size.space.xxxxl} * {size.parameter.space.scaleFactor}",
         "type": "spacing"
       }
+    },
+    "maxContentWidth": {
+      "value": 1440,
+      "type": "sizing"
+    },
+    "minContentWidth": {
+      "value": 320,
+      "type": "sizing"
     }
   },
   "typography": {
@@ -361,6 +307,33 @@
         "type": "typography",
         "description": "Used for tick labels, secondary annotations, footer text."
       }
+    }
+  },
+  "meta": {
+    "projectTitle": {
+      "value": "<BRAND>",
+      "type": "string",
+      "description": "Project title"
+    },
+    "version": {
+      "value": "v0.9.0",
+      "type": "string",
+      "description": "Version"
+    },
+    "projectSubtitle": {
+      "value": "Data Design Language",
+      "type": "string",
+      "description": "Project subtitle"
+    },
+    "lastUpdated": {
+      "value": "2022-10-26",
+      "type": "string",
+      "description": "Last updated"
+    },
+    "authors": {
+      "value": "Moritz Stefaner / Truth & Beauty with Christian Laesser, Alice Thudt, Flavio Gortana",
+      "type": "string",
+      "description": "Authors"
     }
   }
 }

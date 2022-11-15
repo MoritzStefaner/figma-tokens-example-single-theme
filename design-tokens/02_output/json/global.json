@@ -1,4 +1,26 @@
 {
+  "size": {
+    "maxContentWidth": 1440,
+    "minContentWidth": 320,
+    "breakpoint": {
+      "xs": 480,
+      "sm": 640,
+      "md": 960,
+      "lg": 1200,
+      "xl": 1440
+    },
+    "borderRadius": {
+      "base": 2,
+      "bigger": 5
+    },
+    "borderWidth": {
+      "s": 0.5,
+      "m": 1,
+      "l": 2,
+      "xl": 3,
+      "xxl": 4
+    }
+  },
   "meta": {
     "projectTitle": "<BRAND>",
     "version": "v0.9.0",
@@ -40,28 +62,6 @@
         "color": "#00000033",
         "type": "dropShadow"
       }
-    }
-  },
-  "size": {
-    "breakpoint": {
-      "xs": 480,
-      "sm": 640,
-      "md": 960,
-      "lg": 1200,
-      "xl": 1440
-    },
-    "maxContentWidth": 1440,
-    "minContentWidth": 320,
-    "borderRadius": {
-      "base": 2,
-      "bigger": 5
-    },
-    "borderWidth": {
-      "s": 0.5,
-      "m": 1,
-      "l": 2,
-      "xl": 3,
-      "xxl": 4
     }
   }
 }

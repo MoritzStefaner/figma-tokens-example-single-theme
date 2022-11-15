@@ -10,7 +10,7 @@
 token-transformer \
 00_input/figma-tokens.json \
 01_intermediate/global.json \
-global,_palettes \
+global,config,_palettes \
 _palettes # _palettes are not part of output
 
 # typography
@@ -18,7 +18,7 @@ token-transformer \
 --resolveReferences=false \
 00_input/figma-tokens.json \
 01_intermediate/typography-styles-dynamic.json \
-global,typography,sizeLarge \
+global,config,typography,sizeLarge \
 global
 
 # dark theme
@@ -39,11 +39,12 @@ _palettes
 token-transformer \
 00_input/figma-tokens.json \
 01_intermediate/size-large.json \
-typography,sizeLarge
+config,typography,sizeLarge \
+config
 
 # small theme
 token-transformer \
 00_input/figma-tokens.json \
 01_intermediate/size-small.json \
-typography,sizeSmall
-
+config,typography,sizeSmall \
+config

@@ -44,68 +44,6 @@
         "type": "other"
       }
     },
-    "config": {
-      "large": {
-        "fontSize": {
-          "scaleFactor": {
-            "value": 1.33,
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": 1.1,
-            "type": "other"
-          },
-          "base": {
-            "value": 16,
-            "type": "other"
-          }
-        },
-        "space": {
-          "scaleFactor": {
-            "value": 1.5,
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": 1.5,
-            "type": "other"
-          },
-          "base": {
-            "value": 24,
-            "type": "other"
-          }
-        }
-      },
-      "small": {
-        "fontSize": {
-          "scaleFactor": {
-            "value": 1.2,
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": 1.1,
-            "type": "other"
-          },
-          "base": {
-            "value": 14,
-            "type": "other"
-          }
-        },
-        "space": {
-          "scaleFactor": {
-            "value": 1.25,
-            "type": "other"
-          },
-          "scaleFactorBelowOne": {
-            "value": 1.25,
-            "type": "other"
-          },
-          "base": {
-            "value": 17.5,
-            "type": "other"
-          }
-        }
-      }
-    },
     "fontSize": {
       "xs": {
         "value": 13.223,

@@ -1,4 +1,73 @@
 {
+  "size": {
+    "maxContentWidth": {
+      "value": 1440,
+      "type": "sizing"
+    },
+    "minContentWidth": {
+      "value": 320,
+      "type": "sizing"
+    },
+    "breakpoint": {
+      "xs": {
+        "value": 480,
+        "type": "sizing"
+      },
+      "sm": {
+        "value": 640,
+        "type": "sizing"
+      },
+      "md": {
+        "value": 960,
+        "type": "sizing"
+      },
+      "lg": {
+        "value": 1200,
+        "type": "sizing"
+      },
+      "xl": {
+        "value": 1440,
+        "type": "sizing"
+      }
+    },
+    "borderRadius": {
+      "base": {
+        "value": 2,
+        "type": "borderRadius"
+      },
+      "bigger": {
+        "value": 5,
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "s": {
+        "value": 0.5,
+        "type": "borderWidth",
+        "description": "The smallest border size. Used for gridlines."
+      },
+      "m": {
+        "value": 1,
+        "type": "borderWidth",
+        "description": "The default border size. Used for axes borders, default data lines."
+      },
+      "l": {
+        "value": 2,
+        "type": "borderWidth",
+        "description": "A larger border size. Used for borders between filled elements."
+      },
+      "xl": {
+        "value": 3,
+        "type": "borderWidth",
+        "description": "A larger border size. Used for lines in focus, and the bottom chart container line."
+      },
+      "xxl": {
+        "value": 4,
+        "type": "borderWidth",
+        "description": "The largest border size. Used for the top chart container line."
+      }
+    }
+  },
   "meta": {
     "projectTitle": {
       "value": "<BRAND>",
@@ -71,75 +140,6 @@
           "type": "dropShadow"
         },
         "type": "boxShadow"
-      }
-    }
-  },
-  "size": {
-    "breakpoint": {
-      "xs": {
-        "value": 480,
-        "type": "sizing"
-      },
-      "sm": {
-        "value": 640,
-        "type": "sizing"
-      },
-      "md": {
-        "value": 960,
-        "type": "sizing"
-      },
-      "lg": {
-        "value": 1200,
-        "type": "sizing"
-      },
-      "xl": {
-        "value": 1440,
-        "type": "sizing"
-      }
-    },
-    "maxContentWidth": {
-      "value": 1440,
-      "type": "sizing"
-    },
-    "minContentWidth": {
-      "value": 320,
-      "type": "sizing"
-    },
-    "borderRadius": {
-      "base": {
-        "value": 2,
-        "type": "borderRadius"
-      },
-      "bigger": {
-        "value": 5,
-        "type": "borderRadius"
-      }
-    },
-    "borderWidth": {
-      "s": {
-        "value": 0.5,
-        "type": "borderWidth",
-        "description": "The smallest border size. Used for gridlines."
-      },
-      "m": {
-        "value": 1,
-        "type": "borderWidth",
-        "description": "The default border size. Used for axes borders, default data lines."
-      },
-      "l": {
-        "value": 2,
-        "type": "borderWidth",
-        "description": "A larger border size. Used for borders between filled elements."
-      },
-      "xl": {
-        "value": 3,
-        "type": "borderWidth",
-        "description": "A larger border size. Used for lines in focus, and the bottom chart container line."
-      },
-      "xxl": {
-        "value": 4,
-        "type": "borderWidth",
-        "description": "The largest border size. Used for the top chart container line."
       }
     }
   }

@@ -112,10 +112,10 @@ StyleDictionaryPackage.extend(
   getStyleDictionaryConfig('dynamic')
 ).buildPlatform('css');
 
-['large', 'small'].map(function (theme) {
-  console.log('\n==============================================');
-  console.log(`\nProcessing: [${theme}]`);
-  StyleDictionaryPackage.extend(
-    getStyleDictionaryConfig(theme)
-  ).buildAllPlatforms();
-});
+// ['large', 'small'].map(function (theme) {
+//   console.log('\n==============================================');
+//   console.log(`\nProcessing: [${theme}]`);
+//   StyleDictionaryPackage.extend(
+//     getStyleDictionaryConfig(theme)
+//   ).buildAllPlatforms();
+// });
