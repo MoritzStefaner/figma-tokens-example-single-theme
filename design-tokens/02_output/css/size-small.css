@@ -34,12 +34,12 @@
   --size-space-xxs: 8.96px;
   --size-space-xxxs: 7.168px;
   --size-space-xxxxs: 5.734px;
-  --size-font-size-xxl: 24.192px;
-  --size-font-size-xl: 20.16px;
-  --size-font-size-l: 16.8px;
+  --size-font-size-xxl: 24px;
+  --size-font-size-xl: 20px;
+  --size-font-size-l: 17px;
   --size-font-size-m: 14px;
-  --size-font-size-s: 12.727px;
-  --size-font-size-xs: 11.57px;
+  --size-font-size-s: 13px;
+  --size-font-size-xs: 11px;
   --size-meta-label: Small;
   --size-viewport-limit: 320px;
   --size-chart-width: 480px;

@@ -46,11 +46,11 @@
     },
     "fontSize": {
       "xs": {
-        "value": 13.223,
+        "value": 12,
         "type": "fontSizes"
       },
       "s": {
-        "value": 14.545,
+        "value": 15,
         "type": "fontSizes"
       },
       "m": {
@@ -58,15 +58,15 @@
         "type": "fontSizes"
       },
       "l": {
-        "value": 21.28,
+        "value": 21,
         "type": "fontSizes"
       },
       "xl": {
-        "value": 28.302,
+        "value": 28,
         "type": "fontSizes"
       },
       "xxl": {
-        "value": 37.642,
+        "value": 38,
         "type": "fontSizes"
       }
     },
@@ -220,7 +220,7 @@
           "fontFamily": "Inter",
           "fontWeight": 700,
           "lineHeight": "115%",
-          "fontSize": 37.642,
+          "fontSize": 38,
           "letterSpacing": "0%",
           "paragraphSpacing": 8,
           "textDecoration": "none",
@@ -234,7 +234,7 @@
           "fontFamily": "Inter",
           "fontWeight": 700,
           "lineHeight": "115%",
-          "fontSize": 28.302,
+          "fontSize": 28,
           "letterSpacing": "0%",
           "paragraphSpacing": 8,
           "textDecoration": "none",
@@ -276,7 +276,7 @@
           "fontFamily": "Inter",
           "fontWeight": 700,
           "lineHeight": "115%",
-          "fontSize": 14.545,
+          "fontSize": 15,
           "letterSpacing": "0%",
           "paragraphSpacing": 8,
           "textDecoration": "none",
@@ -290,7 +290,7 @@
           "fontFamily": "Inter",
           "fontWeight": 400,
           "lineHeight": "115%",
-          "fontSize": 14.545,
+          "fontSize": 15,
           "letterSpacing": "0%",
           "paragraphSpacing": 8,
           "textDecoration": "none",

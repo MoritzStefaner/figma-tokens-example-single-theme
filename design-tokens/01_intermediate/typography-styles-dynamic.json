@@ -46,11 +46,11 @@
     },
     "fontSize": {
       "xs": {
-        "value": "{size.fontSize.s} / {size.parameter.fontSize.scaleFactorBelowOne}",
+        "value": "round({size.fontSize.s} / ({size.parameter.fontSize.scaleFactorBelowOne} * {size.parameter.fontSize.scaleFactorBelowOne}))",
         "type": "fontSizes"
       },
       "s": {
-        "value": "{size.fontSize.m} / {size.parameter.fontSize.scaleFactorBelowOne}",
+        "value": "round({size.fontSize.m} / {size.parameter.fontSize.scaleFactorBelowOne})",
         "type": "fontSizes"
       },
       "m": {
@@ -58,15 +58,15 @@
         "type": "fontSizes"
       },
       "l": {
-        "value": "{size.fontSize.m} * {size.parameter.fontSize.scaleFactor}",
+        "value": "round({size.fontSize.m} * {size.parameter.fontSize.scaleFactor})",
         "type": "fontSizes"
       },
       "xl": {
-        "value": "{size.fontSize.l} * {size.parameter.fontSize.scaleFactor}",
+        "value": "round({size.fontSize.m} * {size.parameter.fontSize.scaleFactor}* {size.parameter.fontSize.scaleFactor})",
         "type": "fontSizes"
       },
       "xxl": {
-        "value": "{size.fontSize.xl} * {size.parameter.fontSize.scaleFactor}",
+        "value": "round({size.fontSize.m} * {size.parameter.fontSize.scaleFactor}* {size.parameter.fontSize.scaleFactor}* {size.parameter.fontSize.scaleFactor})",
         "type": "fontSizes"
       }
     },

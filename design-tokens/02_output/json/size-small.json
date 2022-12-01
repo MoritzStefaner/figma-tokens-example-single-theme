@@ -18,12 +18,12 @@
       "label": "Small"
     },
     "fontSize": {
-      "xs": 11.57,
-      "s": 12.727,
+      "xs": 11,
+      "s": 13,
       "m": 14,
-      "l": 16.8,
-      "xl": 20.16,
-      "xxl": 24.192
+      "l": 17,
+      "xl": 20,
+      "xxl": 24
     },
     "space": {
       "xxxxs": 5.734,
@@ -86,7 +86,7 @@
         "fontFamily": "Inter",
         "fontWeight": 700,
         "lineHeight": "115%",
-        "fontSize": 24.192,
+        "fontSize": 24,
         "letterSpacing": "0%",
         "paragraphSpacing": 8,
         "textDecoration": "none",
@@ -96,7 +96,7 @@
         "fontFamily": "Inter",
         "fontWeight": 700,
         "lineHeight": "115%",
-        "fontSize": 20.16,
+        "fontSize": 20,
         "letterSpacing": "0%",
         "paragraphSpacing": 8,
         "textDecoration": "none",
@@ -126,7 +126,7 @@
         "fontFamily": "Inter",
         "fontWeight": 700,
         "lineHeight": "115%",
-        "fontSize": 12.727,
+        "fontSize": 13,
         "letterSpacing": "0%",
         "paragraphSpacing": 8,
         "textDecoration": "none",
@@ -136,7 +136,7 @@
         "fontFamily": "Inter",
         "fontWeight": 400,
         "lineHeight": "115%",
-        "fontSize": 12.727,
+        "fontSize": 13,
         "letterSpacing": "0%",
         "paragraphSpacing": 8,
         "textDecoration": "none",
